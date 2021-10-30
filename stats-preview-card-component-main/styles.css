@@ -1,0 +1,82 @@
+/* General configs  */
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  background-color: hsl(233, 47%, 7%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  Main */
+
+.container {
+  display: flex;
+  max-width: 1440px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 5px;
+}
+
+/* Card infos */
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 110px 0 80px;
+  font-size: 15px;
+}
+.infoWrapper p {
+  max-width: 350px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.8em;
+  position: relative;
+  bottom: 30px;
+}
+
+.infoWrapper h1 {
+  max-width: 350px;
+  color: hsl(0, 0%, 100%);
+  font: 700 33px "Inter", sans-serif;
+}
+
+.infoWrapper span {
+  color: hsl(277, 64%, 61%);
+}
+
+.infoWrapper ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 5px;
+}
+
+.list li {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.emphasis {
+  color: hsl(0, 0%, 100%) !important;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Image */
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.imgWrap {
+  background-color: #4f007d;
+}
