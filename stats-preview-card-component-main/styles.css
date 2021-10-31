@@ -80,3 +80,55 @@ html {
 .imgWrap {
   background-color: #4f007d;
 }
+
+@media (max-width: 960px) {
+  .container {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    max-width: 350px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .infoWrapper {
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .infoWrapper ul {
+    grid-template-columns: 1fr;
+  }
+
+  .infoWrapper ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .emphasis {
+    margin-top: 25px;
+  }
+
+  ul li:nth-of-type(1) {
+    order: -6;
+  }
+  ul li:nth-of-type(4) {
+    order: -5;
+  }
+  ul li:nth-of-type(2) {
+    order: -4;
+  }
+
+  ul li:nth-of-type(5) {
+    order: -3;
+  }
+
+  .infoWrapper p,
+  .infoWrapper h1 {
+    text-align: center;
+  }
+}
