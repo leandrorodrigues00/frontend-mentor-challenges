@@ -18,7 +18,7 @@
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background: var(--background-color);
-  height: 100vh;
+  min-height: 100vh;
 
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@ main {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 2fr;
   gap: 35px;
-  margin: 0 20px;
+  margin: 20px;
 }
 
 /* CARD */
@@ -133,6 +133,5 @@ main {
   main {
     display: flex;
     flex-direction: column;
-    max-height: 90vh;
   }
 }
