@@ -7,45 +7,27 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
-    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
   <main>
-
-    <article class="depoimento-clifford card">
-
-      <div class="user">
-        <img src="./images/image-daniel.jpg" alt="foto do daiel clifford">
-        <div class="user-info">
-          <span class="user-info-name">Daniel Clifford</span>
-          <span class="user-info-graduate">Verified Graduate</span>
+    <article class="card card-1">
+      <div class="card__head">
+        <img src="./images/image-daniel.jpg" alt="">
+        <div class="card__user">
+          <div class="name">Daniel Clifford</div>
+          <p class="title">Verified Graduate</p>
         </div>
       </div>
-
-      <h1 class="title-user">I received a job offer mid-course, and the subjects I learned were current, if not more so,
-        in the company I joined. I honestly feel I got every penny’s worth. </h1>
-
-      <p class="text-user">
+      <div class="card__heading">
+        I received a job offer mid-course, and the subjects I learned were current, if not more so,
+        in the company I joined. I honestly feel I got every penny’s worth.
+      </div>
+      <p class="card__detail">
         “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
         transition and have heard some people who had an amazing experience here. I signed up
         for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
@@ -53,69 +35,70 @@
         the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
       </p>
     </article>
-
-    <article class="depoimento-walters card">
-      <div class="user">
-        <img src="./images/image-jonathan.jpg" alt="imagem do jonathan">
-        <div class="user-info">
-          <span class="user-info-name"> Jonathan Walters</span>
-          <span class="user-info-graduate">Verified Graduate</span>
+    <article class="card card-2">
+      <div class="card__head">
+        <img src="./images/image-jonathan.jpg" alt="">
+        <div class="card__user">
+          <div class="name">Jonathan Walters</div>
+          <p class="title">Verified Graduate</p>
         </div>
       </div>
+      <div class="card__heading">
+        The team was very supportive and kept me motivated
 
-      <h1 class="title-user"> The team was very supportive and kept me motivated </h1>
-      <p class="text-user">
+      </div>
+      <p class="card__detail">
         “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
         for a big company. This was one of the best investments I’ve made in myself. ”
       </p>
     </article>
-
-    <article class="depoimento-jeanette card">
-      <div class="user">
-        <img src="./images/image-jeanette.jpg" alt="foto da jeanette">
-        <div class="user-info">
-          <span class="user-info-name-dark">Jeanette Harmon</span>
-          <span class="user-info-graduate"> Verified Graduate</span>
+    <article class="card card-3">
+      <div class="card__head">
+        <img src="./images/image-jeanette.jpg" alt="">
+        <div class="card__user">
+          <div class="name">Jeanette Harmon</div>
+          <p class="title">Verified Graduate</p>
         </div>
       </div>
-
-      <h1 class="title-user-dark"> An overall wonderful and rewarding experience</h1>
-      <p class="text-user">
+      <div class="card__heading">
+        An overall wonderful and rewarding experience
+      </div>
+      <p class="card__detail">
         “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
         while doing something I love. ”
       </p>
     </article>
-
-    <article class="depoimento-abrams card">
-      <div class="user">
-        <img src="./images/image-patrick.jpg" alt="foto do patrick">
-        <div class="user-info">
-          <span class="user-info-name">Patrick Abrams</span>
-          <span class="user-info-graduate"> Verified Graduate</span>
+    <article class="card card-4">
+      <div class="card__head">
+        <img src="./images/image-patrick.jpg" alt="">
+        <div class="card__user">
+          <div class="name">Patrick Abrams</div>
+          <p class="title">Verified Graduate</p>
         </div>
       </div>
-      <h1 class="title-user">Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from
-        them and
-        learning from their experiences was easy. </h1>
-
-      <p class="text-user">
+      <div class="card__heading">
+        Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
+        learning from their experiences was easy.
+      </div>
+      <p class="card__detail">
         “ The staff seem genuinely concerned about my progress which I find really refreshing. The program
         gave me the confidence necessary to be able to go out in the world and present myself as a capable
         junior developer. The standard is above the rest. You will get the personal attention you need from
-        an incredible community of smart and amazing people. ” </p>
+        an incredible community of smart and amazing people. ”
+      </p>
     </article>
-
-    <article class="depoimento-whittle">
-      <div class="user">
-        <img src="./images/image-kira.jpg" alt="foto da kira">
-        <div class="user-info">
-          <span class="user-info-name-dark">Kira Whittle</span>
-          <span class="user-info-graduate">Verified Graduate</span>
+    <article class="card card-5">
+      <div class="card__head">
+        <img src="./images/image-kira.jpg" alt="">
+        <div class="card__user">
+          <div class="name">Kira Whittle</div>
+          <p class="title">Verified Graduate</p>
         </div>
       </div>
-
-      <h1 class="title-user-dark"> Such a life-changing experience. Highly recommended!</h1>
-      <p class="text-user">
+      <div class="card__heading">
+        Such a life-changing experience. Highly recommended!
+      </div>
+      <p class="card__detail">
         “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
         professionals who can help me learn programming step by step. I was encouraged to enroll by a former
         student of theirs who can only say wonderful things about the program. The entire curriculum and staff
@@ -126,7 +109,6 @@
         100% recommend! ”
       </p>
     </article>
-
   </main>
 </body>
 
