@@ -1,0 +1,138 @@
+/* GENERAL SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --moderate-violet: hsl(263, 55%, 52%);
+  --JonathanBackground: hsl(217, 19%, 35%);
+  --patrick-bg: hsl(219, 29%, 14%);
+  --title-name-color: hsl(0, 0%, 100%);
+  --text-p-color: hsl(0, 0%, 81%);
+  --background-color: hsl(210, 46%, 95%);
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background: var(--background-color);
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/*  MAIN */
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr;
+  gap: 35px;
+  margin: 0 20px;
+}
+
+/* CARD */
+
+.card {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  align-items: flex-start;
+  padding: 20px 50px 30px 50px;
+  border-radius: 5px;
+  gap: 15px;
+}
+/* USER INFO */
+
+.user {
+  display: flex;
+}
+
+.user > img {
+  border-radius: 50%;
+  border: 1px solid var(--text-p-color);
+  max-width: 35px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.user-info-name {
+  color: var(--title-name-color);
+}
+
+.user-info-graduate {
+  color: var(--text-p-color);
+}
+
+/* DANIEL CLIFFORD */
+
+.depoimento-clifford {
+  background: var(--moderate-violet) url(./images/bg-pattern-quotation.svg)
+    no-repeat right 100px top;
+  grid-column: span 2;
+}
+
+.title-user {
+  color: var(--title-name-color);
+}
+
+.text-user {
+  color: var(--text-p-color);
+
+  line-height: 1.25;
+}
+
+/* JEANETTE HARMON */
+
+.depoimento-jeanette {
+  grid-row: 2;
+  background: var(--title-name-color);
+}
+
+.title-user-dark {
+  color: var(--very-dark-grayish-blue);
+}
+
+/* JONATHAN WALTERS */
+
+.depoimento-walters {
+  background: var(--JonathanBackground);
+}
+
+/* PATRICK ABRAMS */
+
+.depoimento-abrams {
+  grid-row: 2;
+  grid-column: span 2;
+
+  background: var(--patrick-bg);
+}
+
+/* KIRA WHITTLE */
+
+.depoimento-whittle {
+  display: grid;
+  align-items: flex-start;
+  padding: 20px 50px 30px 50px;
+  border-radius: 5px;
+  gap: 15px;
+  grid-row: span 2;
+  background: var(--title-name-color);
+}
+
+@media (max-width: 1300px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+  }
+}
