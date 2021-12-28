@@ -1,0 +1,187 @@
+/* GENERAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* CSS COLORS */
+
+:root {
+  --Orange: hsl(26, 100%, 55%);
+  --Pale-orange: hsl(25, 100%, 94%);
+  --Very-vark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish-blue: hsl(219, 9%, 45%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light-grayish-blue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  max-width: 100%;
+  width: 1440px;
+  padding: 30px 10px;
+  justify-content: space-between;
+
+  border-bottom: 2px solid var(--Light-grayish-blue);
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.avatar {
+  max-width: 50px;
+
+  border: 2px solid var(--Orange);
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* IMG CONTAINER */
+main {
+  display: flex;
+  gap: 100px;
+  padding: 50px 10px;
+}
+
+.products-galeria img {
+  border-radius: 15px;
+}
+
+.img-principal {
+  max-width: 450px;
+}
+
+.products-galeria {
+  max-width: 600px;
+  display: grid;
+  gap: 20px;
+}
+
+.products-thumb {
+  display: flex;
+  gap: 20px;
+}
+
+.products-thumb li {
+  max-width: 98px;
+}
+
+/* TEXT CONTAINER */
+
+.infos-container {
+  max-width: 400px;
+  display: grid;
+
+  align-content: center;
+  gap: 30px;
+}
+
+.infos-container-title {
+  color: var(--Orange);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.info-container-text {
+  color: var(--Dark-grayish-blue);
+}
+
+.price-principal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price-principal div {
+  background-color: #ffe4b3;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 0 5px;
+}
+.price-principal span {
+  color: #ff8c00;
+  font-weight: bold;
+}
+
+.old-price {
+  color: var(--Grayish-blue);
+  text-decoration: line-through;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* BOTTON TEXT */
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.quanty-button {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  justify-content: space-between;
+  background-color: var(--Light-grayish-blue);
+  border-radius: 9px;
+  padding: 0 10px;
+}
+
+.add-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--White);
+  gap: 10px;
+  width: 250px;
+  height: 50px;
+
+  background-color: var(--Orange);
+  border-radius: 9px;
+  padding: 0 10px;
+}
