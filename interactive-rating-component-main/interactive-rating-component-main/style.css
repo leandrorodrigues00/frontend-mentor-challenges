@@ -1,0 +1,141 @@
+/* GENERAL SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  font-size: 15px;
+  list-style: none;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+  --Orange: hsl(25, 97%, 53%);
+}
+
+/* BODY */
+body {
+  display: flex;
+  min-height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--Very-Dark-Blue);
+}
+
+/* CONTAINER */
+.container {
+  background-color: var(--Dark-Blue);
+  display: grid;
+  gap: 20px;
+  grid-template-rows: 1fr 2fr 1fr 1fr;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.header div {
+  background-color: hsl(200, 10%, 15%);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  height: 25px;
+}
+
+/* TEXTO */
+.texto {
+  max-width: 350px;
+}
+
+.texto h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  color: #dcdcdc;
+  line-height: 1.5rem;
+}
+
+/*  NOTAS */
+
+.notas ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nota {
+  background-color: hsl(200, 10%, 15%);
+  height: 60px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dcdcdc;
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--Orange);
+}
+
+/* Botão */
+
+button {
+  background-color: var(--Orange);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: var(--Orange);
+}
+
+/* Segunda tela */
+.thanks {
+  background-color: var(--Dark-Blue);
+  display: grid;
+  gap: 20px;
+  grid-template-rows: 2fr 1fr 1fr 2fr;
+  padding: 30px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.thanks-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thanks p {
+  max-width: 340px;
+  color: #dcdcdc;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.thanks h2 {
+  font-size: 2rem;
+  color: #dcdcdc;
+
+  text-align: center;
+}
+
+.ativo {
+  display: none;
+}
