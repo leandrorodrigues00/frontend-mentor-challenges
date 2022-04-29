@@ -1,4 +1,4 @@
-/* GENERAL SETTINGS */
+/* __________ General settings __________ */
 
 * {
     margin: 0;
@@ -26,8 +26,6 @@
 
 body {
     min-width: 100vw;
-
-
     font-size: 1.125rem;
     font-family: 'Public Sans', sans-serif;
     overflow-x: hidden;
@@ -36,26 +34,22 @@ body {
 .container {
     max-width: 1440px;
     width: 100%;
-
-
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 
+/* __________ End of general settings __________ */
 
-/* BUTTON STYLE */
+/* __________ Button __________ */
 
 .request-btn {
     font-weight: bolder;
     font-size: 1.1rem;
     color: white;
     background: linear-gradient(to right, var(--btn-primary), var(--btn-secondary));
-
     padding: 10px 25px;
     border-radius: 30px;
     border: none;
@@ -66,12 +60,44 @@ body {
     opacity: 0.5;
 }
 
+/* __________ End of button __________ */
 
-/* HEADER STYLES */
+/* __________ Hamburger menu  __________ */
 
 .hamburger-menu {
     display: none;
+    position: relative;
 }
+
+.hamburger-menu img {
+    width: 40px;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+
+}
+
+.link-mobile {
+    display: none;
+}
+
+
+
+.open-menu a:hover {
+    color: #2d314d;
+    cursor: pointer;
+
+}
+
+.menu-container {
+    display: none;
+}
+
+/* __________ End of Hamburger menu  __________ */
+
+/* __________ Header __________ */
+
 
 .header-bg {
     background-color: var(--header-bg);
@@ -131,7 +157,9 @@ body {
     cursor: pointer;
 }
 
-/* INTRO STYLES */
+/* __________ End of Header __________ */
+
+/* __________ Intro __________ */
 
 
 .intro-container {
@@ -183,9 +211,9 @@ body {
     z-index: 2;
 }
 
+/* __________ End of intro __________ */
 
-
-/* BENEFITS STYLES*/
+/* __________ Benefits __________ */
 
 .benefits-bg {
     background-color: var(--benefits-bg);
@@ -248,8 +276,9 @@ body {
     font-size: 1rem;
 }
 
+/* __________ End of benefits __________ */
 
-/* ARTICLES STYLES */
+/* __________ Articles __________ */
 
 .articles-bg {
     background-color: var(--intro-article-bg)
@@ -325,9 +354,9 @@ body {
     max-width: 285px;
 }
 
+/* __________ End of articles __________ */
 
-/* FOOTER STYLES */
-
+/* __________ Footer __________ */
 
 .footer-bg {
     background-color: var(--footer-bg)
@@ -361,6 +390,7 @@ body {
 .footer-information {
     color: white;
 
+
 }
 
 
@@ -392,20 +422,20 @@ body {
 
 }
 
+/* __________ End of footer __________ */
 
-/* MEDIA QUERIES */
+/* __________ Media queries__________ */
+
 
 @media (max-width: 1500px) {
-
     .intro-description {
         margin-left: 10px;
     }
-
-
 }
 
-@media (max-width: 1100px) {
 
+
+@media (max-width: 1100px) {
     .mockups {
         width: 500px;
         top: -10px;
@@ -421,7 +451,6 @@ body {
 @media (max-width: 960px) {
     .mockups-container {
         background-size: 150%;
-
         top: -50px
     }
 
@@ -439,6 +468,9 @@ body {
 
 
 @media (max-width: 800px) {
+
+
+    /* HEADER SECTION */
     .header ul {
         display: none;
     }
@@ -450,6 +482,98 @@ body {
     .hamburger-menu {
         display: block;
         margin-right: 50px;
+    }
 
+    .open-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        color: var(--main-text);
+        position: absolute;
+        width: 180px;
+        height: 200px;
+
+        right: 50%;
+
+        background-color: #fff;
+        border: 1px solid #9698a6;
+        border-radius: 5px;
+    }
+
+
+    .mockups-container {
+        display: none;
+    }
+
+    /* INTRO SECTION */
+
+    .intro-description {
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro-description p {
+        text-align: center;
+    }
+
+
+    /* BENEFITS SECTION */
+
+    .benefits-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits-description p {
+        text-align: center;
+    }
+
+    .benefits-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .cards {
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cards p {
+        text-align: center;
+    }
+
+    .cards+.cards {
+        margin-left: 0;
+    }
+
+
+    /* ARTICLES SECTION */
+
+    .articles h1 {
+        text-align: center;
+    }
+
+    .articles-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* FOOTER SECTION */
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        justify-items: center;
+    }
+
+    .footer-information {
+        text-align: center;
+    }
+
+    .button-trademark {
+        align-items: center;
     }
 }

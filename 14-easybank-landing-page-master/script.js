@@ -1,24 +1,16 @@
-const berger = document.getElementsByClassName("burger")[0];
-const links = document.getElementsByClassName("links")[0];
-const close = berger.getElementsByTagName("img")[0];
+const menu = document.querySelector(".hamburger-menu");
+const menuOpen = document.querySelector(".hamburger-menu div");
 
-const background = document.createElement("div");
+const menuInfos = ["Home", "About", "Contact", "Blog", "Careers"];
 
-console.log(close.src.includes("icon-hamburger.svg"));
+menuInfos.forEach((info) => {
+  const link = document.createElement("a");
 
-berger.onclick = () => {
-  if (document.body.lastElementChild.className === "background") {
-    document.body.removeChild(background);
-  } else {
-    background.className = "background";
-    document.body.appendChild(background);
-  }
+  link.innerText = info;
 
-  if (close.src.includes("icon-hamburger.svg")) {
-    close.src = "images/icon-close.svg";
-  } else {
-    close.src = "images/icon-hamburger.svg";
-  }
+  menuOpen.appendChild(link);
+});
 
-  links.classList.toggle("active");
-};
+menu.addEventListener("click", () => {
+  menuOpen.classList.toggle("open-menu");
+});
