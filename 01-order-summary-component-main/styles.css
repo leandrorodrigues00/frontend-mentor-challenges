@@ -44,7 +44,7 @@ body {
   width: 100%;
   align-items: center;
   background-color: #ffffff;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 15px 15px;
 }
 
 .card h1 {
@@ -65,7 +65,7 @@ body {
 
 .img {
   width: 100%;
-  border-radius: 5px 5px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 /* Info Holder */
@@ -74,12 +74,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   border-radius: 10px;
-
   background-color: var(--very-pale-blue);
-
-  width: 400px;
+  width: 350px;
   padding: 20px;
-
   margin: 20px 0;
 }
 
@@ -91,6 +88,7 @@ body {
   font-weight: 700;
   color: var(--dark-blue);
 }
+
 .infoPrice {
   color: var(--desaturated-blue);
 }
@@ -107,13 +105,14 @@ body {
 /* Button */
 
 .paymentButton {
-  width: 400px;
+  width: 350px;
   font-weight: 500;
   font-size: 16px;
   background: var(--bright-blue);
   color: #fff;
-  border-radius: 5px;
-  padding: 10px 0;
+  border-radius: 10px;
+  padding: 15px 0;
+  border: none;
   margin-top: 10px;
   transition: 0.1s;
   cursor: pointer;
@@ -122,6 +121,7 @@ body {
 .paymentButton:hover,
 .infoHolder a:hover {
   opacity: 0.5;
+  text-decoration: none;
 }
 
 /* Cancel button */
