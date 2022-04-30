@@ -34,7 +34,6 @@ header img {
 
 main {
   display: flex;
-
   justify-content: center;
 }
 
@@ -82,17 +81,19 @@ footer {
   justify-content: flex-end;
   margin-right: 15%;
 }
+
 /* Icons */
 
 .icons:hover {
   background-color: var(--soft-Magenta);
   border-radius: 100%;
 }
+
 .icons {
   height: 35px;
 }
 
-.icons + .icons {
+.icons+.icons {
   margin-left: 10px;
 }
 
@@ -106,9 +107,11 @@ footer {
   main {
     margin: 0 30px;
   }
+
   main img {
     width: 500px;
   }
+
   .content {
     max-width: 50%;
   }
@@ -118,9 +121,11 @@ footer {
   header img {
     margin-left: 0;
   }
+
   html {
     background-image: url("../images/bg-mobile.svg");
   }
+
   main {
     display: flex;
     flex-direction: column;
