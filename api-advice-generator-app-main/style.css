@@ -70,10 +70,10 @@ body {
 button {
   background-color: var(--Neon-Green);
   padding: 15px;
-  border-radius: 100%;
+  border-radius: 60%;
   border: none;
   position: absolute;
-  bottom: -35px;
+  bottom: -30px;
 }
 
 button:hover {
@@ -105,6 +105,7 @@ button:hover {
   #desktop {
     display: none;
   }
+
   #mobile {
     display: initial;
   }
