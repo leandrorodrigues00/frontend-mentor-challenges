@@ -42,7 +42,7 @@ body {
 }
 
 .header div {
-  background-color: hsl(200, 10%, 15%);
+  background-color: hsl(213, 19%, 25%);
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -66,7 +66,7 @@ body {
 }
 
 .texto p {
-  color: #dcdcdc;
+  color: #949DAB;
   line-height: 1.5rem;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .nota {
-  background-color: hsl(200, 10%, 15%);
+  background-color: hsl(213, 19%, 25%);
   height: 60px;
   width: 50px;
   border-radius: 50%;
@@ -89,8 +89,12 @@ body {
   cursor: pointer;
 }
 
+.nota:hover {
+  background-color: #959EAC;
+}
+
 .active {
-  background-color: var(--Orange);
+  background-color: var(--Orange) !important;
 }
 
 /* Botão */
@@ -99,6 +103,10 @@ button {
   background-color: var(--Orange);
   border-radius: 20px;
   cursor: pointer;
+  border: none;
+  align-self: center;
+  padding: 0.9rem;
+  transition: 200ms ease-out;
 }
 
 button:hover {
@@ -110,21 +118,43 @@ button:hover {
 .thanks {
   background-color: var(--Dark-Blue);
   display: grid;
-  gap: 20px;
-  grid-template-rows: 2fr 1fr 1fr 2fr;
-  padding: 30px;
+  gap: 10px;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  padding: 23px 20px;
   border-radius: 15px;
   align-items: center;
   justify-content: center;
+  transform: scale(0);
+  opacity: 0;
+  animation: fadeIn 500ms ease forwards;
+  animation-delay: 100ms;
 }
+
+
+.select-text {
+  color: hsl(25, 97%, 60%);
+  background: hsl(216, 12%, 22%);
+  max-width: max-content;
+  padding: 1.2rem 2rem;
+  border-radius: 50rem;
+  line-height: 1;
+  margin: 0 auto;
+}
+
+.select-text span {
+  color: hsl(25, 97%, 60%);
+
+}
+
 .thanks-item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.thanks p {
+
+.thanks>p {
   max-width: 340px;
-  color: #dcdcdc;
+  color: #949DAB;
   text-align: center;
   line-height: 1.5rem;
 }
@@ -138,4 +168,17 @@ button:hover {
 
 .ativo {
   display: none;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
