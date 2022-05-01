@@ -90,11 +90,12 @@ main {
   padding-top: 10px;
   padding-left: 5px;
 }
+
 .navList li {
   font-size: 18px;
 }
 
-.navList li + li {
+.navList li+li {
   margin-top: 15px;
 }
 
@@ -116,6 +117,7 @@ main {
   background-color: var(--cards-color);
   position: relative;
   z-index: 2;
+  top: 2px;
 
   display: flex;
   flex-direction: column;
@@ -128,6 +130,16 @@ main {
 .card:hover {
   background-color: #46438f;
 }
+
+.time-frames {
+  color: var(--font-color);
+}
+
+.active {
+  color: #fff;
+}
+
+
 
 ul li:hover {
   cursor: pointer;
@@ -168,7 +180,7 @@ strong:hover {
 .imgCard {
   max-width: 60px;
   position: absolute;
-  top: -5px;
+  top: 1px;
   right: 20px;
   z-index: 1;
 }
@@ -183,7 +195,6 @@ strong:hover {
   align-items: flex-end;
   position: relative;
 
-  overflow: hidden;
 }
 
 /* PLAY CARD */
@@ -196,7 +207,6 @@ strong:hover {
   align-items: flex-end;
   position: relative;
 
-  overflow: hidden;
 }
 
 /* STUDY CARD */
@@ -209,7 +219,6 @@ strong:hover {
   align-items: flex-end;
   position: relative;
 
-  overflow: hidden;
 }
 
 /* EXERCISE CARD */
@@ -222,7 +231,6 @@ strong:hover {
   align-items: flex-end;
   position: relative;
 
-  overflow: hidden;
 }
 
 /* SOCIAL CARD */
@@ -235,7 +243,6 @@ strong:hover {
   align-items: flex-end;
   position: relative;
 
-  overflow: hidden;
 }
 
 /* SELF CARD */
@@ -248,7 +255,6 @@ strong:hover {
   align-items: flex-end;
   position: relative;
 
-  overflow: hidden;
 }
 
 /* Responsiveness */
@@ -299,7 +305,7 @@ strong:hover {
     font-size: 16px;
   }
 
-  .navList li + li {
+  .navList li+li {
     margin-top: 0;
   }
 
@@ -314,6 +320,7 @@ strong:hover {
     align-items: center;
     justify-content: center;
   }
+
   .About-user img {
     max-width: 70px;
 
