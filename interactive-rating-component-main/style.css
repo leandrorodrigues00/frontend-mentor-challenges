@@ -79,7 +79,7 @@ body {
 
 .nota {
   background-color: hsl(213, 19%, 25%);
-  height: 60px;
+  aspect-ratio: 1;
   width: 50px;
   border-radius: 50%;
   display: flex;
@@ -87,6 +87,7 @@ body {
   justify-content: center;
   color: #dcdcdc;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 .nota:hover {
@@ -107,6 +108,7 @@ button {
   align-self: center;
   padding: 0.9rem;
   transition: 200ms ease-out;
+  letter-spacing: 4px
 }
 
 button:hover {
