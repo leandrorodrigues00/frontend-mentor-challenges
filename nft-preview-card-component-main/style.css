@@ -166,7 +166,7 @@ main {
 
 .design:hover::after {
   display: block;
-  content: url("../public/images/icon-view.svg");
+  content: url("./public/images/icon-view.svg");
   position: absolute;
   top: 50%;
   left: 50%;
