@@ -9,7 +9,7 @@
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
-[click here, see closer](https://qr-code-component-cs.netlify.app/) 😉
+[click here, see closer](https://stats-preview-card-component-cs.netlify.app/) 😉
 
 ## 👩‍💻 About the project
 
