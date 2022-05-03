@@ -9,7 +9,7 @@
 
 ![Design preview for the Calculator app coding challenge](./public/design/desktop-preview.jpg)
 
-[click here, see closer](https://nft-preview-card-component-main-cs.netlify.app/) 😉
+[click here, see closer](https://nft-preview-card-component-cs.netlify.app/) 😉
 
 ## 👩‍💻 About the project
 
