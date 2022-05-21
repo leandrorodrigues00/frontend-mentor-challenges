@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tip calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.svg" alt="logo splitter" />
+    </header>
+
+    <main>
+      <div class="content-info">
+        <section>
+          <h1 class="title-content">Bill</h1>
+        <input type="text" class="info-bill-value" value="0" >
+
+     
+        </section>
+
+        <section>
+          <h1 class="title-content">Select Tip %</h1>
+          <ul>
+            <li class="li-tips">5%</li>
+            <li class="li-tips">10%</li>
+            <li class="li-tips">15%</li>
+            <li class="li-tips">25%</li>
+            <li class="li-tips">50%</li>
+            <li>     <input type="text" class="custom" value="Custom" onfocus="this.value=''"/></li>
+       
+          </ul>
+        </section>
+
+        <section>
+
+        <h1 class="title-content " id="error-people">Number of People</h1>
+        <input type="text" class="info-bill-people" value="0" >
+      </div>
+
+    </section>
+
+      <div class="content-vals">
+        <div class="amount">
+          <div class="text">
+            <h1 class="name-tip">Tip Amount</h1>
+            <span>/ person </span>
+          </div>
+
+          <span class="bigValue" id="tip-amount">$ 0.00</span>
+        </div>
+
+        <div class="amount">
+          <div class="text">
+            <h1 class="name-tip">Total</h1>
+            <span>/ person </span>
+          </div>
+
+          <span class="bigValue" id="total-person-amount">$ 0.00</span>
+        </div>
+
+        <a class="reset" href="#">RESET</a>
+      </div>
+    </main>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
