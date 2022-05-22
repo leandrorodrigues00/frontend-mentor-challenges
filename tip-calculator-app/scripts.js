@@ -1,15 +1,14 @@
+/* ________ Initializing variables _________ */
 const amountInput = document.querySelector(".info-bill-value");
 const peopleInput = document.querySelector(".info-bill-people");
 const customInput = document.querySelector(".custom");
 const resetButton = document.querySelector(".reset");
-
 const numberPeopleError = document.querySelector("#error-people");
-
 const tips = document.querySelectorAll("li");
-
 const totalTip = document.querySelector("#tip-amount");
 const totalPerson = document.querySelector("#total-person-amount");
 
+/* ________ Reset button _________ */
 resetButton.addEventListener("click", () => {
   amountInput.value = 0;
   peopleInput.value = 0;
@@ -17,6 +16,7 @@ resetButton.addEventListener("click", () => {
   totalPerson.innerHTML = `$ 0.00`;
 });
 
+/* ________ initiating inputs _________ */
 function peopleNumberInput() {
   let numberPerson = +peopleInput.value;
   return numberPerson;
@@ -26,6 +26,8 @@ function totalAmount() {
   let totalAmount = +amountInput.value;
   return totalAmount;
 }
+
+/* ________ button highlight _________ */
 
 function activeTab(index) {
   tips.forEach((tip) => {
@@ -47,6 +49,7 @@ tips.forEach((tip, index) => {
   });
 });
 
+/* ________ Calculation by Value Entry _________ */
 amountInput.addEventListener("change", () => {
   let numberPerson = peopleNumberInput();
 
@@ -66,6 +69,8 @@ amountInput.addEventListener("change", () => {
     numberPeopleError.classList.remove("error");
   }
 });
+
+/* ________ Calculation by entry in persons_________ */
 peopleInput.addEventListener("change", () => {
   let numberPerson = +peopleInput.value;
 
@@ -85,6 +90,7 @@ peopleInput.addEventListener("change", () => {
   }
 });
 
+/* ________ Calculation by tip entry _________ */
 tips.forEach((tip) => {
   tip.addEventListener("click", () => {
     let numberPerson = peopleNumberInput();
@@ -104,6 +110,7 @@ tips.forEach((tip) => {
   });
 });
 
+/* ________ Calculation by entry in 'custom' _________ */
 customInput.addEventListener("change", () => {
   customInput.style.textAlign = "end";
   let customInputNumber = +customInput.value / 100;
