@@ -1,0 +1,80 @@
+.img {
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+  background: url(../images/bg-pattern-desktop.svg) #fff;
+  background-position: -543px -279px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.womanImg {
+  position: absolute;
+  top: 5.5rem;
+  left: -79px;
+}
+
+.boxImgContainer {
+  position: absolute;
+  top: 224px;
+  left: -96px;
+  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+}
+
+.boxImgContainer:hover {
+  transform: translateX(-37px);
+}
+.container {
+  display: flex;
+  height: 500px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.content {
+  min-width: 500px;
+  padding: 50px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: 580px;
+    width: 439px;
+    border-radius: 32px;
+  }
+
+  .img {
+    overflow: visible;
+    top: -231px;
+    right: -164px;
+  }
+
+  .womanImg {
+    width: 320px;
+    z-index: 1;
+  }
+  .boxImgContainer {
+    top: -48px;
+    left: 52px;
+    z-index: 3;
+  }
+  .boxImgContainer img {
+    width: 120px;
+  }
+  .content {
+    margin-top: 120px;
+  }
+  .content h1 {
+    text-align: center;
+  }
+
+  .mobileBackground {
+    position: absolute;
+    top: 225px;
+    width: 328px;
+    left: -80px;
+  }
+}
