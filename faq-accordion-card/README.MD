@@ -9,7 +9,7 @@
 
 ![Design preview for the FAQ accordion card coding challenge](./images/desktop-preview.jpg)
 
-[click here, see closer](https://ecommerce-product-page-main-cs.netlify.app/) 😉
+[click here, see closer](https://faq-accordion-cs.netlify.app/) 😉
 
 ## 👩‍💻 About the project
 
@@ -50,7 +50,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/ecommerce-product-page-main && cd ecommerce-product-page-main
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/faq-accordion-card && cd faq-accordion-card
 
 ```
 
