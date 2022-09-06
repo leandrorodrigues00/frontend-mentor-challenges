@@ -14,6 +14,10 @@
   left: -79px;
 }
 
+.mobileBackground {
+  display: none;
+}
+
 .boxImgContainer {
   position: absolute;
   top: 224px;
@@ -72,6 +76,7 @@
   }
 
   .mobileBackground {
+    display: initial;
     position: absolute;
     top: 225px;
     width: 328px;
