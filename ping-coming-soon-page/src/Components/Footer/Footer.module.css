@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.footerWrapper img {
+  width: 22px;
+}
+
+.footerWrapper img:hover {
+  filter: grayscale(1);
+}
+.footerWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  color: hsl(0, 0%, 59%);
+}

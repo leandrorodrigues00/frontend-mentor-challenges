@@ -1,0 +1,41 @@
+.input {
+  width: 430px;
+  padding-left: 10px;
+  border: 1px solid hsl(223, 100%, 88%);
+
+  font-size: 1rem;
+
+  border-radius: 25px;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+.input::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+.error {
+  color: red;
+  font-weight: 300;
+  font-style: italic;
+
+  position: absolute;
+  margin-left: 1.875rem;
+  margin-top: 3.6125rem;
+  font-size: 13px;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+@media (max-width: 700px) {
+  .input {
+    height: 40px;
+  }
+  .error {
+    position: initial;
+    margin-top: 4px;
+    margin-left: 0;
+    align-self: center;
+  }
+}
