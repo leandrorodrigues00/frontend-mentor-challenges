@@ -1,0 +1,25 @@
+.input {
+  width: 430px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #eeeeef;
+
+  font-size: 1rem;
+
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+@media (max-width: 700px) {
+}
