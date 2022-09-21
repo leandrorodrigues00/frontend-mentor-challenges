@@ -52,7 +52,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/faq-accordion-card && cd faq-accordion-card
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/ping-coming-soon-page && cd ping-coming-soon-page
 
 ```
 
