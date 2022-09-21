@@ -95,12 +95,12 @@ const Home = () => {
         <div className={styles.cardWrapper}>
           <img className={styles.cardImage} src={cardFront} alt="Card front" />
           <img className={styles.cardLogo} src={teste} alt="Card logo" />
-          <label className={styles.labelNumberCard} htmlFor="">
+          <label className={styles.labelNumberCard} htmlFor="numberCard">
             {cardNumber ? cardNumber : "0000 0000 0000 0000"}
           </label>
           <div className={styles.labelNameDateCard}>
-            <label htmlFor="">{emptyText ? emptyText : "John Doe"}</label>
-            <label htmlFor="">
+            <label htmlFor="name">{emptyText ? emptyText : "John Doe"}</label>
+            <label htmlFor="expDate">
               {validateMonth ? validateMonth : "00"} /{" "}
               {validateYear ? validateYear : "00"}
             </label>
@@ -109,23 +109,25 @@ const Home = () => {
 
         <div className={styles.cardBack}>
           <img src={cardBack} alt="Card back" />
-          <label className={styles.labelCvc} htmlFor="">
+          <label className={styles.labelCvc} htmlFor="cvc">
             {validateCvc ? validateCvc : "0 0 0"}
           </label>
         </div>
       </aside>
       <main className={isActive ? styles.off : ""}>
         <form className={styles.form} onSubmit={handleSubmit}>
-          <label htmlFor="">Cardholder Name</label>
+          <label htmlFor="name">Cardholder Name</label>
           <Input
+            id="name"
             placeholder="e.g. John Doe"
             onChange={({ target }) => {
               setEmptyText(target.value);
             }}
             error={errorEmpty}
           />
-          <label htmlFor="">Card Number</label>
+          <label htmlFor="numberCard">Card Number</label>
           <Input
+            id="numberCard"
             placeholder="e.g. 1234 5678 9123 0000"
             onChange={({ target }) => {
               setCardNumber(target.value);
@@ -138,10 +140,11 @@ const Home = () => {
             error={errorMessage}
           />
 
-          <label htmlFor="">Exp. Date(MM/YY)</label>
+          <label htmlFor="expDate">Exp. Date(MM/YY)</label>
           <div className={styles.inputDateWrapper}>
             <div>
               <Input
+                id="expDate"
                 placeholder="MM"
                 width={"70px"}
                 type="number"
@@ -164,8 +167,9 @@ const Home = () => {
             </div>
 
             <div className={styles.cvcWrapper}>
-              <label htmlFor="">CVC</label>
+              <label htmlFor="cvc">CVC</label>
               <Input
+                id="cvc"
                 placeholder="e.g. 123"
                 width={"255px"}
                 onChange={({ target }) => {
