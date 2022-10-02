@@ -1,0 +1,79 @@
+.wrapper {
+  display: flex;
+  max-width: 90rem;
+  min-height: 100vh;
+  margin: 1.25rem auto;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.carIcon {
+  max-width: 3.438rem;
+}
+
+.card {
+  background: var(--orange-200);
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  padding: 2.5rem;
+  gap: 1.25rem;
+}
+
+.card h1 {
+  color: var(--gray-200);
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+}
+
+.card p {
+  color: var(--white-100);
+  max-width: 13.188rem;
+  line-height: 1.6rem;
+  margin-bottom: 2.813rem;
+}
+.radiusRight {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.radiusLeft {
+  border-radius: 0px 10px 10px 0px;
+}
+.cyan700 {
+  background: var(--cyan-700);
+}
+
+.cyan900 {
+  background: var(--cyan-900);
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media (max-width: 765px) {
+  html {
+    font-size: 90%;
+  }
+  .radiusRight {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .radiusLeft {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper p {
+    margin-bottom: 0;
+  }
+
+  .card {
+    gap: 5px;
+  }
+}
