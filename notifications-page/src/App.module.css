@@ -1,0 +1,97 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 45.625rem;
+  background-color: var(--white);
+  padding: 0 1.875rem 0.313px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px 2px hsl(228deg 45% 44% / 20%);
+}
+
+.card img {
+  width: 2.813rem;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--grayish-blue-100);
+  gap: 1.25rem;
+  padding: 1.125rem 1.25rem;
+  border-radius: 10px;
+}
+
+time {
+  color: var(--grayish-blue-700);
+}
+
+.card + .card {
+  margin-top: 0.625rem;
+}
+
+.content {
+  color: var(--grayish-blue-900);
+  display: flex;
+  flex-direction: column;
+  gap: 0.188rem;
+}
+
+.name {
+  display: inline-block;
+  margin-right: 0.313rem;
+  color: #000;
+  font-weight: bolder;
+}
+
+.post {
+  margin-left: 0.313rem;
+  color: var(--grayish-blue-900);
+  font-weight: bolder;
+}
+
+.post:hover,
+.name:hover {
+  color: var(--blue-500);
+}
+
+.club {
+  color: var(--blue-500);
+  margin-left: 0.313rem;
+  font-weight: bolder;
+}
+
+.messageAuthor {
+  background-color: var(--white);
+
+  transition: 0.5s;
+}
+
+.messageContainer {
+  max-width: 35rem;
+
+  margin-left: 5.25rem;
+  margin-top: -0.313rem;
+  margin-bottom: 1.563rem;
+
+  border: 1px solid var(--grayish-blue-300);
+  border-radius: 5px;
+  color: var(--grayish-blue-900);
+
+  padding: 1.25rem;
+}
+
+.messageContainer:hover {
+  background-color: var(--grayish-blue-300);
+  cursor: pointer;
+}
+
+.pictureComment {
+  margin-left: auto;
+  margin-right: 7px;
+}
+
+.pictureComment:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid var(--grayish-blue-300);
+}
