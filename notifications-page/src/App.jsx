@@ -124,7 +124,7 @@ function App() {
         <div className={styles.content}>
           <p>
             <a href="#" className={styles.name}>
-              Mark Webber
+              Nathan Peterson
             </a>{" "}
             reacted to your recent post{" "}
             <a href="#" className={styles.post}>
