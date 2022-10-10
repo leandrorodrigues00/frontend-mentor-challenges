@@ -18,8 +18,9 @@ body {
   background: var(--cream-500);
   font-family: "DM Sans", sans-serif;
   font-size: 1.125rem;
-  padding: 4.375rem 1rem;
-  min-height: 100vh;
+  padding-top: 9.5rem;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
 }
 
 li {

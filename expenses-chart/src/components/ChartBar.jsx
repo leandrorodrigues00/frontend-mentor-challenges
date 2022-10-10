@@ -8,7 +8,7 @@ export function ChartBar({ hasActive, height, text, amount }) {
 
   return (
     <li className={styles.listElement}>
-      {hasActive || visibleAmountMon ? (
+      {visibleAmountMon ? (
         <div className={styles.dayAmount}>${amount}</div>
       ) : (
         ""
