@@ -1,0 +1,18 @@
+.container {
+  background: var(--red-100);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.563rem 2.188rem 1.563rem 1.875rem;
+}
+
+.Content {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.Content strong {
+  font-size: 2rem;
+}
