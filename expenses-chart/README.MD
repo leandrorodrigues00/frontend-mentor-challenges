@@ -1,4 +1,4 @@
-# Frontend Mentor - Notifications page solution
+# Frontend Mentor - Expenses chart solution
 
 <p align="center">
   <a href="#-about-the-project">About the project</a> •
