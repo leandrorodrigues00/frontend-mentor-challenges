@@ -10,12 +10,16 @@ function App() {
     <main className={styles.mainWrap}>
       <div>
         <picture>
-          <source srcSet={mobile} media="(max-width: 625px)" />
+          <source
+            srcSet={mobile}
+            media="(max-width: 625px)"
+            alt="image of the Gabrielle perfume"
+          />
           <img
             className={styles.img}
             src={desktop}
             type="image/jpg"
-            alt="image of the gabrielle perfume"
+            alt="image of the Gabrielle perfume"
           />
         </picture>
       </div>
