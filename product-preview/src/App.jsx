@@ -11,7 +11,12 @@ function App() {
       <div>
         <picture>
           <source srcSet={mobile} media="(max-width: 625px)" />
-          <img className={styles.img} src={desktop} type="image/jpg" />
+          <img
+            className={styles.img}
+            src={desktop}
+            type="image/jpg"
+            alt="image of the gabrielle perfume"
+          />
         </picture>
       </div>
 
@@ -27,11 +32,13 @@ function App() {
 
         <div className={styles.priceContent}>
           <span className={styles.price}>$149.99</span>
-          <span className={styles.oldPrice}>$169.99</span>
+          <span className={styles.oldPrice}>
+            <del>$169.99</del>
+          </span>
         </div>
 
         <button className={styles.button}>
-          <img className={styles.icon} src={carIcon} />
+          <img className={styles.icon} src={carIcon} alt="" />
           Add to cart
         </button>
       </div>
