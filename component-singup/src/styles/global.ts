@@ -25,13 +25,21 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
 
+  h1{
+    font-size: 3.0625rem;
+
+  }
+ 
+
   @media (max-width: 655px) {
     html{
-      font-size: 14px;
+      font-size: 15px;
     } 
+
     h1{
-      font-size: 13px;
+      font-size: 1.875rem;
     }
+   
     }
   
 

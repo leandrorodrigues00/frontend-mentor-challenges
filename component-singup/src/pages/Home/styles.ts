@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.main`
-  height: calc(100vh - 10rem);
+  min-height: calc(100vh - 10rem);
   margin: 5rem auto;
   max-width: 69.5625rem;
   padding: 0 0.625rem;
@@ -19,12 +19,7 @@ export const TextContainer = styled.article`
   color: ${(props) => props.theme["white"]};
 
   h1 {
-    font-size: 3.0625rem;
     line-height: 1.1;
-
-    @media (max-width: 655px) {
-      font-size: 30px;
-    }
   }
 
   p {
@@ -54,6 +49,8 @@ export const Form = styled.form`
   padding: 2.5rem;
   border-radius: 12px;
   box-shadow: 0 6px rgb(0 0 0 / 20%);
+
+  text-align: end;
 
   p {
     margin-top: 1.25rem;

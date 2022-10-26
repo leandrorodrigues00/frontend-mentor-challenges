@@ -12,7 +12,12 @@ export const ButtonContainer = styled.button`
   font-weight: 500;
   box-shadow: 1px 2px 1px 1px hsl(154deg 59% 40%);
 
-  &:hover {
+  &:not(:disabled):hover {
     cursor: pointer;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
   }
 `;
