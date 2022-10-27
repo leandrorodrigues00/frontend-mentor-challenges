@@ -13,7 +13,6 @@ export function ChartBar({ hasActive, height, text, amount }) {
       ) : (
         ""
       )}
-
       <div
         onMouseOver={() => setVisibleAmountMon(true)}
         onMouseLeave={() => setVisibleAmountMon(false)}

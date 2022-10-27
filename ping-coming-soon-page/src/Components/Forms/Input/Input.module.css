@@ -30,12 +30,18 @@
 
 @media (max-width: 700px) {
   .input {
-    height: 40px;
+    height: 2.5rem;
   }
   .error {
     position: initial;
-    margin-top: 4px;
+    margin-top: 0.25rem;
     margin-left: 0;
     align-self: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .input {
+    width: 20rem;
   }
 }

@@ -7,7 +7,7 @@
   <a href="#-license">License</a>
 </p>
 
-![Design preview for the FAQ accordion card coding challenge](./src/images/desktop-design.jpg)
+![Design preview for the FAQ accordion card coding challenge](./src/assets/images/desktop-design.jpg)
 
 [click here, see closer](https://ping-coming-soon-cs.netlify.app/) 😉
 

@@ -19,8 +19,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 25px;
+  width: 1.875rem;
+  height: 1.5625rem;
 
   border-radius: 5px;
   background-color: var(--blue-500);
@@ -34,4 +34,10 @@
 .header p:hover:not([disabled]) {
   color: var(--blue-500);
   cursor: pointer;
+}
+
+@media (max-width: 430px) {
+  .notifications span {
+    font-size: 1rem;
+  }
 }

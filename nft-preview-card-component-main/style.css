@@ -13,7 +13,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Outfit", sans-serif;
 }
 
 /* BODY */
@@ -25,6 +24,7 @@ body {
   align-items: center;
   justify-content: center;
 
+  font-family: "Outfit", sans-serif;
   height: 100vh;
 }
 
@@ -35,17 +35,18 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 290px;
-  padding-top: 15px;
-  border-radius: 15px;
-  box-shadow: 0px 20px 2px 18px rgb(0 0 0 / 8%), 0px 20px 2px 45px rgb(0 0 0 / 8%);
-  ;
+  width: 18.125rem;
+  margin: 0 0.625rem;
+  padding-top: 0.9375rem;
+  border-radius: 0.9375rem;
+  box-shadow: 0px 20px 2px 18px rgb(0 0 0 / 8%),
+    0px 20px 2px 45px rgb(0 0 0 / 8%);
 }
 
 /* IMG */
 
 .userImg {
-  max-width: 50px;
+  max-width: 3.125rem;
 }
 
 /* CONTENT WRAPPER */
@@ -57,7 +58,7 @@ main {
 /* TEXT CONTAINER */
 
 .textContainer {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .textContainer span {
@@ -65,11 +66,11 @@ main {
 }
 
 .text {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
 
   color: var(--text-color);
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 /* AMOUNT FOOTER */
@@ -82,7 +83,7 @@ main {
 
 .amountFooter p {
   color: var(--text-color);
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 .ether {
@@ -94,8 +95,8 @@ main {
 }
 
 .ether img {
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 1.25rem;
+  max-height: 1.25rem;
 }
 
 .daysleft {
@@ -103,8 +104,8 @@ main {
 }
 
 .daysleft img {
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 1.25rem;
+  max-height: 1.25rem;
 }
 
 /* USER FOOTER */
@@ -112,20 +113,20 @@ main {
 .userFooter {
   border-top: 1px solid var(--line);
   display: flex;
-  font-size: 14px;
-  padding-bottom: 10px;
+  font-size: 0.875rem;
+  padding-bottom: 0.625rem;
 }
 
 .userFooter img {
-  margin-top: 10px;
-  max-width: 35px;
+  margin-top: 0.625rem;
+  max-width: 2.1875rem;
   border-radius: 50%;
   border: 1px solid #fff;
 }
 
 .userFooter p {
   align-self: center;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   color: var(--text-color);
 }
 

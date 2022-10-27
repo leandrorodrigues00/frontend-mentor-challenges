@@ -16,6 +16,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: hsl(210, 46%, 95%);
+  padding: 0 10px;
 }
 
 main {
@@ -80,14 +81,12 @@ main {
   background-position: 80% 0;
 }
 
-
 .circle-color-p {
   border: 2px solid #7541c8 !important;
 }
 
-
 .circle-color-d {
-  border: 2px solid #A775F1 !important;
+  border: 2px solid #a775f1 !important;
 }
 
 .card-2 {
@@ -103,7 +102,7 @@ main {
 .card-4 {
   grid-row: 2/3;
   grid-column: 2/4;
-  background-color: #18202D;
+  background-color: #18202d;
 }
 
 .card-5 {

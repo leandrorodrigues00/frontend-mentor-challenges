@@ -9,7 +9,7 @@ export function Header() {
         <p>My balance</p>
         <strong>$921.48</strong>
       </div>
-      <img src={logo} />
+      <img src={logo} alt="" />
     </header>
   );
 }

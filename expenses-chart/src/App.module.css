@@ -78,3 +78,9 @@
     font-size: 0.875rem;
   }
 }
+
+@media (max-width: 642px) {
+  .container {
+    max-width: 26.6875rem;
+  }
+}

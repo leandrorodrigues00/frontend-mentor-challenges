@@ -23,8 +23,8 @@ const Main = () => {
       setErrorMessage("Please provide a valid email address");
       setIsValid(false);
     } else {
-      setErrorMessage("");
       setIsValid(true);
+      alert("Subscription confirmed!! \nStatus Code: 🟢 200 OK");
     }
   }
   return (

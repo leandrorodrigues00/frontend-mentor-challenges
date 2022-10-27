@@ -29,6 +29,7 @@ body {
   justify-content: center;
 
   background-color: var(--Very-Dark-Blue);
+  padding: 0 10px;
 }
 
 /* CONTAINER */
@@ -66,7 +67,7 @@ body {
 }
 
 .texto p {
-  color: #949DAB;
+  color: #949dab;
   line-height: 1.5rem;
 }
 
@@ -91,7 +92,7 @@ body {
 }
 
 .nota:hover {
-  background-color: #959EAC;
+  background-color: #959eac;
 }
 
 .active {
@@ -108,7 +109,7 @@ button {
   align-self: center;
   padding: 0.9rem;
   transition: 200ms ease-out;
-  letter-spacing: 4px
+  letter-spacing: 4px;
 }
 
 button:hover {
@@ -132,7 +133,6 @@ button:hover {
   animation-delay: 100ms;
 }
 
-
 .select-text {
   color: hsl(25, 97%, 60%);
   background: hsl(216, 12%, 22%);
@@ -145,7 +145,6 @@ button:hover {
 
 .select-text span {
   color: hsl(25, 97%, 60%);
-
 }
 
 .thanks-item {
@@ -154,9 +153,9 @@ button:hover {
   justify-content: center;
 }
 
-.thanks>p {
+.thanks > p {
   max-width: 340px;
-  color: #949DAB;
+  color: #949dab;
   text-align: center;
   line-height: 1.5rem;
 }
@@ -171,7 +170,6 @@ button:hover {
 .ativo {
   display: none;
 }
-
 
 @keyframes fadeIn {
   0% {

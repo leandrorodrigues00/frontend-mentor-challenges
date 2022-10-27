@@ -3,12 +3,13 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  margin-top: 70px;
+  gap: 1.25rem;
+  margin-top: 4.375rem;
+  padding-bottom: 2rem;
 }
 
 .footerWrapper img {
-  width: 22px;
+  width: 1.375rem;
 }
 
 .footerWrapper img:hover {
@@ -16,10 +17,10 @@ footer {
 }
 .footerWrapper {
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 footer p {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: hsl(0, 0%, 59%);
 }

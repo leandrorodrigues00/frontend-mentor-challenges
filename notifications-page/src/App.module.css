@@ -62,7 +62,6 @@ time {
 
 .messageAuthor {
   background-color: var(--white);
-
   transition: 0.5s;
 }
 
@@ -87,7 +86,7 @@ time {
 
 .pictureComment {
   margin-left: auto;
-  margin-right: 7px;
+  margin-right: 0.4375rem;
 }
 
 .pictureComment:hover {

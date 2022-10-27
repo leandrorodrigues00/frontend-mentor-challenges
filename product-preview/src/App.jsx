@@ -5,6 +5,7 @@ import desktop from "./assets/images/image-product-desktop.jpg";
 import mobile from "./assets/images/image-product-mobile.jpg";
 
 import carIcon from "./assets/images/icon-cart.svg";
+
 function App() {
   return (
     <main className={styles.mainWrap}>

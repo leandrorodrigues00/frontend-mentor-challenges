@@ -32,13 +32,13 @@ function App() {
           hasBeenRead ? `${styles.card} ${styles.messageAuthor}` : styles.card
         }
       >
-        <img src={markPhoto} />
+        <img alt="" src={markPhoto} />
         <div className={styles.content}>
           <p>
             <a href="#" className={styles.name}>
               Mark Webber
-            </a>{" "}
-            reacted to your recent post{" "}
+            </a>
+            reacted to your recent post
             <a href="#" className={styles.post}>
               My first tournament today!
             </a>
@@ -52,7 +52,7 @@ function App() {
           hasBeenRead ? `${styles.card} ${styles.messageAuthor}` : styles.card
         }
       >
-        <img src={angelaPhoto} />
+        <img alt="" src={angelaPhoto} />
         <div className={styles.content}>
           <p>
             <a href="#" className={styles.name}>
@@ -69,7 +69,7 @@ function App() {
           hasBeenRead ? `${styles.card} ${styles.messageAuthor}` : styles.card
         }
       >
-        <img src={jacobPhoto} />
+        <img alt="" src={jacobPhoto} />
         <div className={styles.content}>
           <p>
             <a href="#" className={styles.name}>
@@ -85,7 +85,7 @@ function App() {
       </div>
 
       <div className={`${styles.card} ${styles.messageAuthor}`}>
-        <img src={rizkyPhoto} />
+        <img alt="" src={rizkyPhoto} />
         <div className={styles.content}>
           <p>
             <a href="#" className={styles.name}>
@@ -106,7 +106,7 @@ function App() {
       </div>
 
       <div className={`${styles.card} ${styles.messageAuthor}`}>
-        <img src={kimberlyPhoto} />
+        <img alt="" src={kimberlyPhoto} />
         <div className={styles.content}>
           <p>
             <a href="#" className={styles.name}>
@@ -120,7 +120,7 @@ function App() {
       </div>
 
       <div className={`${styles.card} ${styles.messageAuthor}`}>
-        <img src={nathanPhoto} />
+        <img alt="" src={nathanPhoto} />
         <div className={styles.content}>
           <p>
             <a href="#" className={styles.name}>
@@ -136,7 +136,7 @@ function App() {
       </div>
 
       <div className={`${styles.card} ${styles.messageAuthor}`}>
-        <img src={AnnaPhoto} />
+        <img alt="" src={AnnaPhoto} />
         <div className={styles.content}>
           <p>
             <a href="#" className={styles.name}>
