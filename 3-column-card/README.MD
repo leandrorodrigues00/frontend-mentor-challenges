@@ -47,7 +47,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/interactive-card-details-form-main  && cd interactive-card-details-form-main
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/3-column-card  && cd 3-column-card
 
 ```
 
