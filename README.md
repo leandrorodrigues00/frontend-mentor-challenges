@@ -141,6 +141,55 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
     <a href="https://ping-coming-soon-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/ping-coming-soon-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da">Try Out</a>
   </p>
   
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/article-preview-component-master/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Article preview </h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://article-preview-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/article-preview-component-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+  <br>
+  <br> 
+</td></tr></table>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/tip-calculator-app/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Tip calculator app</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://tip-calculator-app-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/tip-calculator-app">Repo</a> | <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX">Try Out</a>
+  </p>
+  
   <br>
   <br> 
 </td></tr></table>
