@@ -1,13 +1,13 @@
 ## 🤓 Frontend Mentor Challenge Solutions
 
-Here is the collection of all my Frontend Mentor challenge solutions.  You can find in the subfolders, link's to the online site, images and the description of the challenges
+Here is the collection of all my Frontend Mentor challenge solutions. You can find in the subfolders, link's to the online site, images and the description of the challenges
 
 ## 🗃️ Project List
- 
+
 <br>
 <table  align="center"><tr><td>
   <picture> 
-    <img alt="project preview" src="./component-singup/src/assets/desktop-preview.jpg" width="50%"  align="right"   >
+    <img alt="project preview" src="./completed-challenges/component-singup/src/assets/desktop-preview.jpg" width="50%"  align="right"   >
   </picture> 
   <br><br><br>
   
@@ -30,7 +30,7 @@ Here is the collection of all my Frontend Mentor challenge solutions.  You can f
 
 <table  align="center"><tr><td>
   <picture>
-    <img alt="project preview" src="./product-preview/src/assets/design/desktop-preview.jpg" width="50%"  align="right"   >
+    <img alt="project preview" src="./completed-challenges/product-preview/src/assets/design/desktop-preview.jpg" width="50%"  align="right"   >
   </picture>
   
   <br><br><br>
@@ -52,10 +52,9 @@ Here is the collection of all my Frontend Mentor challenge solutions.  You can f
 
 <br><br>
 
-
 <table  align="center"><tr><td>
   <picture> 
-    <img alt="project preview" src="./expenses-chart/src/assets/design/desktop-preview.jpg" width="50%"  align="right"   >
+    <img alt="project preview" src="./completed-challenges/expenses-chart/src/assets/design/desktop-preview.jpg" width="50%"  align="right"   >
   </picture>
   
   <br><br><br>
