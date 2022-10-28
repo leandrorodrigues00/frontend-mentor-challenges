@@ -171,9 +171,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
 </td></tr></table>
 
   <br>
-
-</td></tr></table>
-
+  
 <table  align="center"><tr><td>
   <picture>
     <img alt="project preview" src="./completed-challenges/tip-calculator-app/design/desktop-preview.jpg" width="50%"  align="right"   >
