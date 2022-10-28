@@ -11,7 +11,7 @@ Here is the collection of all my Frontend Mentor challenge solutions.  You can f
   </picture> 
   <br><br><br>
   
-  <h2 align="center">Intro component with sign-up form</h2>
+  <h2 align="center">Intro component with sign-up</h2>
  
   <h3 align="center"> 
     🛠Tech Stack:  
