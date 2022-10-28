@@ -73,3 +73,27 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br>
   <br> 
 </td></tr></table>
+
+<br><br>
+
+<table  align="center"><tr><td>
+  <picture> 
+    <img alt="project preview" src="./completed-challenges/notifications-page/src/assets/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Notifications page</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=react,vite)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://notifications-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/notifications-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
