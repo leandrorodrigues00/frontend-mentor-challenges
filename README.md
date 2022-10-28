@@ -116,5 +116,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <p  align="center">
     <a href="https://3-column-preview-card-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/3-column-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2">Try Out</a>
   </p>
-  
+ 
+  <br>
+  <br> 
 </td></tr></table>
