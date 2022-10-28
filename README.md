@@ -210,7 +210,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
  
   <h3 align="center"> 
   
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
   </h3>
   
   <p  align="center">
@@ -236,7 +236,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
  
   <h3 align="center"> 
   
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
   </h3>
   
   <p  align="center">
@@ -262,7 +262,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
  
   <h3 align="center"> 
   
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
   </h3>
   
   <p  align="center">
@@ -286,7 +286,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
  
   <h3 align="center"> 
   
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
   </h3>
   
   <p  align="center">
@@ -310,7 +310,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
  
   <h3 align="center"> 
   
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
   </h3>
   
   <p  align="center">
@@ -408,7 +408,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
  
   <h3 align="center"> 
   
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
   </h3>
   
   <p  align="center">
@@ -432,7 +432,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
  
   <h3 align="center"> 
   
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
   </h3>
   
   <p  align="center">
