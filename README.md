@@ -96,3 +96,25 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br>
   <br> 
 </td></tr></table>
+
+<br><br> 
+
+<table  align="center"><tr><td>
+  <picture> 
+    <img alt="project preview" src="./completed-challenges/3-column-card/src/assets/desktop-design.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">3-column preview card component</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=react,vite)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://3-column-preview-card-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/3-column-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2">Try Out</a>
+  </p>
+  
+</td></tr></table>
