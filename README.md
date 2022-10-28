@@ -146,16 +146,16 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br> 
 </td></tr></table>
 
- <br> 
- 
+<br>
+
 <table  align="center"><tr><td>
   <picture>
-    <img alt="project preview" src="./completed-challenges/article-preview-component-master/design/desktop-preview.jpg" width="50%"  align="right"   >
+    <img alt="project preview" src="./completed-challenges/easybank-landing-page-master/design/desktop-preview.jpg" width="50%"  align="right"   >
   </picture>
   
   <br><br><br>
   
-  <h2 align="center">Article preview </h2>
+  <h2 align="center">Easybank landing page</h2>
  
   <h3 align="center"> 
   
@@ -163,7 +163,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   </h3>
   
   <p  align="center">
-    <a href="https://article-preview-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/article-preview-component-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT">Try Out</a>
+    <a href="https://easybank-landing-page-master-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/easybank-landing-page-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN">Try Out</a>
   </p>
   
   <br>
@@ -190,131 +190,6 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   
   <p  align="center">
     <a href="https://tip-calculator-app-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/tip-calculator-app">Repo</a> | <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
-
-<br>
-
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./completed-challenges/nft-preview-card-component-main/public/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">NFT preview card component</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://nft-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/nft-preview-card-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
-
-
-<br>
-
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./completed-challenges/stats-preview-card-component-main/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Stats preview card</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://stats-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/stats-preview-card-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
-
-
-<br>
-
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./completed-challenges/four-card-feature-section-master/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Four card feature section</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://four-card-feature-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/four-card-feature-section-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
-<br>
-
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./completed-challenges/qr-code-component-main/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">QR code component</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://qr-code-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/qr-code-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
-<br>
-
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./completed-challenges/testimonials-grid-section-main/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Testimonials grid section</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://testimonials-grid-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/testimonials-grid-section-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Try Out</a>
   </p>
   
   <br>
@@ -394,6 +269,77 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br> 
 </td></tr></table>
 
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/article-preview-component-master/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Article preview </h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://article-preview-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/article-preview-component-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/four-card-feature-section-master/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Four card feature section</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://four-card-feature-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/four-card-feature-section-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/testimonials-grid-section-main/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Testimonials grid section</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://testimonials-grid-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/testimonials-grid-section-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
 
 <br>
 
@@ -447,22 +393,75 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
 
 <table  align="center"><tr><td>
   <picture>
-    <img alt="project preview" src="./completed-challenges/easybank-landing-page-master/design/desktop-preview.jpg" width="50%"  align="right"   >
+    <img alt="project preview" src="./completed-challenges/nft-preview-card-component-main/public/design/desktop-preview.jpg" width="50%"  align="right"   >
   </picture>
   
   <br><br><br>
   
-  <h2 align="center">Easybank landing page</h2>
+  <h2 align="center">NFT preview card component</h2>
  
   <h3 align="center"> 
   
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
   </h3>
   
   <p  align="center">
-    <a href="https://easybank-landing-page-master-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/easybank-landing-page-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN">Try Out</a>
+    <a href="https://nft-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/nft-preview-card-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/">Try Out</a>
   </p>
   
   <br>
   <br> 
 </td></tr></table>
+
+
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/stats-preview-card-component-main/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Stats preview card</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://stats-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/stats-preview-card-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/qr-code-component-main/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">QR code component</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://qr-code-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/qr-code-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
