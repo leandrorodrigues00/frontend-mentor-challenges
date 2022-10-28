@@ -25,7 +25,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br> 
 </td></tr></table>
 
-<br><br>
+<br>
 
 <table  align="center"><tr><td>
   <picture>
@@ -49,7 +49,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br> 
 </td></tr></table>
 
-<br><br>
+<br>
 
 <table  align="center"><tr><td>
   <picture> 
@@ -73,7 +73,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br> 
 </td></tr></table>
 
-<br><br>
+<br>
 
 <table  align="center"><tr><td>
   <picture> 
@@ -97,7 +97,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br> 
 </td></tr></table>
 
-<br><br> 
+<br>
 
 <table  align="center"><tr><td>
   <picture> 
@@ -121,7 +121,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br> 
 </td></tr></table>
 
-<br><br> 
+<br>
 
 <table  align="center"><tr><td>
   <picture>
@@ -146,6 +146,8 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br> 
 </td></tr></table>
 
+ <br> 
+ 
 <table  align="center"><tr><td>
   <picture>
     <img alt="project preview" src="./completed-challenges/article-preview-component-master/design/desktop-preview.jpg" width="50%"  align="right"   >
@@ -169,7 +171,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
 </td></tr></table>
 
   <br>
-  <br> 
+
 </td></tr></table>
 
 <table  align="center"><tr><td>
