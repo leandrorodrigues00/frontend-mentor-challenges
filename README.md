@@ -106,7 +106,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   
   <br><br><br>
   
-  <h2 align="center">3-column preview card component</h2>
+  <h2 align="center">3-column preview card</h2>
  
   <h3 align="center"> 
   
