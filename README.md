@@ -195,3 +195,177 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br>
   <br> 
 </td></tr></table>
+
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/nft-preview-card-component-main/public/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">NFT preview card component</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://nft-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/nft-preview-card-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/stats-preview-card-component-main/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Stats preview card</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://stats-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/stats-preview-card-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/four-card-feature-section-master/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Four card feature section</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://four-card-feature-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/four-card-feature-section-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/qr-code-component-main/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">QR code component</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://qr-code-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/qr-code-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/testimonials-grid-section-main/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Testimonials grid section</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://testimonials-grid-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/testimonials-grid-section-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/interactive-rating-component-main/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Interactive rating component</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://interactive-rating-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/interactive-rating-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/api-advice-generator-app-main/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Advice generator app</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://api-advice-generator-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/api-advice-generator-app-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
