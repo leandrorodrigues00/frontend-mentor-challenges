@@ -101,7 +101,7 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
 
 <table  align="center"><tr><td>
   <picture> 
-    <img alt="project preview" src="./completed-challenges/3-column-card/src/assets/desktop-design.jpg" width="50%"  align="right"   >
+    <img alt="project preview" src="./completed-challenges/3-column-card/src/assets/desktop-design.jpg" width="57%"  align="right"   >
   </picture>
   
   <br><br><br>
