@@ -369,3 +369,100 @@ Here is the collection of all my Frontend Mentor challenge solutions. You can fi
   <br> 
 </td></tr></table>
 
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/time-tracking-dashboard-main/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Time tracking dashboard</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://time-tracking-dashboard-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/time-tracking-dashboard-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/huddle-landing-page/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Huddle landing page | introductory</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://huddle-landing-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/huddle-landing-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/order-summary-component/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Order summary component</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://order-summary-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/order-summary-component">Repo</a> | <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+<br>
+
+<table  align="center"><tr><td>
+  <picture>
+    <img alt="project preview" src="./completed-challenges/easybank-landing-page-master/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture>
+  
+  <br><br><br>
+  
+  <h2 align="center">Easybank landing page</h2>
+ 
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://easybank-landing-page-master-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/easybank-landing-page-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
