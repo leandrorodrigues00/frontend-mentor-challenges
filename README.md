@@ -2,7 +2,28 @@
 
 Here is the collection of all my Frontend Mentor challenge solutions. You can find in the subfolders, link's to the online site, images and the description of the challenges
 
-## 🗃️ Project List [19]
+## 🗃️ Project List [20]
+
+<br>
+<table  align="center"><tr><td>
+  <picture> 
+    <img alt="project preview" src="./completed-challenges/interactive-card-details/src/assets/images/desktop-design.jpg" width="50%"  align="right"   >
+  </picture> 
+  <br><br><br>
+  
+  <h2 align="center">Interactive card details</h2>
+
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=react,vite,styledcomponents,ts)](https://skillicons.dev)
+  </h3>
+  <p  align="center">
+    <a href="https://interactive-card-details-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/interactive-card-details">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
 
 <br>
 <table  align="center"><tr><td>
