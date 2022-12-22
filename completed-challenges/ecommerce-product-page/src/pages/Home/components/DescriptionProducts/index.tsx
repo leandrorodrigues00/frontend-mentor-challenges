@@ -43,11 +43,15 @@ export function DescriptionProducts() {
 
         <ButtonContainer>
           <div>
-            <button disabled={quantity <= 0} onClick={handleDecrease}>
+            <button
+              disabled={quantity <= 0}
+              onClick={handleDecrease}
+              title="removes items from cart"
+            >
               <Minus size={12} color={colors.Orange} weight="bold" />
             </button>
             {quantity}
-            <button onClick={handleIncrease}>
+            <button onClick={handleIncrease} title="adds items to cart">
               <Plus size={12} color={colors.Orange} weight="bold" />
             </button>
           </div>
