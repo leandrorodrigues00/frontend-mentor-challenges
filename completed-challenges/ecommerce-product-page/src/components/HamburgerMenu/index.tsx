@@ -13,7 +13,7 @@ export function HamburgerMenu() {
         <a id="home" className="menu-item" href="#">
           Collections
         </a>
-        <a id="about" className="menu-item" href="#">
+        <a id="men" className="menu-item" href="#">
           Men
         </a>
         <a id="women" className="menu-item" href="#">
