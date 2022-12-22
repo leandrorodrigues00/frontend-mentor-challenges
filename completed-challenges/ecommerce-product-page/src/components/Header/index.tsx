@@ -21,7 +21,7 @@ export function Header() {
 
       <HeaderNavigation>
         <a href="#">
-          <img src={logo} alt="" />
+          <img src={logo} alt="link to home screen" />
         </a>
         <ul>
           <li>
@@ -56,7 +56,7 @@ export function Header() {
 
         <div>
           <a href="https://github.com/leandrorodrigues00">
-            <img src={nyan} alt="" />
+            <img src={nyan} alt="link to github" />
           </a>
         </div>
       </HeaderProfileInfo>
