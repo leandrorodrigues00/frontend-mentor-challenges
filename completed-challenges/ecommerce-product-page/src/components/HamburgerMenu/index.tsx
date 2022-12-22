@@ -16,11 +16,11 @@ export function HamburgerMenu() {
         <a id="about" className="menu-item" href="#">
           Men
         </a>
-        <a id="contact" className="menu-item" href="#">
+        <a id="women" className="menu-item" href="#">
           Women
         </a>
 
-        <a id="contact" className="menu-item" href="#">
+        <a id="about" className="menu-item" href="#">
           About
         </a>
         <a id="contact" className="menu-item" href="#">
