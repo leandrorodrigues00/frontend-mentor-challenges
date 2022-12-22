@@ -2,7 +2,30 @@
 
 Here is the collection of all my Frontend Mentor challenge solutions. You can find in the subfolders, link's to the online site, images and the description of the challenges
 
-## 🗃️ Project List [20]
+## 🗃️ Project List [21]
+
+
+<br>
+<table  align="center"><tr><td>
+  <picture> 
+    <img alt="project preview" src="./completed-challenges/ecommerce-product-page/design/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture> 
+  <br><br><br>
+  
+  <h2 align="center">E-commerce product page</h2>
+
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=react,vite,styledcomponents,ts)](https://skillicons.dev)
+  </h3>
+  <p  align="center">
+    <a href="https://ecommerce-product-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/ecommerce-product-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
 
 <br>
 <table  align="center"><tr><td>
