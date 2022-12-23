@@ -8,7 +8,7 @@ export function AccordionHome() {
       <Item value="item-1">
         <Accordion.Header>
           <Trigger>
-            <p> How many team members can I invite?</p>
+            <span> How many team members can I invite?</span>
 
             <CaretDown size={22} weight="bold" aria-hidden />
           </Trigger>
@@ -23,7 +23,7 @@ export function AccordionHome() {
       <Item value="item-2">
         <Accordion.Header>
           <Trigger>
-            <p>What is the maximum file upload size?</p>
+            <span>What is the maximum file upload size?</span>
 
             <CaretDown size={22} weight="bold" aria-hidden />
           </Trigger>
@@ -38,7 +38,7 @@ export function AccordionHome() {
       <Item value="item-3">
         <Accordion.Header>
           <Trigger>
-            <p>How do I reset my password?</p>
+            <span>How do I reset my password?</span>
 
             <CaretDown size={22} weight="bold" aria-hidden />
           </Trigger>
@@ -54,7 +54,7 @@ export function AccordionHome() {
       <Item value="item-4">
         <Accordion.Header>
           <Trigger>
-            <p>Can I cancel my subscription?</p>
+            <span>Can I cancel my subscription?</span>
 
             <CaretDown size={22} weight="bold" aria-hidden />
           </Trigger>
@@ -69,7 +69,7 @@ export function AccordionHome() {
       <Item value="item-5">
         <Accordion.Header>
           <Trigger>
-            <p>Do you provide additional support?</p>
+            <span>Do you provide additional support?</span>
 
             <CaretDown size={22} weight="bold" aria-hidden />
           </Trigger>

@@ -12,7 +12,7 @@ export const Trigger = styled(Accordion.Trigger)`
   align-items: center;
   justify-content: space-between;
 
-  p {
+  span {
     font-size: 1.0625rem;
     color: ${(props) => props.theme["Dark-grayish-blue"]};
 
@@ -29,7 +29,7 @@ export const Trigger = styled(Accordion.Trigger)`
     color: ${(props) => props.theme["Soft-red"]};
   }
 
-  &[data-state="open"] > p {
+  &[data-state="open"] > span {
     color: ${(props) => props.theme.Black};
     font-weight: bolder;
   }
