@@ -2,7 +2,29 @@
 
 Here is the collection of all my Frontend Mentor challenge solutions. You can find in the subfolders, link's to the online site, images and the description of the challenges
 
-## 🗃️ Project List [22]
+## 🗃️ Project List [23]
+
+<br>
+<table  align="center"><tr><td>
+  <picture> 
+    <img alt="project preview" src="./completed-challenges/space-tourism/src/assets/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture> 
+  <br><br><br>
+  
+  <h2 align="center">Space Tourism</h2>
+
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=nextjs,vite,styledcomponents,ts)](https://skillicons.dev)
+  </h3>
+  <p  align="center">
+    <a href="https://space-tourism-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/space-tourism">Repo</a> | <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
 
 <br>
 <table  align="center"><tr><td>
