@@ -9,7 +9,7 @@
 
 ![Design preview for the FAQ accordion card coding challenge](./src/assets/desktop-preview.jpg)
 
-[click here, see closer](https:///) 😉
+[click here, see closer](https://space-tourism-cs.netlify.app/) 😉
 
 ## 👩‍💻 About the project
 
