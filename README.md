@@ -1,6 +1,6 @@
 ## 🤓 Frontend Mentor Challenge Solutions
 
-Here is the collection of all my Frontend Mentor challenge solutions. You can find in the subfolders, link's to the online site, images and the description of the challenges
+This is a collection of all the solutions to the challenges of the Frontend Mentor program. In the subfolders you can find links to the online site, images and the description of the challenges.
 
 ## 🗃️ Project List [23]
 
