@@ -14,7 +14,7 @@ export function CardFlags({ country }: CardFlagsProps) {
   return (
     <div className="flex flex-col  max-w-[15rem] w-full max-h-[305px] h-full rounded-lg bg-white">
       <Image
-        className="rounded-t-lg max-h-[145px] h-full max-w-[15rem] w-full"
+        className="rounded-t-lg max-h-[145px] max-w-[15rem]"
         src={country.flags.svg}
         width={240}
         height={145}

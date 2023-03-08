@@ -1,3 +1,7 @@
 {
-  "extends": ["@rocketseat/eslint-config/react", "next/core-web-vitals"]
+  "extends": ["@rocketseat/eslint-config/react", "next/core-web-vitals"],
+
+  "globals": {
+    "NodeJS": true
+  }
 }

@@ -12,12 +12,16 @@ export function SelectRegions() {
 
   useEffect(() => {
     async function updateMessage() {
+      const message = {
+        source: 'radixSelect',
+        region: SelectedRegions,
+      }
       await fetch('/api/countries', {
         method: 'POST',
         headers: {
-          'Content-Type': 'text/plain',
+          'Content-Type': 'application/json',
         },
-        body: SelectedRegions,
+        body: JSON.stringify(message),
       })
       router.refresh()
     }
