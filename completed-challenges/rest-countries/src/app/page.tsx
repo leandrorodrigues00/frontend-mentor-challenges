@@ -78,10 +78,10 @@ export default async function Home() {
     source === 'InputSearch' ? region : false
 
   const apiUrl = InputSearch
-    ? `https://restcountries.com/v3.1/name/${InputSearch}?t=${Date.now()}`
+    ? `https://restcountries.com/v3.1/name/${InputSearch}`
     : selectedRegion
-    ? `https://restcountries.com/v3.1/region/${selectedRegion}?fields=name,capital,region,population,flags,cca3?t=${Date.now()}`
-    : `https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags,cca3?t=${Date.now()}`
+    ? `https://restcountries.com/v3.1/region/${selectedRegion}?fields=name,capital,region,population,flags,cca3`
+    : `https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags,cca3`
 
   const countries = await getCountriesData(apiUrl, selectedRegion)
 
@@ -91,7 +91,6 @@ export default async function Home() {
         <InputSearchCountryHome />
         <SelectRegions />
       </header>
-      {apiUrl}
       <div className="mt-11 grid grid-cols-1 gap-y-12 min-[680px]:grid-cols-2 min-[940px]:grid-cols-3 min-[1440px]:grid-cols-5 justify-items-center mb-10">
         {countries?.map((country) => (
           <Link href={`/country/${country.cca3}`} key={country.name.common}>

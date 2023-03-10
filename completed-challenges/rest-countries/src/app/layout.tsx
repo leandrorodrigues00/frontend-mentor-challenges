@@ -17,7 +17,7 @@ export default async function RootLayout({
   children: ReactNode
 }) {
   const responseApiCountries = await fetch(
-    `${process.env.NEXT_PUBLIC_URL}/api/themes?t=${Date.now()}`,
+    `${process.env.NEXT_PUBLIC_URL}/api/themes`,
     {
       cache: 'no-store',
     },
@@ -27,7 +27,6 @@ export default async function RootLayout({
   return (
     <html lang="en" className={`${nunito.className} ${response ? 'dark' : ''}`}>
       <body className="bg-[#fafafa] dark:bg-[#202c37] dark:text-white	">
-        {`darkmode? ${response}`}
         <Header />
         {children}
       </body>
