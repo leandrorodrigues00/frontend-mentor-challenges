@@ -23,10 +23,27 @@ export interface DataAPI {
   region: string
 }
 
-async function getCountriesData(
-  apiUrl: string,
-  selectedRegion: string | boolean,
-) {
+async function getCountriesData() {
+  const responseApiCountries = await fetch(
+    `${process.env.NEXT_PUBLIC_URL}/api/countries`,
+    {
+      cache: 'no-store',
+    },
+  )
+  const { source, region }: DataAPI = await responseApiCountries.json()
+
+  const selectedRegion: string | boolean =
+    source === 'radixSelect' ? region : false
+
+  const InputSearch: string | boolean =
+    source === 'InputSearch' ? region : false
+
+  const apiUrl = InputSearch
+    ? `https://restcountries.com/v3.1/name/${InputSearch}`
+    : selectedRegion
+    ? `https://restcountries.com/v3.1/region/${selectedRegion}?fields=name,capital,region,population,flags,cca3`
+    : `https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags,cca3`
+
   const response = await fetch(apiUrl, {
     cache: 'no-store',
   })
@@ -59,31 +76,14 @@ async function getCountriesData(
       cca3,
     }))
 
+  const timeStamp = Date.now()
+  console.log(timeStamp)
+
   return countries
 }
 
 export default async function Home() {
-  const responseApiCountries = await fetch(
-    `${process.env.NEXT_PUBLIC_URL}/api/countries`,
-    {
-      cache: 'no-store',
-    },
-  )
-  const { source, region }: DataAPI = await responseApiCountries.json()
-
-  const selectedRegion: string | boolean =
-    source === 'radixSelect' ? region : false
-
-  const InputSearch: string | boolean =
-    source === 'InputSearch' ? region : false
-
-  const apiUrl = InputSearch
-    ? `https://restcountries.com/v3.1/name/${InputSearch}`
-    : selectedRegion
-    ? `https://restcountries.com/v3.1/region/${selectedRegion}?fields=name,capital,region,population,flags,cca3`
-    : `https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags,cca3`
-
-  const countries = await getCountriesData(apiUrl, selectedRegion)
+  const countries = await getCountriesData()
 
   return (
     <main className="px-[4.68rem] pt-10 max-[580px]:px-3">
