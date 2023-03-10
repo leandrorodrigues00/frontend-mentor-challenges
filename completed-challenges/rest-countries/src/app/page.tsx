@@ -1,4 +1,3 @@
-'use server'
 import { CardFlags } from '@/components/CardFlags'
 import { InputSearchCountryHome } from '@/components/InputSearchCountryHome'
 import { SelectRegions } from '@/components/RadixSelectRegions'
@@ -79,10 +78,10 @@ export default async function Home() {
     source === 'InputSearch' ? region : false
 
   const apiUrl = InputSearch
-    ? `https://restcountries.com/v3.1/name/${InputSearch}`
+    ? `https://restcountries.com/v3.1/name/${InputSearch}?t=${Date.now()}`
     : selectedRegion
-    ? `https://restcountries.com/v3.1/region/${selectedRegion}?fields=name,capital,region,population,flags,cca3`
-    : 'https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags,cca3'
+    ? `https://restcountries.com/v3.1/region/${selectedRegion}?fields=name,capital,region,population,flags,cca3?t=${Date.now()}`
+    : `https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags,cca3?t=${Date.now()}`
 
   const countries = await getCountriesData(apiUrl, selectedRegion)
 

@@ -17,13 +17,12 @@ export default async function RootLayout({
   children: ReactNode
 }) {
   const responseApiCountries = await fetch(
-    `${process.env.NEXT_PUBLIC_URL}/api/themes`,
+    `${process.env.NEXT_PUBLIC_URL}/api/themes?t=${Date.now()}`,
     {
       cache: 'no-store',
     },
   )
   const response = await responseApiCountries.json()
-  console.log(response)
 
   return (
     <html lang="en" className={`${nunito.className} ${response ? 'dark' : ''}`}>
