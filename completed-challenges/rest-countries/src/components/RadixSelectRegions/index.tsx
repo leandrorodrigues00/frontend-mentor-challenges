@@ -31,7 +31,7 @@ export function SelectRegions() {
 
   return (
     <Select.Root value={SelectedRegions} onValueChange={setSelectedRegions}>
-      <Select.Trigger className="flex max-w-[185px] w-full justify-between items-center bg-white rounded-lg text-sm px-4">
+      <Select.Trigger className="flex max-w-[185px] w-full justify-between items-center bg-white rounded-lg text-sm px-4 py-3 dark:bg-[#2b3945]">
         <Select.Value aria-label={SelectedRegions}>
           {SelectedRegions || 'Filter by region'}
         </Select.Value>
@@ -43,7 +43,7 @@ export function SelectRegions() {
       <Select.Portal>
         <Select.Content
           position="popper"
-          className="overflow-hidden bg-white mt-1 rounded-md shadow-[0px_10px_38px_-10px_rgba(22,_23,_24,_0.35),0px_10px_20px_-15px_rgba(22,_23,_24,_0.2)]"
+          className="overflow-hidden bg-white mt-1 rounded-md shadow-[0px_10px_38px_-10px_rgba(22,_23,_24,_0.35),0px_10px_20px_-15px_rgba(22,_23,_24,_0.2)] dark:bg-[#2b3945]"
         >
           <Select.Viewport>
             <Select.Group>

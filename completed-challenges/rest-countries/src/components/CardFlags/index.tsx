@@ -6,13 +6,12 @@ interface CardFlagsProps {
 }
 
 export function CardFlags({ country }: CardFlagsProps) {
-  const PopulationNumber = country.population
-  const formattedNumber = PopulationNumber.toLocaleString('en-US', {
+  const formattedNumber = country.population.toLocaleString('en-US', {
     style: 'decimal',
   })
 
   return (
-    <div className="flex flex-col  max-w-[15rem] w-full max-h-[305px] h-full rounded-lg bg-white">
+    <div className="flex flex-col  max-w-[15rem] w-full max-h-[305px] h-full rounded-lg bg-white dark:bg-[#2b3945]">
       <Image
         className="rounded-t-lg max-h-[145px] max-w-[15rem]"
         src={country.flags.svg}

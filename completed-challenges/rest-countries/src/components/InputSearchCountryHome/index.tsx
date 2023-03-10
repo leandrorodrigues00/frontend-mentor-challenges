@@ -39,13 +39,13 @@ export function InputSearchCountryHome() {
   return (
     <label
       htmlFor="search-input"
-      className="flex bg-white items-center gap-4 max-w-[27.5rem] w-full py-3 pl-7 rounded-lg s border focus-within:border-neutral-800"
+      className="flex bg-white items-center gap-4 max-w-[27.5rem] w-full py-3 pl-7 rounded-lg border focus-within:border-neutral-800 dark:bg-[#2b3945] dark:border-none dark:shadow-3xl"
     >
       <MagnifyingGlass size={20} weight="thin" />
       <input
         type="text"
         placeholder="Search for a country..."
-        className="w-full h-full outline-none"
+        className="w-full h-full outline-none dark:bg-[#2b3945]"
         id="search-input"
         value={searchTerm}
         onChange={handleInputChange}

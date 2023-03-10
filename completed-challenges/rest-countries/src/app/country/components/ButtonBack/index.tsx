@@ -6,7 +6,7 @@ export function ButtonBack() {
   return (
     <Link
       href={'/'}
-      className="flex gap-2 rounded-lg items-center py-2 px-8 bg-white shadow-3xl "
+      className="flex gap-2 rounded-lg items-center py-2 px-8 bg-white shadow-3xl dark:bg-[#2b3945]"
     >
       <ArrowLeft size={20} />
       Back

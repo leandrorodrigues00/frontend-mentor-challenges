@@ -16,6 +16,7 @@ export interface CountriesProps {
   capital: Array<string>
   region: string
   population: number
+  cca3: string
 }
 
 export interface DataAPI {
@@ -33,6 +34,10 @@ async function getCountriesData(
     },
   })
 
+  if (!response.ok) {
+    return []
+  }
+
   const responseData: unknown = await response.json()
 
   const countriesData: Array<CountriesProps> = Array.isArray(responseData)
@@ -48,12 +53,13 @@ async function getCountriesData(
       (data: CountriesProps) =>
         !selectedRegion || data.region === selectedRegion,
     )
-    .map(({ name, flags, capital, region, population }) => ({
+    .map(({ name, flags, capital, region, population, cca3 }) => ({
       name,
       flags,
       capital,
       region,
       population,
+      cca3,
     }))
 
   return countries
@@ -61,7 +67,7 @@ async function getCountriesData(
 
 export default async function Home() {
   const responseApiCountries = await fetch(
-    'http://localhost:3000/api/countries',
+    `${process.env.NEXT_PUBLIC_URL}/api/countries`,
     {
       cache: 'no-store',
     },
@@ -77,24 +83,21 @@ export default async function Home() {
   const apiUrl = InputSearch
     ? `https://restcountries.com/v3.1/name/${InputSearch}`
     : selectedRegion
-    ? `https://restcountries.com/v3.1/region/${selectedRegion}?fields=name,capital,region,population,flags`
-    : 'https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags'
+    ? `https://restcountries.com/v3.1/region/${selectedRegion}?fields=name,capital,region,population,flags,cca3`
+    : 'https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags,cca3'
 
   const countries = await getCountriesData(apiUrl, selectedRegion)
 
   return (
-    <main className="px-[4.68rem] pt-10 ]">
-      <header className="flex justify-between">
+    <main className="px-[4.68rem] pt-10 max-[580px]:px-3">
+      <header className="flex justify-between gap-3 max-[600px]:flex-col max-[600px]:gap-8">
         <InputSearchCountryHome />
         <SelectRegions />
       </header>
 
-      <div className="mt-11 grid grid-cols-1 gap-y-12 md:grid-cols-3 lg:grid-cols-5 justify-items-center mb-10">
+      <div className="mt-11 grid grid-cols-1 gap-y-12 min-[680px]:grid-cols-2 min-[940px]:grid-cols-3 min-[1440px]:grid-cols-5 justify-items-center mb-10">
         {countries?.map((country) => (
-          <Link
-            href={`/country/${country.name.common}`}
-            key={country.name.common}
-          >
+          <Link href={`/country/${country.cca3}`} key={country.name.common}>
             <CardFlags country={country} />
           </Link>
         ))}
