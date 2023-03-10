@@ -1,27 +1,33 @@
 'use client'
 import { Moon, Sun } from 'phosphor-react'
-import { useState } from 'react'
+import { useState, useTransition } from 'react'
 import { useRouter } from 'next/navigation'
 
-async function updateMessage(darkMode: boolean) {
-  const message = darkMode
-  await fetch('/api/themes', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: String(message),
-  })
-}
-
 export function DarkModeButton() {
-  const [darkMode, setDarkMode] = useState(false)
   const router = useRouter()
+  const [isPending, startTransition] = useTransition()
+  const [isFetching, setIsFetching] = useState(false)
+  const isMutating = isFetching || isPending
 
-  async function toggleDarkMode() {
+  const [darkMode, setDarkMode] = useState(false)
+
+  async function handleChange() {
+    setIsFetching(true)
+
     setDarkMode((prevDarkMode) => !prevDarkMode)
-    await updateMessage(!darkMode)
-    router.refresh()
+
+    await fetch('/api/themes', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: String(!darkMode),
+    })
+    setIsFetching(false)
+
+    startTransition(() => {
+      router.refresh()
+    })
   }
 
   const icon = darkMode ? (
@@ -33,12 +39,15 @@ export function DarkModeButton() {
   const text = darkMode ? 'Light Mode' : 'Dark Mode'
 
   return (
-    <div
-      className="flex font-semibold items-center gap-2 hover:cursor-pointer"
-      onClick={toggleDarkMode}
+    <button
+      className={`flex font-semibold items-center gap-2 hover:cursor-pointer ${
+        isMutating ? 'opacity-20' : 'opacity-100'
+      }`}
+      onClick={handleChange}
+      disabled={isPending}
     >
       {icon}
       {text}
-    </div>
+    </button>
   )
 }
