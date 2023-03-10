@@ -29,9 +29,7 @@ async function getCountriesData(
   selectedRegion: string | boolean,
 ) {
   const response = await fetch(apiUrl, {
-    next: {
-      revalidate: 60 * 60 * 24, // 24 hours
-    },
+    cache: 'no-store',
   })
 
   if (!response.ok) {
@@ -94,7 +92,7 @@ export default async function Home() {
         <InputSearchCountryHome />
         <SelectRegions />
       </header>
-
+      {apiUrl}
       <div className="mt-11 grid grid-cols-1 gap-y-12 min-[680px]:grid-cols-2 min-[940px]:grid-cols-3 min-[1440px]:grid-cols-5 justify-items-center mb-10">
         {countries?.map((country) => (
           <Link href={`/country/${country.cca3}`} key={country.name.common}>

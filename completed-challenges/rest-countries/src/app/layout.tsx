@@ -23,10 +23,12 @@ export default async function RootLayout({
     },
   )
   const response = await responseApiCountries.json()
+  console.log(response)
 
   return (
     <html lang="en" className={`${nunito.className} ${response ? 'dark' : ''}`}>
       <body className="bg-[#fafafa] dark:bg-[#202c37] dark:text-white	">
+        {`darkmode? ${response}`}
         <Header />
         {children}
       </body>
