@@ -18,28 +18,27 @@ export function DarkModeButton() {
   const [darkMode, setDarkMode] = useState(false)
   const router = useRouter()
 
-  function toggleDarkMode() {
+  async function toggleDarkMode() {
     setDarkMode((prevDarkMode) => !prevDarkMode)
-    updateMessage(darkMode)
+    await updateMessage(!darkMode)
     router.refresh()
   }
+
+  const icon = darkMode ? (
+    <Moon size={25} weight="thin" />
+  ) : (
+    <Sun size={25} weight="thin" />
+  )
+
+  const text = darkMode ? 'Light Mode' : 'Dark Mode'
 
   return (
     <div
       className="flex font-semibold items-center gap-2 hover:cursor-pointer"
       onClick={toggleDarkMode}
     >
-      {darkMode ? (
-        <>
-          <Moon size={25} weight="thin" />
-          Light Mode
-        </>
-      ) : (
-        <>
-          <Sun size={25} weight="thin" />
-          Dark Mode
-        </>
-      )}
+      {icon}
+      {text}
     </div>
   )
 }
