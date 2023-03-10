@@ -11,23 +11,28 @@ export const metadata = {
   description: 'Page for country API',
 }
 
-export default async function RootLayout({
-  children,
-}: {
-  children: ReactNode
-}) {
+async function getTheme() {
   const responseApiCountries = await fetch(
     `${process.env.NEXT_PUBLIC_URL}/api/themes`,
     {
       cache: 'no-store',
     },
   )
-  const response = await responseApiCountries.json()
-  console.log(response)
+  const theme = await responseApiCountries.json()
+  return theme
+}
 
+export default async function RootLayout({
+  children,
+}: {
+  children: ReactNode
+}) {
+  const theme = await getTheme()
   return (
-    <html lang="en" className={`${nunito.className} ${response ? 'dark' : ''}`}>
+    <html lang="en" className={`${nunito.className} ${theme ? 'dark' : ''}`}>
       <body className="bg-[#fafafa] dark:bg-[#202c37] dark:text-white	">
+        {`resposta: ${theme}`}
+
         <Header />
         {children}
       </body>
