@@ -10,8 +10,5 @@ export async function POST(req: NextRequest) {
 }
 
 export async function GET() {
-  const headers = {
-    'Cache-Control': 'no-store, must-revalidate',
-  }
-  return new NextResponse(String(message ?? false), { headers })
+  return new NextResponse(String(message))
 }

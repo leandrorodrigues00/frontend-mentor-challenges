@@ -3,6 +3,15 @@ import { Moon, Sun } from 'phosphor-react'
 import { useState, useTransition } from 'react'
 import { useRouter } from 'next/navigation'
 
+async function fetchTheme(darkMode: boolean) {
+  const response = await fetch('/api/themes', {
+    method: 'POST',
+    body: String(darkMode),
+  })
+  const theme = await response.json()
+  return theme
+}
+
 export function DarkModeButton() {
   const router = useRouter()
   const [isPending, startTransition] = useTransition()
@@ -14,15 +23,11 @@ export function DarkModeButton() {
   async function handleChange() {
     setIsFetching(true)
 
-    setDarkMode((prevDarkMode) => !prevDarkMode)
+    const newDarkMode = !darkMode // Novo valor de darkMode
 
-    await fetch('/api/themes', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: String(!darkMode),
-    })
+    setDarkMode(newDarkMode)
+
+    await fetchTheme(newDarkMode)
     setIsFetching(false)
 
     startTransition(() => {

@@ -32,7 +32,6 @@ export default async function RootLayout({
   return (
     <html lang="en" className={`${nunito.className} ${theme ? 'dark' : ''}`}>
       <body className="bg-[#fafafa] dark:bg-[#202c37] dark:text-white	">
-        {theme ? 'true' : 'false'}
         <Header />
         {children}
       </body>
