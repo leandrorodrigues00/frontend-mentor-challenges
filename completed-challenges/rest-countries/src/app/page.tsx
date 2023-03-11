@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { CardFlags } from '@/components/CardFlags'
 import { InputSearchCountryHome } from '@/components/InputSearchCountryHome'
 import { SelectRegions } from '@/components/RadixSelectRegions'
