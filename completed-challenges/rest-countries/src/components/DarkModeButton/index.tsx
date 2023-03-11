@@ -4,12 +4,10 @@ import { useState, useTransition } from 'react'
 import { useRouter } from 'next/navigation'
 
 async function fetchTheme(darkMode: boolean) {
-  const response = await fetch('/api/themes', {
+  await fetch('/api/themes', {
     method: 'POST',
     body: String(darkMode),
   })
-  const theme = await response.json()
-  return theme
 }
 
 export function DarkModeButton() {
@@ -23,11 +21,11 @@ export function DarkModeButton() {
   async function handleChange() {
     setIsFetching(true)
 
-    const newDarkMode = !darkMode // Novo valor de darkMode
+    const newDarkMode = !darkMode
 
     setDarkMode(newDarkMode)
 
-    await fetchTheme(newDarkMode)
+    fetchTheme(newDarkMode)
     setIsFetching(false)
 
     startTransition(() => {

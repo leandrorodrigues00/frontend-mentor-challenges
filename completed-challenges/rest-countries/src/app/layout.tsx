@@ -18,8 +18,8 @@ async function getTheme() {
       cache: 'no-store',
     },
   )
-  const theme = await responseApiCountries.json()
-  return theme
+
+  return responseApiCountries.json()
 }
 
 export default async function RootLayout({
