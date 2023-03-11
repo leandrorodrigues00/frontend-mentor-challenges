@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { CardFlags } from '@/components/CardFlags'
 import { InputSearchCountryHome } from '@/components/InputSearchCountryHome'
 import { SelectRegions } from '@/components/RadixSelectRegions'
@@ -92,13 +91,13 @@ export default async function Home() {
         <InputSearchCountryHome />
         <SelectRegions />
       </header>
-      {/* <div className="mt-11 grid grid-cols-1 gap-y-12 min-[680px]:grid-cols-2 min-[940px]:grid-cols-3 min-[1440px]:grid-cols-5 justify-items-center mb-10">
+      <div className="mt-11 grid grid-cols-1 gap-y-12 min-[680px]:grid-cols-2 min-[940px]:grid-cols-3 min-[1440px]:grid-cols-5 justify-items-center mb-10">
         {countries?.map((country) => (
           <Link href={`/country/${country.cca3}`} key={country.name.common}>
             <CardFlags country={country} />
           </Link>
         ))}
-      </div> */}
+      </div>
     </main>
   )
 }

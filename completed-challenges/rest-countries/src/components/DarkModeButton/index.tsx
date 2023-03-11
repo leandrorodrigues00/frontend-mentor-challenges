@@ -2,6 +2,7 @@
 import { Moon, Sun } from 'phosphor-react'
 import { useState, useTransition } from 'react'
 import { useRouter } from 'next/navigation'
+import { setCookie } from 'nookies'
 
 async function fetchTheme(darkMode: boolean) {
   await fetch('/api/themes', {
@@ -25,11 +26,19 @@ export function DarkModeButton() {
 
     setDarkMode(newDarkMode)
 
+    setDarkModeCookie(newDarkMode)
     fetchTheme(newDarkMode)
     setIsFetching(false)
 
     startTransition(() => {
       router.refresh()
+    })
+  }
+
+  function setDarkModeCookie(darkMode: boolean) {
+    setCookie(null, 'darkModeCookie', darkMode.toString(), {
+      maxAge: 30 * 24 * 60 * 60,
+      path: '/',
     })
   }
 
