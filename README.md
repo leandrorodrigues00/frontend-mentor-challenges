@@ -2,7 +2,31 @@
 
 This is a collection of all the solutions to the challenges of the Frontend Mentor program. In the subfolders you can find links to the online site, images and the description of the challenges.
 
-## 🗃️ Project List [23]
+## 🗃️ Project List [24]
+
+<br>
+<table  align="center"><tr><td>
+  <picture> 
+    <img alt="project preview" src="./completed-challenges/rest-countries/src/assets/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture> 
+  <br><br><br>
+  
+  <h2 align="center">REST Countries API</h2>
+
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,ts)](https://skillicons.dev)
+  </h3>
+  <p  align="center">
+    <a href="https://rest-countries-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/rest-countries">Repo</a> | <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
+
+<br>
 
 <br>
 <table  align="center"><tr><td>
