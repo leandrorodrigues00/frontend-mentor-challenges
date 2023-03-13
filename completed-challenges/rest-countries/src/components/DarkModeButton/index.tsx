@@ -1,8 +1,8 @@
 'use client'
 import { Moon, Sun } from 'phosphor-react'
-import { useState, useTransition } from 'react'
+import { useEffect, useState, useTransition } from 'react'
 import { useRouter } from 'next/navigation'
-import { setCookie } from 'nookies'
+import { parseCookies, setCookie } from 'nookies'
 
 // async function fetchTheme(darkMode: boolean) {
 //   await fetch('/api/themes', {
@@ -18,6 +18,14 @@ export function DarkModeButton() {
   const isMutating = isFetching || isPending
 
   const [darkMode, setDarkMode] = useState(false)
+
+  useEffect(() => {
+    const cookies = parseCookies()
+    const darkModeCookie = cookies.darkModeCookie
+    if (darkModeCookie) {
+      setDarkMode(darkModeCookie === 'true')
+    }
+  }, [])
 
   async function handleChange() {
     setIsFetching(true)
