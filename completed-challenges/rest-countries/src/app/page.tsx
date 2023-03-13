@@ -2,6 +2,7 @@ import { CardFlags } from '@/components/CardFlags'
 import { InputSearchCountryHome } from '@/components/InputSearchCountryHome'
 import { SelectRegions } from '@/components/RadixSelectRegions'
 import Link from 'next/link'
+import { cookies } from 'next/headers'
 
 export interface CountriesProps {
   name: {
@@ -63,19 +64,21 @@ async function getCountriesData(
 }
 
 export default async function Home() {
-  const responseApiCountries = await fetch(
-    `${process.env.NEXT_PUBLIC_URL}/api/countries`,
-    {
-      cache: 'no-store',
-    },
-  )
-  const { source, region }: DataAPI = await responseApiCountries.json()
+  // const responseApiCountries = await fetch(
+  //   `${process.env.NEXT_PUBLIC_URL}/api/countries`,
+  //   {
+  //     cache: 'no-store',
+  //   },
+  // )
+  // const { source, region }: DataAPI = await responseApiCountries.json()
 
-  const selectedRegion: string | boolean =
-    source === 'radixSelect' ? region : false
+  const { value: selectedRegionCookie } = cookies().get('regionCookie') ?? {}
 
-  const InputSearch: string | boolean =
-    source === 'InputSearch' ? region : false
+  const { value: inputCountrySearch } = cookies().get('CountryNameCookie') ?? {}
+
+  const selectedRegion: string | boolean = selectedRegionCookie || false
+
+  const InputSearch: string | boolean = inputCountrySearch || false
 
   const apiUrl = InputSearch
     ? `https://restcountries.com/v3.1/name/${InputSearch}`

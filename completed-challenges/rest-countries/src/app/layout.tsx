@@ -30,14 +30,13 @@ export default async function RootLayout({
 }) {
   // const theme = await getTheme()
 
-  const cookieStore = cookies()
-  const cookieTeste = cookieStore.get('darkModeCookie')
-  const cookieValue = cookieTeste?.value
+  const { value: cookieValue } = cookies().get('darkModeCookie') ?? {}
+  const darkModeEnabled = cookieValue === 'true'
 
   return (
     <html
       lang="en"
-      className={`${nunito.className} ${cookieValue === 'true' ? 'dark' : ''}`}
+      className={`${nunito.className} ${darkModeEnabled ? 'dark' : ''}`}
     >
       <body className="bg-[#fafafa] dark:bg-[#202c37] dark:text-white	">
         <Header />

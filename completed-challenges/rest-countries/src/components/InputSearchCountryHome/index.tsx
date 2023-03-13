@@ -2,6 +2,7 @@
 import { MagnifyingGlass } from 'phosphor-react'
 import { useRouter } from 'next/navigation'
 import { ChangeEvent, useEffect, useState } from 'react'
+import { setCookie } from 'nookies'
 
 export function InputSearchCountryHome() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -13,16 +14,21 @@ export function InputSearchCountryHome() {
 
   useEffect(() => {
     async function SearchCountries() {
-      const message = {
-        source: 'InputSearch',
-        region: searchTerm,
-      }
-      await fetch('/api/countries', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(message),
+      // const message = {
+      //   source: 'InputSearch',
+      //   region: searchTerm,
+      // }
+      // await fetch('/api/countries', {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //   },
+      //   body: JSON.stringify(message),
+      // })
+
+      setCookie(null, 'CountryNameCookie', searchTerm, {
+        maxAge: 30 * 24 * 60 * 60,
+        path: '/',
       })
       router.refresh()
     }

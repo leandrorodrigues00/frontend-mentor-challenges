@@ -4,12 +4,12 @@ import { useState, useTransition } from 'react'
 import { useRouter } from 'next/navigation'
 import { setCookie } from 'nookies'
 
-async function fetchTheme(darkMode: boolean) {
-  await fetch('/api/themes', {
-    method: 'POST',
-    body: String(darkMode),
-  })
-}
+// async function fetchTheme(darkMode: boolean) {
+//   await fetch('/api/themes', {
+//     method: 'POST',
+//     body: String(darkMode),
+//   })
+// }
 
 export function DarkModeButton() {
   const router = useRouter()
@@ -27,7 +27,7 @@ export function DarkModeButton() {
     setDarkMode(newDarkMode)
 
     setDarkModeCookie(newDarkMode)
-    fetchTheme(newDarkMode)
+    // fetchTheme(newDarkMode)
     setIsFetching(false)
 
     startTransition(() => {

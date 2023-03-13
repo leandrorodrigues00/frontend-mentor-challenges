@@ -1,37 +1,55 @@
+/* eslint-disable no-unused-vars */
 'use client'
 
 import * as Select from '@radix-ui/react-select'
 import { useRouter } from 'next/navigation'
+import { setCookie } from 'nookies'
 import { CaretDown, Check } from 'phosphor-react'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useTransition } from 'react'
 
 export function SelectRegions() {
   const router = useRouter()
 
   const [SelectedRegions, setSelectedRegions] = useState('')
+  const [isPending, startTransition] = useTransition()
+  const [isCaching, setIsCaching] = useState(false)
+  const isMutating = isCaching || isPending
 
   useEffect(() => {
-    async function updateMessage() {
-      const message = {
-        source: 'radixSelect',
-        region: SelectedRegions,
-      }
-      await fetch('/api/countries', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(message),
+    // async function updateMessage() {
+    //   const message = {
+    //     source: 'radixSelect',
+    //     region: SelectedRegions,
+    //   }
+    //   await fetch('/api/countries', {
+    //     method: 'POST',
+    //     headers: {
+    //       'Content-Type': 'application/json',
+    //     },
+    //     body: JSON.stringify(message),
+    //   })
+    // }
+    // updateMessage()
+    function setRegionCookie() {
+      setIsCaching(true)
+      setCookie(null, 'regionCookie', SelectedRegions, {
+        maxAge: 30 * 24 * 60 * 60,
+        path: '/',
       })
-      router.refresh()
-    }
+      setIsCaching(false)
 
-    updateMessage()
+      startTransition(() => {
+        router.refresh()
+      })
+    }
+    setRegionCookie()
   }, [SelectedRegions, router])
 
   return (
     <Select.Root value={SelectedRegions} onValueChange={setSelectedRegions}>
-      <Select.Trigger className="flex max-w-[185px] w-full justify-between items-center bg-white rounded-lg text-sm px-4 py-3 dark:bg-[#2b3945]">
+      <Select.Trigger
+        className={`flex max-w-[185px] w-full justify-between items-center bg-white rounded-lg text-sm px-4 py-3 dark:bg-[#2b3945] `}
+      >
         <Select.Value aria-label={SelectedRegions}>
           {SelectedRegions || 'Filter by region'}
         </Select.Value>
