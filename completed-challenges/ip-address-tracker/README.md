@@ -7,7 +7,7 @@
   <a href="#-license">License</a>
 </p>
 
-![Design preview for the FAQ accordion card coding challenge](/public/images/desktop-preview.jpg)
+![Design preview for the FAQ accordion card coding challenge](./public/images/desktop-preview.jpg)
 
 [click here, see closer](https://) 😉
 <br>
