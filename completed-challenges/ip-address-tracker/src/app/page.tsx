@@ -30,7 +30,7 @@ export interface mapCoordinatesProps {
   longitude: number;
 }
 
-export async function fetchData(searchTerms?: string | string[] | undefined) {
+async function fetchData(searchTerms?: string | string[] | undefined) {
   let response: Response | undefined;
   const url = searchTerms
     ? `https://geo.ipify.org/api/v2/country,city?apiKey=${process.env.GEOLOCATION_API_KEY}&ipAddress=${searchTerms}`
