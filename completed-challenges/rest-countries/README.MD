@@ -10,7 +10,7 @@
 ![Design preview for the FAQ accordion card coding challenge](./src/assets/desktop-preview.jpg)
 
 [click here, see closer](https://rest-countries-cs.netlify.app/) 😉
-<br>
+
 **Note:** The project uses an API that is currently at 100% bandwidth usage and CPU usage. Instabilities are expected ! Please check the status in the following repository: [Restcountries](https://gitlab.com/restcountries/restcountries);
 
 ## 👩‍💻 About the project
