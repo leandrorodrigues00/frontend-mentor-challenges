@@ -29,12 +29,11 @@ If you would like to practice working with JSON data, we provide a local data.js
 
 Your users should be able to:
 
-View the optimal layout for the site depending on their device's screen size
-See hover states for all interactive elements on the page
-Switch between viewing Daily, Weekly, and Monthly stats
-Download the starter code and go through the README.md file. This will provide further details about the project. The style-guide.md file is where you'll find colors, fonts, etc.
-
-Want some support on the challenge? Join our Slack community and ask questions in the help channel.
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Switch between viewing Daily, Weekly, and Monthly stats
+- Download the starter code and go through the README.md file. This will provide further details about the project. The style-guide.md file is where you'll find colors, fonts, etc.
+ 
 
 ## 🚀 Technologies
 
@@ -63,7 +62,7 @@ $ yarn
 
 
 # Start the app
-
+$ yarn start
 
 # Navigate to http://localhost:3000
 # The app will automatically reload if you change any of the source files.
