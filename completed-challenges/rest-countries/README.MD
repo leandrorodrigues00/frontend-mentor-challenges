@@ -37,11 +37,11 @@ Your users should be able to:
  
 
 ## 🚀 Technologies
-
-- HTML5 & CCS3
+ 
 - NextJs 13
 - Tailwind CSS
 - Nookies
+- Typescript
 
 ## 💻 Getting started
 
