@@ -37,6 +37,7 @@ Your users should be able to:
 
 - NextJs 13
 - Tailwind CSS
+- Typescript
 
 ## 💻 Getting started
 
