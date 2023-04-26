@@ -38,6 +38,8 @@ Your users should be able to:
 - NextJs 13
 - Tailwind CSS
 - Typescript
+- React-hook-form
+- Zod
 
 ## 💻 Getting started
 
