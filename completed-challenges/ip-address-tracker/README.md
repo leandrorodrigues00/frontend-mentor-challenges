@@ -9,8 +9,9 @@
 
 ![Design preview for the FAQ accordion card coding challenge](./public/images/desktop-preview.jpg)
 
-[click here, see closer](https://) 😉
-<br>
+[click here, see closer](https://ip-address-tracker-cs.netlify.app/) 😉
+
+
 **Note:** The project uses an API: [ IP Geolocation API by IPify](https://geo.ipify.org/), where I have a limit of up to 1,000 requests, after which the calls are blocked. But you can download the project and use your own .env key, it will work without problems!
 
 ## 👩‍💻 About the project
