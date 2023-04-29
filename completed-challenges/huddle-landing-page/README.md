@@ -23,15 +23,8 @@ That help you improve your coding skills by building realistic projects.
 
 Your challenge is to build out this landing page from the designs provided in the starter code.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
-
-View the optimal layout for the page depending on their device's screen size
-See hover states for all interactive elements on the page
-Download the starter code and go through the README.md file. This will provide further details about the project. The style-guide.md file is where you'll find colors, fonts, etc.
-
-Want some support on the challenge? Join our Slack community and ask questions in the help channel.
+- View the optimal layout for the page depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ## 🚀 Technologies
 
@@ -60,7 +53,7 @@ $ yarn
 
 
 # Start the app
-
+$ yarn dev
 
 # Navigate to http://localhost:3000
 # The app will automatically reload if you change any of the source files.

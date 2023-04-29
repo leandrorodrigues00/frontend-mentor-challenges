@@ -23,14 +23,9 @@ That help you improve your coding skills by building realistic projects.
 
 Your challenge is to build out this card component and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
 Your users should be able to:
 
-View the optimal layout depending on their device's screen size
-Download the project and go through the README.md file. This will provide further details about the project and help you get set up.
-
-Want some support on the challenge? Join our Slack community and ask questions in the help channel.
+- View the optimal layout depending on their device's screen size
 
 ## 🚀 Technologies
 
@@ -55,11 +50,11 @@ $ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tre
 
 ```bash
 # Install the dependencies
-$ yarn
+$ yarn 
 
 
 # Start the app
-
+$ yarn dev
 
 # Navigate to http://localhost:3000
 # The app will automatically reload if you change any of the source files.

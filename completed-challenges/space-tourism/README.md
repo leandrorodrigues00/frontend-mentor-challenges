@@ -31,12 +31,10 @@ If you choose to use a JS-heavy approach, we provide a local data.json file for 
 
 Your users should be able to:
 
-View the optimal layout for each of the website's pages depending on their device's screen size
-See hover states for all interactive elements on the page
-View each page and be able to toggle between the tabs to see new information
-Download the project and go through the README.md file. This will provide further details about the project and help you get set up.
-
-Want some support on the challenge? Join our Slack community and ask questions in the help channel.
+- View the optimal layout for each of the website's pages depending on their device's screen size
+- See hover states for all interactive elements on the page
+- View each page and be able to toggle between the tabs to see new information
+- Download the project and go through the README.md file. This will provide further details about the project and help you get set up.
 
 ## 🚀 Technologies
 
@@ -67,7 +65,7 @@ $ yarn
 
 
 # Start the app
-
+$ yarn dev
 
 # Navigate to http://localhost:3000
 # The app will automatically reload if you change any of the source files.

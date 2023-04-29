@@ -29,11 +29,8 @@ The only JavaScript you'll need for this challenge is to initiate the share opti
 
 Your users should be able to:
 
-View the optimal layout for the component depending on their device's screen size
-See the social media share links when they click the share icon
-Download the starter code and go through the README.md file. This will provide further details about the project. The style-guide.md file is where you'll find colors, fonts, etc.
-
-Want some support on the challenge? Join our Slack community and ask questions in the help channel.
+- View the optimal layout for the component depending on their device's screen size
+- See the social media share links when they click the share icon 
 
 ## 🚀 Technologies
 
@@ -62,7 +59,7 @@ $ yarn
 
 
 # Start the app
-
+$ yarn start
 
 # Navigate to http://localhost:3000
 # The app will automatically reload if you change any of the source files.
