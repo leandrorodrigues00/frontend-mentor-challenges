@@ -1,34 +1,40 @@
 "use client";
-import * as Switch from "@radix-ui/react-switch";
-import { useState } from "react";
+import * as RadioGroup from "@radix-ui/react-radio-group";
 
 export function SwitchBillingModel() {
-  const [checked, setChecked] = useState(false);
   return (
-    <div className="flex justify-center w-full bg-pastel-blue bg-opacity-20 py-3 rounded-lg mt-9">
-      <div className="flex items-center gap-6">
-        <p
-          className={`font-medium ${
-            checked ? "text-cool-gray" : "text-marine-blue"
-          }`}
-        >
+    <RadioGroup.Root
+      className="flex justify-center w-full bg-pastel-blue bg-opacity-20 py-2 rounded-lg mt-9"
+      defaultValue="monthly"
+      aria-label="View density"
+    >
+      <div className="flex items-center justify-center gap-6">
+        <label className="font-medium text-cool-gray" htmlFor="monthly">
           Monthly
-        </p>
-        <Switch.Root
-          className="w-[42px] h-[20px] bg-marine-blue rounded-full relative focus:shadow-[0_0_0_2px] focus:shadow-black outline-none cursor-default"
-          id="airplane-mode"
-          onCheckedChange={setChecked}
-        >
-          <Switch.Thumb className="block w-[15px] h-[15px] bg-white rounded-full shadow-[0_2px_2px] shadow-blackA7 transition-transform duration-100 translate-x-0.5 will-change-transform data-[state=checked]:translate-x-[19px]" />
-        </Switch.Root>
-        <p
-          className={`font-medium ${
-            checked ? "text-marine-blue" : "text-cool-gray"
-          }`}
-        >
+        </label>
+
+        <div className="flex w-[45px] h-[20px] bg-marine-blue rounded-full outline-none cursor-default">
+          <RadioGroup.Item
+            className="bg-transparent w-[25px] h-[20px] rounded-full outline-none cursor-default"
+            value="monthly"
+            id="monthly"
+          >
+            <RadioGroup.Indicator className="flex items-center justify-center w-full h-full relative after:content-[''] after:block after:w-[11px] after:h-[12px] after:rounded-[50%] after:bg-white" />
+          </RadioGroup.Item>
+
+          <RadioGroup.Item
+            className="bg-transparent w-[25px] h-[20px] rounded-full outline-none cursor-default"
+            value="yearly"
+            id="yearly"
+          >
+            <RadioGroup.Indicator className="flex items-center justify-center w-full h-full relative after:content-[''] after:block after:w-[11px] after:h-[12px] after:rounded-[50%] after:bg-white" />
+          </RadioGroup.Item>
+        </div>
+
+        <label className="font-medium text-cool-gray" htmlFor="yearly">
           Yearly
-        </p>
+        </label>
       </div>
-    </div>
+    </RadioGroup.Root>
   );
 }

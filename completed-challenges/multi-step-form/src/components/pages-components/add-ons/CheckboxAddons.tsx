@@ -47,7 +47,7 @@ export function CheckboxAddons() {
 
             <div className="flex-1">
               <label
-                htmlFor="c1"
+                htmlFor={data.id}
                 className="text-marine-blue font-medium hover:cursor-pointer"
               >
                 {data.addonName}
@@ -64,7 +64,7 @@ export function CheckboxAddons() {
 
       <div className="flex justify-between">
         <PreviousStepButton href={"/select-plan"} />
-        <NextStepButton href={"/add-ons"} />
+        <NextStepButton href={"/summary"} />
       </div>
     </div>
   );

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* change color of payment type labels */
+div:has(button[data-state="checked"]#monthly) label[for="monthly"],
+div:has(button[data-state="checked"]#yearly) label[for="yearly"] {
+    color: #02295a;
+}

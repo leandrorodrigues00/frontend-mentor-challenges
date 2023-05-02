@@ -26,6 +26,7 @@ const asideData = [
     Step: "STEP 4",
     description: "SUMMARY",
     path: "/summary",
+    altPath: "/thank-you",
   },
 ];
 
@@ -39,7 +40,9 @@ export function Aside() {
           <li key={index} className="flex gap-4 items-center">
             <div
               className={`w-9 h-9 rounded-full flex items-center justify-center  ${
-                pathname === data.path ? "bg-light-blue " : "border text-white"
+                pathname === data.path || pathname === data.altPath
+                  ? "bg-light-blue "
+                  : "border text-white"
               } `}
             >
               {data.RoundedNumber}
