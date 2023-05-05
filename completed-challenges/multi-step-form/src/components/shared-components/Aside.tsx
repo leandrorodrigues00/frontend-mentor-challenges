@@ -34,7 +34,7 @@ export function Aside() {
   const pathname = usePathname();
 
   return (
-    <aside className="bg-aside-mobile xs:bg-aside-desktop xs:w-[17.125rem] max-h-full h-[10.75rem]  xs:h-[35.5rem] xs:rounded-lg p-8 absolute xs:relative top-0 right-0 left-0 z-0">
+    <aside className="bg-aside-mobile xs:bg-aside-desktop bg-cover xs:w-[17.125rem] max-h-full h-[10.75rem]  xs:h-[35.5rem] xs:rounded-lg p-8 absolute xs:relative top-0 right-0 left-0 z-0">
       <ul className="flex xs:flex-col  justify-center gap-8  ">
         {asideData.map((data, index) => (
           <li key={index} className="flex gap-4 items-center">
