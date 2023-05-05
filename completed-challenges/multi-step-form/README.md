@@ -9,7 +9,7 @@
 
 ![Design preview in the desktop version](./public/images/desktop-preview.jpg)
 
-[click here, see closer](https://multi-step-form-cs.netlify.app/) 😉
+[click here, see closer](https://multi-step-form-cs.vercel.app/) 😉
 
 
 ## 👩‍💻 About the project
