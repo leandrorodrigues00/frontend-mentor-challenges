@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export default function ThankYou() {
   return (
     <div className="max-w-[27.437rem] w-full flex flex-col items-center justify-center gap-8">

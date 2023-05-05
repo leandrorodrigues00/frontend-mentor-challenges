@@ -6,12 +6,19 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
 }
 
 export function Input(props: InputProps) {
-  const { register } = useFormContext();
+  const {
+    register,
+    formState: { errors },
+  } = useFormContext();
 
   return (
     <input
       id={props.name}
-      className="flex-1 rounded-md border border-zinc-300 shadow-sm px-3 py-2 text-zinc-800 focus:outline-none focus:ring-2 focus:ring-violet-500 hover:cursor-pointer"
+      className={`flex-1 rounded-md border shadow-sm px-3 py-2 text-zinc-800 focus:outline-none focus:ring-2 focus:ring-violet-500 hover:cursor-pointer ${
+        errors[props.name]
+          ? "border-strawberry-red focus:ring-0  focus:ring-transparent"
+          : "border-zinc-300 "
+      } `}
       {...register(props.name)}
       {...props}
     />

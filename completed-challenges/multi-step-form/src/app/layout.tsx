@@ -1,6 +1,8 @@
 import { Ubuntu } from "next/font/google";
 
 import "./globals.css";
+
+import { WizardFormContextProvider } from "./context/WizardFormContext";
 import { Aside } from "@/components/shared-components/Aside";
 
 const ubuntu = Ubuntu({
@@ -21,12 +23,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={ubuntu.className}>
-        <div className="bg-magnolia min-h-screen flex items-center justify-center p-3">
-          <main className="bg-white max-w-[58.75rem] w-full p-4 flex gap-[6.25rem] rounded-lg">
-            <Aside />
-            {children}
-          </main>
-        </div>
+        <WizardFormContextProvider>
+          <div className="bg-magnolia min-h-screen flex items-center justify-center p-3">
+            <main className="bg-white max-w-[58.75rem] w-full p-4 flex gap-[6.25rem] rounded-lg">
+              <Aside />
+              {children}
+            </main>
+          </div>
+        </WizardFormContextProvider>
       </body>
     </html>
   );

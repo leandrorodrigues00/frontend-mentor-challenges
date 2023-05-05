@@ -1,12 +1,12 @@
-import Link, { LinkProps } from "next/link";
+import { ButtonHTMLAttributes } from "react";
 
-export function NextStepButton(props: LinkProps) {
+export function NextStepButton(props: ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
-    <Link
+    <button
       className="self-end justify-self-end bg-marine-blue text-white px-4 py-2 rounded-md hover:opacity-70 duration-300"
       {...props}
     >
       Next Step
-    </Link>
+    </button>
   );
 }
