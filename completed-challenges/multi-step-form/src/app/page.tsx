@@ -2,7 +2,7 @@ import { UserInfoForm } from "@/components/pages-components/home/UserInfoForm";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-white p-4 xs:p-0 mt-[-233px] xs:mt-0 z-10 rounded-lg">
       <div className="mt-11">
         <h1 className="text-4xl font-bold text-marine-blue leading-6">
           Personal info

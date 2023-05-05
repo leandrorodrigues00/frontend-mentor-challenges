@@ -34,8 +34,8 @@ export function Aside() {
   const pathname = usePathname();
 
   return (
-    <aside className="bg-aside-desktop max-w-full w-[17.125rem] max-h-full h-[35.5rem] rounded-lg p-8">
-      <ul className="flex flex-col gap-8">
+    <aside className="bg-aside-mobile xs:bg-aside-desktop xs:w-[17.125rem] max-h-full h-[10.75rem]  xs:h-[35.5rem] xs:rounded-lg p-8 absolute xs:relative top-0 right-0 left-0 z-0">
+      <ul className="flex xs:flex-col  justify-center gap-8  ">
         {asideData.map((data, index) => (
           <li key={index} className="flex gap-4 items-center">
             <div
@@ -48,8 +48,12 @@ export function Aside() {
               {data.RoundedNumber}
             </div>
             <div>
-              <span className="text-xs text-pastel-blue">{data.Step}</span>
-              <p className="text-white text-sm leading-4">{data.description}</p>
+              <span className="text-xs text-pastel-blue hidden xs:block">
+                {data.Step}
+              </span>
+              <p className="text-white text-sm leading-4 hidden xs:block">
+                {data.description}
+              </p>
             </div>
           </li>
         ))}

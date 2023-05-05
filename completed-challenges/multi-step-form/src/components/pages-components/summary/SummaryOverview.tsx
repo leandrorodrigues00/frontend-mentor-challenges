@@ -124,7 +124,7 @@ export default function SummaryOverview() {
 
           {formData.customizableProfile && (
             <div className="flex justify-between">
-              <p className="text-cool-gray ">Customiable Profile</p>
+              <p className="text-cool-gray ">Customizable Profile</p>
               <span className="font-medium text-marine-blue">
                 +{" "}
                 {formatPrice(
@@ -148,7 +148,7 @@ export default function SummaryOverview() {
         </span>
       </div>
 
-      <div className="flex justify-between">
+      <div className="flex justify-between absolute xs:relative bottom-0 right-0 left-0 bg-white w-full p-8 xs:p-0">
         <PreviousStepButton href={"/add-ons"} />
         <Link
           href={"/thank-you"}

@@ -52,7 +52,7 @@ export default function SelectPlanForm() {
         <RadioGroupPlans />
         <SwitchBillingModel />
 
-        <div className="flex justify-between">
+        <div className="flex justify-between absolute xs:relative bottom-0 right-0 left-0 bg-white w-full p-8 xs:p-0 ">
           <PreviousStepButton href={"/"} />
           <NextStepButton onClick={handleSubmit(handleNextStep)} />
         </div>

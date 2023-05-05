@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -21,7 +23,17 @@ module.exports = {
 
       backgroundImage: {
         "aside-desktop": "url(/images/bg-sidebar-desktop.svg)",
+        "aside-mobile": "url(/images/bg-sidebar-mobile.svg)",
       },
+
+      screens: {
+        "-sm": { max: "600px" },
+      },
+    },
+    screens: {
+      xs2: "428px",
+      xs: "600px",
+      ...defaultTheme.screens,
     },
   },
   plugins: [],

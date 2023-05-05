@@ -17,17 +17,17 @@ export function RadioGroupPlans() {
       render={({ field }) => (
         <>
           <RadioGroup.Root
-            className="flex gap-4"
+            className="flex gap-4 flex-col xs:flex-row"
             onValueChange={field.onChange}
             value={field.value}
           >
             <RadioGroup.Item
-              className="relative max-w-[8.75rem] w-full rounded-lg py-5 px-4 ring-1 ring-inset ring-light-gray hover:ring-purplish-blue duration-300"
+              className="relative flex xs:block max-w-full xs:max-w-[8.75rem] w-full gap-5 xs:gap-0 rounded-lg py-5 px-4 ring-1 ring-inset ring-light-gray hover:ring-purplish-blue duration-300"
               value="arcade"
             >
               <img src="/icons/icon-arcade.svg" alt="" />
 
-              <div className="text-left mt-11">
+              <div className="text-left xs:mt-11">
                 <p className="font-medium text-marine-blue">Arcade</p>
                 <span className="text-cool-gray">
                   {watchBillingModel === "monthly" ? "$9/mo" : "$90/yr"}
@@ -41,12 +41,12 @@ export function RadioGroupPlans() {
             </RadioGroup.Item>
 
             <RadioGroup.Item
-              className="relative max-w-[8.75rem] w-full rounded-lg py-5 px-4 ring-1 ring-inset ring-light-gray hover:ring-purplish-blue duration-300"
+              className="relative flex xs:block max-w-full xs:max-w-[8.75rem] w-full gap-5 xs:gap-0 rounded-lg py-5 px-4 ring-1 ring-inset ring-light-gray hover:ring-purplish-blue duration-300"
               value="advanced"
             >
               <img src="/icons/icon-advanced.svg" alt="" />
 
-              <div className="text-left mt-11">
+              <div className="text-left xs:mt-11">
                 <p className="font-medium text-marine-blue">Advanced</p>
                 <span className="text-cool-gray">
                   {watchBillingModel === "monthly" ? "$12/mo" : "$120/yr"}
@@ -59,12 +59,12 @@ export function RadioGroupPlans() {
             </RadioGroup.Item>
 
             <RadioGroup.Item
-              className="relative max-w-[8.75rem] w-full rounded-lg py-5 px-4 ring-1 ring-inset ring-light-gray hover:ring-purplish-blue duration-300"
+              className="relative flex xs:block max-w-full xs:max-w-[8.75rem] w-full gap-5 xs:gap-0 rounded-lg py-5 px-4 ring-1 ring-inset ring-light-gray hover:ring-purplish-blue duration-300"
               value="pro"
             >
               <img src="/icons/icon-pro.svg" alt="" />
 
-              <div className="text-left mt-11">
+              <div className="text-left xs:mt-11">
                 <p className="font-medium text-marine-blue">Pro</p>
                 <span className="text-cool-gray">
                   {watchBillingModel === "monthly" ? "$15/mo" : "$150/yr"}

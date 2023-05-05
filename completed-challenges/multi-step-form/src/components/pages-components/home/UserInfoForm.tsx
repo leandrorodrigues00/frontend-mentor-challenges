@@ -79,7 +79,12 @@ export function UserInfoForm() {
             />
           </Form.Field>
         </div>
-        <NextStepButton type="submit" onClick={handleSubmit(handleNextStep)} />
+        <div className="self-end justify-self-end absolute xs:relative bottom-0 right-0 left-0 bg-white w-full p-8 xs:p-0 flex justify-end">
+          <NextStepButton
+            type="submit"
+            onClick={handleSubmit(handleNextStep)}
+          />
+        </div>
       </form>
     </FormProvider>
   );

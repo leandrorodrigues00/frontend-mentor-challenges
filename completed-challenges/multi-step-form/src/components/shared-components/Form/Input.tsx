@@ -16,7 +16,7 @@ export function Input(props: InputProps) {
       id={props.name}
       className={`flex-1 rounded-md border shadow-sm px-3 py-2 text-zinc-800 focus:outline-none focus:ring-2 focus:ring-violet-500 hover:cursor-pointer ${
         errors[props.name]
-          ? "border-strawberry-red focus:ring-0  focus:ring-transparent"
+          ? "border-strawberry-red focus:ring-[0px]  focus:ring-strawberry-red"
           : "border-zinc-300 "
       } `}
       {...register(props.name)}

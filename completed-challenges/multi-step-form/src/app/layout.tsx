@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={ubuntu.className}>
         <WizardFormContextProvider>
           <div className="bg-magnolia min-h-screen flex items-center justify-center p-3">
-            <main className="bg-white max-w-[58.75rem] w-full p-4 flex gap-[6.25rem] rounded-lg">
+            <main className="xs:bg-white max-w-[58.75rem] w-full p-4 flex gap-8 md:gap-[6.25rem] flex-col xs:flex-row rounded-lg   -sm:items-center ">
               <Aside />
               {children}
             </main>
