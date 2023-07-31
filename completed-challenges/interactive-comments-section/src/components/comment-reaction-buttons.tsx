@@ -31,7 +31,7 @@ export function CommentReactButtons({
   let totalScore = reaction.reactionScore + reaction.reactionVote;
 
   return (
-    <div className="flex max-h-[100px] w-full max-w-[36px] flex-col items-center justify-center space-y-5 rounded-md bg-gray-50 p-2">
+    <div className="flex max-h-[100px] w-full max-w-[36px] flex-col items-center justify-center space-y-5 rounded-md bg-gray-50 p-2 tablet:max-w-[100px] tablet:flex-row tablet:space-x-5 tablet:space-y-0">
       <button onClick={() => handleVote(1)}>
         <PlusIcon
           className={cn(
@@ -41,6 +41,8 @@ export function CommentReactButtons({
               : "text-blue-200 hover:text-blue-500"
           )}
         />
+
+        <span className="sr-only">like</span>
       </button>
       <span className="font-bold text-blue-500">{totalScore}</span>
 
@@ -50,9 +52,11 @@ export function CommentReactButtons({
             "h-3 w-3 fill-current transition-colors",
             reaction.reactionVote === -1
               ? "text-red-400 "
-              : "text-blue-200 hover:text-blue-500"
+              : "hover:text-blue-50z0 text-blue-200"
           )}
         />
+
+        <span className="sr-only">dislike</span>
       </button>
     </div>
   );

@@ -10,7 +10,7 @@ export function ReplyButton({ setReplyForm }: ReplyButtonProps) {
   return (
     <button
       onClick={() => setReplyForm((state) => !state)}
-      className="flex items-center space-x-2 text-blue-500 transition-colors hover:text-blue-100"
+      className="flex items-center space-x-2 text-blue-500 transition-colors hover:text-blue-100 tablet:absolute tablet:bottom-8 tablet:right-8"
     >
       <ReplyIcon className="h-4 w-5 fill-current" />
       <span className="font-medium">Reply</span>

@@ -20,8 +20,8 @@ export function UserCardComment({
   if (!user) return;
 
   return (
-    <div className="flex w-full items-start gap-5 rounded-md bg-white p-6">
-      <UserAvatar className="h-10 w-10" user={user} />
+    <div className="flex w-full items-start gap-5 rounded-md bg-white p-6 tablet:flex-col">
+      <UserAvatar className="h-10 w-10 tablet:hidden" user={user} />
       <CommentForm
         user={user}
         replyingTo={replyingTo}

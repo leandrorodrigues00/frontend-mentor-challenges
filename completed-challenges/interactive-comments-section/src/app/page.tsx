@@ -15,7 +15,7 @@ export default function Home() {
   if (!comments) return;
 
   return (
-    <main className="min-h-screen bg-gray-50 py-16">
+    <main className="min-h-screen bg-gray-50 px-2 py-16">
       <section className="mx-auto w-full max-w-[45.625rem] space-y-5">
         <StoreInitializer comments={comments} />
 

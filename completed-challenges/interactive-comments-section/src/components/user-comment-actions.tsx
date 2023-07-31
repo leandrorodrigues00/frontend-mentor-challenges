@@ -15,14 +15,14 @@ export function UserCommentActions({
   setIsCommentEditable,
 }: UserCommentActionsProps) {
   return (
-    <div className="flex space-x-6">
+    <div className="flex space-x-6 tablet:absolute tablet:bottom-8 tablet:right-8">
       <DeleteDialog commentId={commentId} replyId={replyId} />
 
       <button
         onClick={() => setIsCommentEditable((state) => !state)}
         className="flex items-center space-x-2 text-blue-500 transition-opacity hover:opacity-40"
       >
-        <EditIcon className="h-4 w-5 fill-current  " />
+        <EditIcon className="h-4 w-5 fill-current" />
         <span>Edit</span>
       </button>
     </div>

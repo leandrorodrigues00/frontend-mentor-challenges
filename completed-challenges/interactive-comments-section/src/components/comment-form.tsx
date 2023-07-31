@@ -6,6 +6,7 @@ import { z } from "zod";
 import { UserConfig } from "@/types";
 import { useStore } from "@/store";
 import { Textarea } from "@/components/ui/textarea";
+import { UserAvatar } from "@/components/user-avatar";
 
 interface CommentFormProps {
   user: UserConfig;
@@ -69,12 +70,16 @@ export function CommentForm({
 
       {error && <p className="mt-2 text-red-300">{error}</p>}
 
-      <button
-        onClick={() => handleSubmit()}
-        className="max-w-ful w-[100px] rounded-md bg-blue-500 py-2 text-white transition-opacity hover:opacity-60"
-      >
-        {commentId ? "Reply" : "Send"}
-      </button>
+      <div className="tablet:flex tablet:w-full tablet:justify-between">
+        <UserAvatar className="hidden h-10 w-10 tablet:block" user={user} />
+
+        <button
+          onClick={() => handleSubmit()}
+          className="max-w-ful w-[100px] rounded-md bg-blue-500 py-2 text-white transition-opacity hover:opacity-60 "
+        >
+          {commentId ? "Reply" : "Send"}
+        </button>
+      </div>
     </>
   );
 }

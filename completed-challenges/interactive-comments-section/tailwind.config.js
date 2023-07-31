@@ -21,6 +21,10 @@ module.exports = {
           950: "#324152",
         },
       },
+
+      screens: {
+        tablet: { max: "650px" },
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

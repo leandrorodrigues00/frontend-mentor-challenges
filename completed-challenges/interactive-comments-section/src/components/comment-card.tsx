@@ -30,7 +30,7 @@ export function CommentCard({ comment }: CommentCardProps) {
         />
       )}
 
-      <div className="ml-10 space-y-5 border-l-[3px] border-gray-100 pl-10">
+      <div className="ml-10 space-y-5 border-l-[3px] border-gray-100 pl-10 tablet:ml-0 tablet:pl-5">
         {comment.replies?.map((reply) => (
           <ReplyCard commentId={comment.id} reply={reply} key={reply.id} />
         ))}

@@ -32,7 +32,7 @@ export function BaseCard({
   const [isCommentEditable, setIsCommentEditable] = useState(false);
 
   return (
-    <div className="flex w-full gap-5 rounded-md bg-white p-6">
+    <div className="relative flex w-full gap-5 rounded-md bg-white p-6 tablet:flex-col-reverse">
       <CommentReactButtons initialScore={score} />
 
       <div className="w-full">

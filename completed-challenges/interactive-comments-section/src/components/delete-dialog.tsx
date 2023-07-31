@@ -34,7 +34,16 @@ export function DeleteDialog({ commentId, replyId }: DeleteDialogProps) {
 
   return (
     <Dialog>
-      <DialogTrigger className="flex items-center space-x-2 text-red-500 transition-opacity hover:opacity-40">
+      {/*
+        aria-controls={"uniqueId"} ??
+        Prop `aria-controls` did not match. Server 
+        @see: https://github.com/radix-ui/primitives/issues/811 
+        @see: https://github.com/ariakit/ariakit/issues/844
+      */}
+      <DialogTrigger
+        // aria-controls={"uniqueId"}
+        className="flex items-center space-x-2 text-red-500 transition-opacity hover:opacity-40"
+      >
         <DeleteIcon className="h-4 w-5 fill-current " />
         <span className="">Delete</span>
       </DialogTrigger>

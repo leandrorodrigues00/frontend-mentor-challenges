@@ -36,7 +36,7 @@ const DialogPortal = ({
   ...props
 }: DialogPrimitive.DialogPortalProps) => (
   <DialogPrimitive.Portal className={cn(className)} {...props}>
-    <div className="fixed inset-0 z-50 flex items-start justify-center sm:items-center">
+    <div className="fixed inset-0 z-50 flex items-center justify-center   ">
       {children}
     </div>
   </DialogPrimitive.Portal>
@@ -48,7 +48,7 @@ const DialogOverlay = React.forwardRef<OverlayElement, OverlayProps>(
     <DialogPrimitive.Overlay
       ref={ref}
       className={cn(
-        "data-[state=closed]:animate-out data-[state=closed]:fade-out data-[state=open]:fade-in fixed inset-0 z-50 bg-[#00000099] backdrop-blur-sm transition-all duration-100",
+        "fixed inset-0 z-50 bg-[#00000099] backdrop-blur-sm transition-all duration-100 data-[state=closed]:animate-out data-[state=closed]:fade-out data-[state=open]:fade-in",
         className
       )}
       {...props}
@@ -80,7 +80,7 @@ const DialogContent = React.forwardRef<ContentElement, ContentProps>(
       <DialogPrimitive.Content
         ref={ref}
         className={cn(
-          "animate-in data-[state=open]:fade-in-90 data-[state=open]:slide-in-from-bottom-10 sm:zoom-in-90 data-[state=open]:sm:slide-in-from-bottom-0 fixed z-50 flex w-full flex-col rounded-xl bg-white p-8 shadow-lg sm:rounded-lg",
+          "fixed z-50 flex w-full flex-col rounded-xl bg-white p-8 shadow-lg animate-in data-[state=open]:fade-in-90 data-[state=open]:slide-in-from-bottom-10 sm:rounded-lg sm:zoom-in-90 data-[state=open]:sm:slide-in-from-bottom-0",
           className
         )}
         {...props}

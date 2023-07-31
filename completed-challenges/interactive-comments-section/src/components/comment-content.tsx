@@ -44,7 +44,7 @@ export function CommentContent({ text, replyTo }: CommentContentProps) {
       )}
       <button
         onClick={() => setShowMore(!showMore)}
-        className="leading-base ml-1 text-sm font-bold text-blue-200"
+        className="leading-base ml-1 text-sm font-bold text-blue-500"
       >
         {showMore ? "see less" : "see more"}
       </button>
