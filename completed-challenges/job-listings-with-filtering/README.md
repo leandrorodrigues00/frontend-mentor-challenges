@@ -9,7 +9,8 @@
 
 ![Design preview in the desktop version](./public/images/desktop-preview.jpg)
 
-[click here, see closer](https://job-listings-with-filtering.netlify.app/) 😉
+[click here, see closer](https://job-listings-with-filtering-cs.netlify.app/) 😉
+
 
 ## 👩‍💻 About the project
 
