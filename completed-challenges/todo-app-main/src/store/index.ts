@@ -41,14 +41,6 @@ export const useStore = create<TasksStore>((set, get) => {
         tasks: state.tasks.filter((task) => !task.isCompleted),
       }))
     },
-
-    filterCompleted: () => {
-      const allTasks = get().tasks
-      const completedTasks = allTasks.filter((task) => task.isCompleted)
-
-      set({
-        tasks: completedTasks,
-      })
-    },
+    
   }
 })
