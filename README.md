@@ -2,7 +2,30 @@
 
 This is a collection of all the solutions to the challenges of the Frontend Mentor program. In the subfolders you can find links to the online site, images and the description of the challenges.
 
-## 🗃️ Project List [29]
+## 🗃️ Project List [31]
+
+<br>
+<table  align="center"><tr><td>
+  <picture> 
+    <img alt="project preview" src="./completed-challenges/blog-card/public/desktop-preview.jpg" width="50%"  align="right"   >
+  </picture> 
+  <br><br><br>
+  
+  <h2 align="center">Blog Card</h2>
+
+  <h3 align="center"> 
+  
+  [![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,ts)](https://skillicons.dev)
+  </h3>
+  
+  <p  align="center">
+    <a href="https://blog-card-cs.netlify.app/">Live</a> | <a href=https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/blog-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS">Try Out</a>
+  </p>
+  
+  <br>
+  <br> 
+</td></tr></table>
+
 
 <br>
 <table  align="center"><tr><td>
