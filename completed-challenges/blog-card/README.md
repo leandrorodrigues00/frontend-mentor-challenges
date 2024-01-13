@@ -43,7 +43,7 @@ Your users should be able to:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/blog-preview-card && cd blog-preview-card
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/blog-card && cd blog-card
 
 ```
 
