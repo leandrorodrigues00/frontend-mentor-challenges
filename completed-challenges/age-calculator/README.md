@@ -9,7 +9,7 @@
 
 ![Design preview in the desktop version](./public/desktop-preview.jpg)
 
-[click here, see closer](https://age-calculator-cs.netlify.app/) 😉
+[click here, see closer](https://age-calculator-cs1.netlify.app/) 😉
 
 ## 👩‍💻 About the project
 
