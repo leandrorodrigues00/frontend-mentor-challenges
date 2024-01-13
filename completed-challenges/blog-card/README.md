@@ -9,7 +9,7 @@
 
 ![Design preview in the desktop version](./public/desktop-preview.jpg)
 
-[click here, see closer](https://blog-preview-card.netlify.app/) 😉
+[click here, see closer](https://blog-card-cs.netlify.app/) 😉
 
 ## 👩‍💻 About the project
 
