@@ -11,7 +11,6 @@
 
 [click here, see closer](https://multi-step-form-cs.vercel.app/) 😉
 
-
 ## 👩‍💻 About the project
 
 This is a challenge from [Frontend Mentor](https://www.frontendmentor.io);
