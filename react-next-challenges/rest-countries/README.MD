@@ -1,7 +1,7 @@
 # Frontend Mentor - REST Countries API with color theme switcher
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a> •
+  <a href="#-the-challenge">About the challenge</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-getting-started">Getting started</a> •
   <a href="#-license">License</a>
@@ -11,20 +11,9 @@
 
 [click here, see closer](https://rest-countries-cs.netlify.app/) 😉
 
-**Note:** The project uses an API that is currently at 100% bandwidth usage and CPU usage. Instabilities are expected ! Please check the status in the following repository: [Restcountries](https://gitlab.com/restcountries/restcountries);
-
-## 👩‍💻 About the project
-
-This is a challenge from [Frontend Mentor](https://www.frontendmentor.io);
-
-That help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
-
-## The challenge
+## 👩‍💻 The challenge
 
 Your challenge is integrating with the REST Countries API to pull country data and display it like in the designs.
- 
 
 Your users should be able to:
 
@@ -34,10 +23,9 @@ Your users should be able to:
 - Click on a country to see more detailed information on a separate page
 - Click through to the border countries on the detail page
 - Toggle the color scheme between light and dark mode (optional)
- 
 
 ## 🚀 Technologies
- 
+
 - NextJs 13
 - Tailwind CSS
 - Nookies
@@ -48,12 +36,12 @@ Your users should be able to:
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with yarn)_
+- [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with npm)_
 
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/rest-countries && cd rest-countries
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/rest-countries && cd rest-countries
 
 ```
 
@@ -61,14 +49,10 @@ $ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tre
 
 ```bash
 # Install the dependencies
-$ yarn
-
+$ npm i
 
 # Start the app
-
-
-# Navigate to http://localhost:3000
-# The app will automatically reload if you change any of the source files.
+$ npm run dev
 ```
 
 ## 📝 License
