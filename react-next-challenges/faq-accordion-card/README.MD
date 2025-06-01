@@ -39,7 +39,7 @@ Your users should be able to:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/faq-accordion-card && cd faq-accordion-card
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/faq-accordion-card && cd faq-accordion-card
 
 ```
 
