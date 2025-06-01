@@ -1,0 +1,17 @@
+.button {
+  background: transparent;
+  color: var(--gray-200);
+  border-radius: 50px;
+  border: 2px solid var(--gray-200);
+  justify-self: flex-start;
+  align-self: center;
+
+  padding: 0.938rem 2.188rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: var(--white);
+  color: var(--cyan-900);
+  border: 2px solid var(--white);
+}

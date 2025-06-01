@@ -1,0 +1,98 @@
+.mainWrap {
+  max-width: 37.5rem;
+  width: 100%;
+  display: flex;
+}
+.img {
+  max-width: 18.75rem;
+  width: 100%;
+  display: block;
+  border-radius: 10px 0 0 10px;
+}
+
+.content {
+  max-width: 18.75rem;
+  width: 100%;
+  background: var(--white);
+  padding: 2.188rem 1.875rem;
+  border-radius: 0 10px 10px 0;
+}
+
+.headerContent {
+  text-transform: uppercase;
+  letter-spacing: 0.188rem;
+  color: var(--grayish-500);
+  font-size: 0.938rem;
+  padding-bottom: 1.125rem;
+}
+
+.titleContent {
+  font-family: "Fraunces", serif;
+  line-height: 1;
+}
+
+.descriptionContent {
+  color: var(--grayish-500);
+  margin-top: 1.688rem;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+.priceContent {
+  margin-top: 1.875rem;
+  margin-bottom: 1.188rem;
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-family: "Fraunces", serif;
+  color: var(--cyan-900);
+  font-size: 2rem;
+}
+
+.oldPrice {
+  font-size: 0.875rem;
+  color: var(--grayish-500);
+  text-decoration: line-through;
+  margin-left: 0.938rem;
+}
+
+.button {
+  width: 100%;
+  background: var(--cyan-900);
+  color: var(--white);
+  padding: 0.938rem;
+  border-radius: 8px;
+  border: none;
+
+  font-size: 0.875rem;
+  font-family: "Fraunces", serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: var(--blue-900);
+  transition: 0.5s;
+}
+.icon {
+  margin-right: 0.625rem;
+}
+
+@media (max-width: 625px) {
+  .mainWrap {
+    flex-direction: column;
+  }
+
+  .img {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .content {
+    border-radius: 0 0 10px 10px;
+  }
+}
