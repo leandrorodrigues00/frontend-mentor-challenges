@@ -1,7 +1,7 @@
 # Frontend Mentor - E-commerce product page
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a> •
+  <a href="#-the-challenge">About the challenge</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-getting-started">Getting started</a> •
   <a href="#-license">License</a>
@@ -11,19 +11,9 @@
 
 [click here, see closer](https://ecommerce-product-page-cs.netlify.app/) 😉
 
-## 👩‍💻 About the project
-
-This is a challenge from [Frontend Mentor](https://www.frontendmentor.io);
-
-That help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
-
-## The challenge
+## 👩‍💻 The challenge
 
 Your challenge is to build out this e-commerce product page and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 Your users should be able to:
 
@@ -33,8 +23,6 @@ Your users should be able to:
 - Switch the large product image by clicking on the small thumbnail images
 - Add items to the cart
 - View the cart and remove items from it
-
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## 🚀 Technologies
 
@@ -47,7 +35,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with yarn)_
+- [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with npm)_
 
 **Clone the project and access the folder**
 
@@ -60,14 +48,10 @@ $ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tre
 
 ```bash
 # Install the dependencies
-$ yarn
-
+$ npm i
 
 # Start the app
-
-
-# Navigate to http://localhost:3000
-# The app will automatically reload if you change any of the source files.
+$ npm run dev
 ```
 
 ## 📝 License
