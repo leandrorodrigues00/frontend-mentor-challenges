@@ -4,8 +4,6 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 
 ## 📊 Difficulty Levels
 
-<div align="center">
-
 | Level               | Projects | Quick Link                          |
 | ------------------- | -------- | ----------------------------------- |
 | 🧠 **Guru**         | 0        | [View challenges](#🧠-guru)         |
@@ -13,8 +11,6 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 | 🟠 **Intermediate** | 1        | [View challenges](#🟠-intermediate) |
 | 🟡 **Junior**       | 0        | [View challenges](#🟡-junior)       |
 | 🟢 **Newbie**       | 0        | [View challenges](#🟢-newbie)       |
-
-</div>
 
 <br />
 
