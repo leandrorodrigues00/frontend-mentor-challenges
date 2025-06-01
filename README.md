@@ -8,9 +8,9 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 | ------------------- | -------- | -------------------------------- |
 | 🧠 **Guru**         | 0        | [View challenges](#guru)         |
 | 🔴 **Advanced**     | 2        | [View challenges](#advanced)     |
-| 🟠 **Intermediate** | 1        | [View challenges](#intermediate) |
-| 🟡 **Junior**       | 0        | [View challenges](#junior)       |
-| 🟢 **Newbie**       | 0        | [View challenges](#newbie)       |
+| 🟠 **Intermediate** | 8        | [View challenges](#intermediate) |
+| 🟡 **Junior**       | 8        | [View challenges](#junior)       |
+| 🟢 **Newbie**       | 13       | [View challenges](#newbie)       |
 | **Total**           | **31**   | —                                |
 
 <br />
