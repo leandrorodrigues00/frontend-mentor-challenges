@@ -35,7 +35,7 @@ Your users should be able to:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/blog-card && cd blog-card
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/blog-card && cd blog-card
 ```
 
 **Follow the steps below**
