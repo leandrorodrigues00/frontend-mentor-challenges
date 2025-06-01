@@ -2,11 +2,17 @@
 
 This is a collection of all the solutions to the challenges of the Frontend Mentor program. In the subfolders you can find links to the online site, images and the description of the challenges.
 
-## 🗃️ Project List [31]
+**Total projects: 31**
+
+## 🚀 Challenges by Level
+
+| 🔴 Advanced                    | 🟠 Intermediate                        | 🟡 Junior                  | 🟢 Newbie                  |
+| ------------------------------ | -------------------------------------- | -------------------------- | -------------------------- |
+| [Go to Advanced](#🔴-advanced) | [Go to Intermediate](#🟠-intermediate) | [Go to Junior](#🟡-junior) | [Go to Newbie](#🟢-newbie) |
 
 <br />
 
-## 🔴 Advanced
+### 🔴 Advanced
 
 <br />
 
@@ -57,6 +63,56 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 </table>
 
 <br />
+
+### 🟠 Intermediate
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/space-tourism/src/assets/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Space Tourism</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=nextjs,vite,styledcomponents,ts" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://space-tourism-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/space-tourism">Repo</a> | <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/ecommerce-product-page/design/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">E-commerce product page</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=react,vite,styledcomponents,ts" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://ecommerce-product-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ecommerce-product-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
 
 <table  align="center"><tr><td>
   <picture> 
@@ -197,25 +253,6 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <br>
 
 <br>
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/space-tourism/src/assets/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture> 
-  <br><br><br>
-  
-  <h2 align="center">Space Tourism</h2>
-
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=nextjs,vite,styledcomponents,ts)](https://skillicons.dev)
-  </h3>
-  <p  align="center">
-    <a href="https://space-tourism-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/space-tourism">Repo</a> | <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
 
 <br>
 <table  align="center"><tr><td>
@@ -232,27 +269,6 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
   </h3>
   <p  align="center">
     <a href="https://faq-accordion-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/faq-accordion-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
-<br>
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/ecommerce-product-page/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture> 
-  <br><br><br>
-  
-  <h2 align="center">E-commerce product page</h2>
-
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=react,vite,styledcomponents,ts)](https://skillicons.dev)
-  </h3>
-  <p  align="center">
-    <a href="https://ecommerce-product-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ecommerce-product-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6">Try Out</a>
   </p>
   
   <br>
