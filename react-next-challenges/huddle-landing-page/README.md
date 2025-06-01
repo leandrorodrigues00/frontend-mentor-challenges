@@ -33,7 +33,7 @@ Your challenge is to build out this landing page from the designs provided in th
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/huddle-landing-page && cd huddle-landing-page
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/huddle-landing-page && cd huddle-landing-page
 ```
 
 **Follow the steps below**
