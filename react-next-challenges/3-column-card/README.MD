@@ -30,7 +30,7 @@ Your users should be able to:
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with yarn)_
+- [Yarn](https://classic.yarnpkg.com/) or [NPM](https://www.npmjs.com/) _(examples are with npm)_
 
 **Clone the project and access the folder**
 
@@ -43,12 +43,10 @@ $ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tre
 
 ```bash
 # Install the dependencies
-$ yarn
+$ npm i
 
 # Start the app
-
-# Navigate to http://localhost:3000
-# The app will automatically reload if you change any of the source files.
+$ npm run dev
 ```
 
 ## 📝 License
