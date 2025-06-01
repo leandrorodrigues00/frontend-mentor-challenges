@@ -4,39 +4,16 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 
 ## 📊 Difficulty Levels
 
-<div style="width: 100%; display: flex; justify-content: center;">
-<table style="width: 100%; max-width: 800px; margin: 0 auto;">
-  <tr>
-    <th style="text-align: left; width: 30%">Level</th>
-    <th style="text-align: center; width: 20%">Projects</th>
-    <th style="text-align: right; width: 50%">Quick Link</th>
-  </tr>
-  <tr>
-    <td>🧠 <strong>Guru</strong></td>
-    <td style="text-align: center">0</td>
-    <td style="text-align: right"><a href="#🧠-guru">View challenges</a></td>
-  </tr>
-  <tr>
-    <td>🔴 <strong>Advanced</strong></td>
-    <td style="text-align: center">2</td>
-    <td style="text-align: right"><a href="#🔴-advanced">View challenges</a></td>
-  </tr>
-  <tr>
-    <td>🟠 <strong>Intermediate</strong></td>
-    <td style="text-align: center">1</td>
-    <td style="text-align: right"><a href="#🟠-intermediate">View challenges</a></td>
-  </tr>
-  <tr>
-    <td>🟡 <strong>Junior</strong></td>
-    <td style="text-align: center">0</td>
-    <td style="text-align: right"><a href="#🟡-junior">View challenges</a></td>
-  </tr>
-  <tr>
-    <td>🟢 <strong>Newbie</strong></td>
-    <td style="text-align: center">0</td>
-    <td style="text-align: right"><a href="#🟢-newbie">View challenges</a></td>
-  </tr>
-</table>
+<div align="center">
+
+| Level               | Projects | Quick Link                          |
+| ------------------- | -------- | ----------------------------------- |
+| 🧠 **Guru**         | 0        | [View challenges](#🧠-guru)         |
+| 🔴 **Advanced**     | 2        | [View challenges](#🔴-advanced)     |
+| 🟠 **Intermediate** | 1        | [View challenges](#🟠-intermediate) |
+| 🟡 **Junior**       | 0        | [View challenges](#🟡-junior)       |
+| 🟢 **Newbie**       | 0        | [View challenges](#🟢-newbie)       |
+
 </div>
 
 <br />
