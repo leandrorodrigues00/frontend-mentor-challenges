@@ -2,17 +2,46 @@
 
 This is a collection of all the solutions to the challenges of the Frontend Mentor program. In the subfolders you can find links to the online site, images and the description of the challenges.
 
-**Total projects: 31**
+## 📊 Difficulty Levels
 
-## 🚀 Challenges by Level
-
-| 🔴 Advanced                    | 🟠 Intermediate                        | 🟡 Junior                  | 🟢 Newbie                  |
-| ------------------------------ | -------------------------------------- | -------------------------- | -------------------------- |
-| [Go to Advanced](#🔴-advanced) | [Go to Intermediate](#🟠-intermediate) | [Go to Junior](#🟡-junior) | [Go to Newbie](#🟢-newbie) |
+<div style="width: 100%; display: flex; justify-content: center;">
+<table style="width: 100%; max-width: 800px; margin: 0 auto;">
+  <tr>
+    <th style="text-align: left; width: 30%">Level</th>
+    <th style="text-align: center; width: 20%">Projects</th>
+    <th style="text-align: right; width: 50%">Quick Link</th>
+  </tr>
+  <tr>
+    <td>🧠 <strong>Guru</strong></td>
+    <td style="text-align: center">0</td>
+    <td style="text-align: right"><a href="#🧠-guru">View challenges</a></td>
+  </tr>
+  <tr>
+    <td>🔴 <strong>Advanced</strong></td>
+    <td style="text-align: center">2</td>
+    <td style="text-align: right"><a href="#🔴-advanced">View challenges</a></td>
+  </tr>
+  <tr>
+    <td>🟠 <strong>Intermediate</strong></td>
+    <td style="text-align: center">1</td>
+    <td style="text-align: right"><a href="#🟠-intermediate">View challenges</a></td>
+  </tr>
+  <tr>
+    <td>🟡 <strong>Junior</strong></td>
+    <td style="text-align: center">0</td>
+    <td style="text-align: right"><a href="#🟡-junior">View challenges</a></td>
+  </tr>
+  <tr>
+    <td>🟢 <strong>Newbie</strong></td>
+    <td style="text-align: center">0</td>
+    <td style="text-align: right"><a href="#🟢-newbie">View challenges</a></td>
+  </tr>
+</table>
+</div>
 
 <br />
 
-### 🔴 Advanced
+### 🔴 Advanced (2)
 
 <br />
 
@@ -64,7 +93,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 
 <br />
 
-### 🟠 Intermediate
+### 🟠 Intermediate (8)
 
 <br />
 
