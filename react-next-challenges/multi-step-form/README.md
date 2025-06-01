@@ -1,7 +1,7 @@
 # Frontend Mentor - Multi-step form
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a> •
+  <a href="#-the-challenge">About the challenge</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-getting-started">Getting started</a> •
   <a href="#-license">License</a>
@@ -11,13 +11,7 @@
 
 [click here, see closer](https://multi-step-form-cs.vercel.app/) 😉
 
-## 👩‍💻 About the project
-
-This is a challenge from [Frontend Mentor](https://www.frontendmentor.io);
-
-That help you improve your coding skills by building realistic projects.
-
-## The challenge
+## 👩‍💻 The challenge
 
 Your challenge is to build out this multi-step form and get it looking as close to the design as possible.
 
