@@ -35,7 +35,7 @@ Your users should be able to:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/easybank-landing-page-master && cd easybank-landing-page-master
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/easybank-landing-page-master && cd easybank-landing-page-master
 
 ```
 
