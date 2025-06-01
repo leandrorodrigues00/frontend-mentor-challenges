@@ -1,7 +1,7 @@
 # Frontend Mentor - 3-column preview card component solution
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a> •
+  <a href="#-the-challenge">About the challenge</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-getting-started">Getting started</a> •
   <a href="#-license">License</a>
@@ -11,15 +11,7 @@
 
 [click here, see closer](https://3-column-preview-card-cs.netlify.app/) 😉
 
-## 👩‍💻 About the project
-
-This is a challenge from [Frontend Mentor](https://www.frontendmentor.io);
-
-That help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
-
-## The challenge
+## 👩‍💻 The challenge
 
 Your challenge is to build out this 3-column preview card component and get it looking as close to the design as possible.
 
@@ -29,8 +21,6 @@ Your users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
-
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## 🚀 Technologies
 
@@ -57,9 +47,7 @@ $ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tre
 # Install the dependencies
 $ yarn
 
-
 # Start the app
-
 
 # Navigate to http://localhost:3000
 # The app will automatically reload if you change any of the source files.
