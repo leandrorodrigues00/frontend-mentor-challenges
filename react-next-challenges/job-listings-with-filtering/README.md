@@ -38,7 +38,7 @@ Your users should be able to:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/completed-challenges/job-listings-with-filtering && cd job-listings-with-filtering
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/job-listings-with-filtering && cd job-listings-with-filtering
 
 ```
 
