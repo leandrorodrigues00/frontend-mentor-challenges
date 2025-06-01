@@ -1,7 +1,7 @@
 # Frontend Mentor - NFT preview card component
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a> •
+  <a href="#-the-challenge">About the challenge</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-getting-started">Getting started</a> •
   <a href="#-license">License</a>
@@ -11,22 +11,14 @@
 
 [click here, see closer](https://nft-preview-card-component-cs.netlify.app/) 😉
 
-## 👩‍💻 About the project
-
-This is a challenge from [Frontend Mentor](https://www.frontendmentor.io);
-
-That help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
-
-## The challenge
+## 👩‍💻 The challenge
 
 Your challenge is to build out this preview card component and get it looking as close to the design as possible.
 
 Your users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover states for interactive elements 
+- See hover states for interactive elements
 
 ## 🚀 Technologies
 
@@ -43,7 +35,7 @@ Your users should be able to:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/nft-preview-card-component-main && cd nft-preview-card-component-main
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/nft-preview-card-component-main && cd nft-preview-card-component-main
 
 ```
 
@@ -52,7 +44,6 @@ $ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tre
 ```bash
 # Install the dependencies
 $ yarn
-
 
 # Start the app
 $ yarn dev
