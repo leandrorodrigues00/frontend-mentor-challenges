@@ -1,7 +1,7 @@
 # Frontend Mentor - Huddle landing page with single introductory section
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a> •
+  <a href="#-the-challenge">About the challenge</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-getting-started">Getting started</a> •
   <a href="#-license">License</a>
@@ -11,15 +11,7 @@
 
 [click here, see closer](https://huddle-landing-page-cs.netlify.app/) 😉
 
-## 👩‍💻 About the project
-
-This is a challenge from [Frontend Mentor](https://www.frontendmentor.io);
-
-That help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
-
-## The challenge
+## 👩‍💻 The challenge
 
 Your challenge is to build out this landing page from the designs provided in the starter code.
 
@@ -42,7 +34,6 @@ Your challenge is to build out this landing page from the designs provided in th
 
 ```bash
 $ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/huddle-landing-page && cd huddle-landing-page
-
 ```
 
 **Follow the steps below**
@@ -50,7 +41,6 @@ $ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tre
 ```bash
 # Install the dependencies
 $ yarn
-
 
 # Start the app
 $ yarn dev
