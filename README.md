@@ -6,6 +6,10 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 
 <br />
 
+## 🔴 Advanced
+
+<br />
+
 <table align="center">
   <tr>
     <td>
@@ -21,6 +25,30 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
       </div>
       <p align="center">
         <a href="https://multi-step-form-cs.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/multi-step-form">Repo</a> | <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/rest-countries/src/assets/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">REST Countries API</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
+      </div> 
+      <p align="center">
+        <a href="https://rest-countries-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/rest-countries">Repo</a> | <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca">Try Out</a>
       </p>
       <br>
       <br>
@@ -165,25 +193,6 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <br>
 
 <br>
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/rest-countries/src/assets/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture> 
-  <br><br><br>
-  
-  <h2 align="center">REST Countries API</h2>
-
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,ts)](https://skillicons.dev)
-  </h3>
-  <p  align="center">
-    <a href="https://rest-countries-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/rest-countries">Repo</a> | <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
 
 <br>
 
