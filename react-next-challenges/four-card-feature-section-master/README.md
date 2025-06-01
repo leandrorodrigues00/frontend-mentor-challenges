@@ -34,7 +34,7 @@ Your users should:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/four-card-feature-section-master && cd four-card-feature-section-master
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/four-card-feature-section-master && cd four-card-feature-section-master
 
 ```
 
