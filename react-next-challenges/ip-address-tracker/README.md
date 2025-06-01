@@ -1,7 +1,7 @@
 # Frontend Mentor - IP Address Tracker
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a> •
+  <a href="#-the-challenge">About the challenge</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-getting-started">Getting started</a> •
   <a href="#-license">License</a>
@@ -11,20 +11,9 @@
 
 [click here, see closer](https://ip-address-tracker-cs.netlify.app/) 😉
 
-
-**Note:** The project uses an API: [ IP Geolocation API by IPify](https://geo.ipify.org/), where I have a limit of up to 1,000 requests, after which the calls are blocked. But you can download the project and use your own .env key, it will work without problems!
-
-## 👩‍💻 About the project
-
-This is a challenge from [Frontend Mentor](https://www.frontendmentor.io);
-
-That help you improve your coding skills by building realistic projects.
-
-## The challenge
+## 👩‍💻 The challenge
 
 Your challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible. To get the IP Address locations, you'll be using the IP Geolocation API by IPify. To generate the map, we recommend using LeafletJS.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 Your users should be able to:
 
@@ -64,7 +53,6 @@ $ npm i
 # Make a copy of '.env.example' to '.env'
 # and set with YOUR environment variables.
 $ cp .env.example .env
-
 
 # Start the app
 $ npm run dev
