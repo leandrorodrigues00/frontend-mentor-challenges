@@ -36,7 +36,7 @@ Your users should be able to:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/api-advice-generator-app-main && cd api-advice-generator-app-main
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/api-advice-generator-app-main && cd api-advice-generator-app-main
 
 ```
 
