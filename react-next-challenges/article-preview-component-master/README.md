@@ -1,7 +1,7 @@
-# Frontend Mentor - Article preview component  
+# Frontend Mentor - Article preview component
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a> •
+  <a href="#-the-challenge">About the challenge</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-getting-started">Getting started</a> •
   <a href="#-license">License</a>
@@ -11,26 +11,14 @@
 
 [click here, see closer](https://article-preview-component-cs.netlify.app/) 😉
 
-## 👩‍💻 About the project
-
-This is a challenge from [Frontend Mentor](https://www.frontendmentor.io);
-
-That help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
-
-## The challenge
+## 👩‍💻 The challenge
 
 Your challenge is to build out this article preview component and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
 
 Your users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- See the social media share links when they click the share icon 
+- See the social media share links when they click the share icon
 
 ## 🚀 Technologies
 
@@ -56,7 +44,6 @@ $ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tre
 ```bash
 # Install the dependencies
 $ yarn
-
 
 # Start the app
 $ yarn start
