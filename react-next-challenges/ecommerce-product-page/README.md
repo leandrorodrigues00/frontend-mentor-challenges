@@ -40,7 +40,7 @@ Your users should be able to:
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/ecommerce-product-page && cd ecommerce-product-page
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ecommerce-product-page && cd ecommerce-product-page
 
 ```
 
