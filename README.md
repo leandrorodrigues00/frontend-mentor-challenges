@@ -28,7 +28,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
       </picture>
       <br />  
       <div align="center">
-        <h3>Angular Implementation</h3>
+        <h3 style="margin-top: 0px;">Angular Implementation</h3>
         <div>
           <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
           <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
