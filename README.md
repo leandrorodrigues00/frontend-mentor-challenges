@@ -22,41 +22,35 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <table align="center">
   <tr>
     <td>
+     <h2 align="center">Multi-step form</h2>
       <picture>
-        <img
-          alt="Preview React/Next version"
-          src="./react-next-challenges/multi-step-form/public/images/desktop-preview.jpg"
-          width="50%"
-          align="right"
-        >
+        <img alt="project preview" src="./react-next-challenges/multi-step-form/public/images/desktop-preview.jpg" width="50%" align="right">
       </picture>
-      <h2 align="center">Multi-step Form</h2>
-      <!-- React/Next Version -->
-      <h3 align="center">Next.js Version</h3>
+      <br />  
       <div align="center">
-          <img src="https://skillicons.dev/icons?i=nextjs" style="width: 40px; height: 40px" alt="Angular">
-          <img src="https://skillicons.dev/icons?i=tailwind" style="width: 40px; height: 40px" alt="Sass">
-          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
-      </div>
-      <p align="center">
-        <a href="https://multi-step-form-cs.vercel.app/">Live</a> |
-        <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/multi-step-form">Repo</a> |
-        <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Out</a>
-      </p>
-      <br />
-      <!-- Angular Version -->
-      <h3 align="center">Angular Version</h3>
-      <div align="center">
+        <h3>Angular Implementation</h3>
+        <div>
           <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
           <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
           <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div> 
+        <p>
+          <a href="https://multi-step-form-angular.vercel.app/">Live</a> | 
+          <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/multi-step-form">Repo</a>
+        </p>
       </div>
-      <p align="center">
-        <a href="https://multi-step-form-angular.vercel.app/">Live</a> |
-        <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/multi-step-form">Repo</a> |
-        <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Out</a>
-      </p>
-      <br />
+      <div align="center">
+        <h3>Next.js Implementation</h3>
+        <div>
+          <img src="https://skillicons.dev/icons?i=nextjs" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=tailwind" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
+        <p>
+          <a href="https://multi-step-form-cs.vercel.app/">Live</a> | 
+          <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/multi-step-form">Repo</a>
+        </p>
+      </div>
     </td>
   </tr>
 </table>
