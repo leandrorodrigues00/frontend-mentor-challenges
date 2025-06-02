@@ -29,7 +29,11 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
       <h2 align="center">Multi-step form</h2>
       <div align="center">
         <h3>Angular Implementation</h3>
-        <img src="https://skillicons.dev/icons?i=angular,tailwind,ts" alt="Angular Tech Stack" />
+        <div>
+          <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div> 
         <p>
           <a href="https://multi-step-form-angular.vercel.app/">Live</a> | 
           <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/multi-step-form">Repo</a>
@@ -37,7 +41,11 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
       </div>
       <div align="center" style="margin-top: 20px">
         <h3>Next.js Implementation</h3>
-        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="Next.js Tech Stack" />
+        <div>
+          <img src="https://skillicons.dev/icons?i=nextjs" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=tailwind" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
         <p>
           <a href="https://multi-step-form-cs.vercel.app/">Live</a> | 
           <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/multi-step-form">Repo</a>
