@@ -34,7 +34,9 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
       <!-- React/Next Version -->
       <h3 align="center">Next.js Version</h3>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="Next technologies" />
+          <img src="https://skillicons.dev/icons?i=nextjs" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=tailwind" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
       </div>
       <p align="center">
         <a href="https://multi-step-form-cs.vercel.app/">Live</a> |
@@ -45,7 +47,9 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
       <!-- Angular Version -->
       <h3 align="center">Angular Version</h3>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=angular,scss" alt="Angular technologies" />
+          <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
       </div>
       <p align="center">
         <a href="https://multi-step-form-angular.vercel.app/">Live</a> |
