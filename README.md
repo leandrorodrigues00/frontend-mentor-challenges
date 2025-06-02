@@ -25,22 +25,32 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
       <picture>
         <img alt="project preview" src="./react-next-challenges/multi-step-form/public/images/desktop-preview.jpg" width="50%" align="right">
       </picture>
-      <br />
-      <br />
-      <br />
-      <h2 align="center">Multi-step form - server actions</h2>
+      <br />  
+      <h2 align="center">Multi-step form</h2>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
+        <h3>Angular Implementation</h3>
+        <img src="https://skillicons.dev/icons?i=angular,tailwind,ts" alt="Angular Tech Stack" />
+        <p>
+          <a href="https://multi-step-form-angular.vercel.app/">Live</a> | 
+          <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/multi-step-form">Repo</a>
+        </p>
       </div>
-      <p align="center">
-        <a href="https://multi-step-form-cs.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/multi-step-form">Repo</a> | <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Out</a>
+      <div align="center" style="margin-top: 20px">
+        <h3>Next.js Implementation</h3>
+        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="Next.js Tech Stack" />
+        <p>
+          <a href="https://multi-step-form-cs.vercel.app/">Live</a> | 
+          <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/multi-step-form">Repo</a>
+        </p>
+      </div>
+      <p align="center" style="margin-top: 20px">
+        <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Challenge</a>
       </p>
-      <br />
-      <br />
+      <br /> 
     </td>
   </tr>
 </table>
-
+ 
 <br />
 
 <table align="center">
