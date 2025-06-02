@@ -2,7 +2,7 @@
 
 This is a collection of all the solutions to the challenges of the Frontend Mentor program. In the subfolders you can find links to the online site, images and the description of the challenges.
 
-## 📊 Project Distribution by Difficulty
+## 📊 Challenge Distribution by Tier
 
 | Level               | Projects | Quick Link                       |
 | ------------------- | -------- | -------------------------------- |
@@ -11,7 +11,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 | 🟠 **Intermediate** | 7        | [View challenges](#intermediate) |
 | 🟡 **Junior**       | 8        | [View challenges](#junior)       |
 | 🟢 **Newbie**       | 13       | [View challenges](#newbie)       |
-| **Total**           | **30**   | —                                |
+| **Σ Total**         | **30**   | —                                |
 
 <br />
 
@@ -241,32 +241,200 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 
 <br />
 
-<a id="intermediate"></a>
+<a id="junior"></a>
 
 ### 🟡 Junior (8)
 
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/age-calculator/public/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture> 
-  <br><br><br>
-  
-  <h2 align="center">Age calculator</h2>
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/age-calculator/public/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Age calculator</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://age-calculator-cs1.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/age-calculator">Repo</a> | <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,ts)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://age-calculator-cs1.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/age-calculator">Repo</a> | <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
+<br />
 
-<br>
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/time-tracking-dashboard-main/design/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Time tracking dashboard</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://time-tracking-dashboard-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/time-tracking-dashboard-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/notifications-page/src/assets/design/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Notifications page</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=react,vite" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://notifications-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/notifications-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/interactive-card-details/src/assets/images/desktop-design.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Interactive card details</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=react,vite,styledcomponents,ts" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://interactive-card-details-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-card-details">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/expenses-chart/src/assets/design/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Expenses chart component</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=react,vite" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://expenses-chart-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/expenses-chart">Repo</a> | <a href="https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/api-advice-generator-app-main/design/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Advice generator app</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://api-advice-generator-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/api-advice-generator-app-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/tip-calculator-app/design/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Tip calculator app</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://tip-calculator-app-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/tip-calculator-app">Repo</a> | <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/testimonials-grid-section-main/design/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Testimonials grid section</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=html,css" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://testimonials-grid-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/testimonials-grid-section-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
 <table  align="center"><tr><td>
   <picture> 
     <img alt="project preview" src="./react-next-challenges/blog-card/public/desktop-preview.jpg" width="50%"  align="right"   >
@@ -328,25 +496,6 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 </td></tr></table>
 
 <br>
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/interactive-card-details/src/assets/images/desktop-design.jpg" width="50%"  align="right"   >
-  </picture> 
-  <br><br><br>
-  
-  <h2 align="center">Interactive card details</h2>
-
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=react,vite,styledcomponents,ts)](https://skillicons.dev)
-  </h3>
-  <p  align="center">
-    <a href="https://interactive-card-details-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-card-details">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
 
 <br>
 <table  align="center"><tr><td>
@@ -395,51 +544,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 
 <br>
 
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/expenses-chart/src/assets/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Expenses chart component</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=react,vite)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://expenses-chart-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/expenses-chart">Repo</a> | <a href="https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
 <br>
-
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/notifications-page/src/assets/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Notifications page</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=react,vite)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://notifications-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/notifications-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
 
 <br>
 
@@ -493,28 +598,6 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <br>
 
   <br>
-  
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./react-next-challenges/tip-calculator-app/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Tip calculator app</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://tip-calculator-app-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/tip-calculator-app">Repo</a> | <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
 
 <br>
 
@@ -542,51 +625,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 
 <br>
 
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./react-next-challenges/api-advice-generator-app-main/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Advice generator app</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://api-advice-generator-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/api-advice-generator-app-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
 <br>
-
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./react-next-challenges/time-tracking-dashboard-main/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Time tracking dashboard</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://time-tracking-dashboard-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/time-tracking-dashboard-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
 
 <br>
 
@@ -637,28 +676,6 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 </td></tr></table>
 
 <br>
-
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./react-next-challenges/testimonials-grid-section-main/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Testimonials grid section</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://testimonials-grid-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/testimonials-grid-section-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
 
 <br>
 
