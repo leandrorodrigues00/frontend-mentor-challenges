@@ -1,4 +1,4 @@
-## 🤓 Frontend Mentor Challenge Solutions
+# 🤓 Frontend Mentor Challenge Solutions
 
 This is a collection of all the solutions to the challenges of the Frontend Mentor program. In the subfolders you can find links to the online site, images and the description of the challenges.
 
@@ -8,10 +8,10 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 | ------------------- | -------- | -------------------------------- |
 | 🧠 **Guru**         | 0        | [View challenges](#guru)         |
 | 🔴 **Advanced**     | 2        | [View challenges](#advanced)     |
-| 🟠 **Intermediate** | 8        | [View challenges](#intermediate) |
+| 🟠 **Intermediate** | 7        | [View challenges](#intermediate) |
 | 🟡 **Junior**       | 8        | [View challenges](#junior)       |
 | 🟢 **Newbie**       | 13       | [View challenges](#newbie)       |
-| **Total**           | **31**   | —                                |
+| **Total**           | **30**   | —                                |
 
 <br />
 
@@ -69,7 +69,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 
 <a id="intermediate"></a>
 
-### 🟠 Intermediate (8)
+### 🟠 Intermediate (7)
 
 <br />
 
@@ -119,6 +119,132 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
   </tr>
 </table>
 
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/todo-app-main/public/images/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Todo app with drag and drop</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
+      </div> 
+      <p align="center">
+        <a href="https://todo-app-main-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/todo-app-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW/hub">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/ip-address-tracker/public/images/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">IP Address Tracker</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://ip-address-tracker-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ip-address-tracker">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/interactive-comments-section/public/images/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Interactive comments section</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
+      </div> 
+      <p align="center">
+        <a href="https://interactive-comments-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-comments-section">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/job-listings-with-filtering/public/images/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Job listings with filtering</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://job-listings-with-filtering-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/job-listings-with-filtering">Repo</a> | <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <img alt="project preview" src="./react-next-challenges/easybank-landing-page-master/design/desktop-preview.jpg" width="50%" align="right">
+      </picture>
+      <br>
+      <br>
+      <br>
+      <h2 align="center">Easybank landing page</h2>
+      <div align="center">
+        <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
+      </div>
+      <p align="center">
+        <a href="https://easybank-landing-page-master-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/easybank-landing-page-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN">Try Out</a>
+      </p>
+      <br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<a id="intermediate"></a>
+
+### 🟡 Junior (8)
+
 <table  align="center"><tr><td>
   <picture> 
     <img alt="project preview" src="./react-next-challenges/age-calculator/public/desktop-preview.jpg" width="50%"  align="right"   >
@@ -163,93 +289,14 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 </td></tr></table>
 
 <br>
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/todo-app-main/public/images/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture> 
-  <br><br><br>
-  
-  <h2 align="center">Todo app with drag and drop</h2>
-
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,ts)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://todo-app-main-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/todo-app-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW/hub">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
-<br>
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/job-listings-with-filtering/public/images/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture> 
-  <br><br><br>
-  
-  <h2 align="center">Job listings with filtering</h2>
-
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,ts)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://job-listings-with-filtering-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/job-listings-with-filtering">Repo</a> | <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt">Try Out</a>
-    
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
-
-<br>
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/interactive-comments-section/public/images/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture> 
-  <br><br><br>
-  
-  <h2 align="center">Interactive comments section</h2>
-
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,ts)](https://skillicons.dev)
-  </h3>
-  <p  align="center">
-    <a href="https://interactive-comments-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-comments-section">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
 
 <br>
 
 <br>
-<table  align="center"><tr><td>
-  <picture> 
-    <img alt="project preview" src="./react-next-challenges/ip-address-tracker/public/images/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture> 
-  <br><br><br>
-  
-  <h2 align="center">IP Address Tracker</h2>
 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind,ts)](https://skillicons.dev)
-  </h3>
-  <p  align="center">
-    <a href="https://ip-address-tracker-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ip-address-tracker">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
+<br>
+
+<br>
 
 <br>
 
@@ -444,28 +491,6 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 </td></tr></table>
 
 <br>
-
-<table  align="center"><tr><td>
-  <picture>
-    <img alt="project preview" src="./react-next-challenges/easybank-landing-page-master/design/desktop-preview.jpg" width="50%"  align="right"   >
-  </picture>
-  
-  <br><br><br>
-  
-  <h2 align="center">Easybank landing page</h2>
- 
-  <h3 align="center"> 
-  
-  [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
-  </h3>
-  
-  <p  align="center">
-    <a href="https://easybank-landing-page-master-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/easybank-landing-page-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN">Try Out</a>
-  </p>
-  
-  <br>
-  <br> 
-</td></tr></table>
 
   <br>
   
