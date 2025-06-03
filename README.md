@@ -76,7 +76,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
       </div> 
       <p align="center">
-        <a href="https://rest-countries-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/rest-countries">Repo</a> | <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca">Try Out</a>
+        <a href="https://rest-countries-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/rest-countries">Repo</a> | <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -106,7 +106,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=nextjs,vite,styledcomponents,ts" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://space-tourism-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/space-tourism">Repo</a> | <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3">Try Out</a>
+        <a href="https://space-tourism-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/space-tourism">Repo</a> | <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -119,25 +119,43 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <table align="center">
   <tr>
     <td>
+      <h2 align="center">E-commerce product</h2>
       <picture>
         <img alt="project preview" src="./react-next-challenges/ecommerce-product-page/design/desktop-preview.jpg" width="50%" align="right">
       </picture>
       <br />
-      <br />
-      <br />
-      <h2 align="center">E-commerce product page</h2>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=react,vite,styledcomponents,ts" alt="My Skills" />
+        <p align="center">
+          <strong>👑 Angular Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
+        <p>
+          <a href="https://ecommerce-product-page-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/ecommerce-product">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6">Try Challenge</a>
+        </p>
       </div>
-      <p align="center">
-        <a href="https://ecommerce-product-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ecommerce-product-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6">Try Out</a>
-      </p>
       <br />
-      <br />
+      <div align="center">
+        <p align="center">
+          <strong>Next.js Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=react" style="width: 40px; height: 40px" alt="react">
+          <img src="https://skillicons.dev/icons?i=vite" style="width: 40px; height: 40px" alt="vite">
+          <img src="https://skillicons.dev/icons?i=styledcomponents" style="width: 40px; height: 40px" alt="styledcomponents">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
+        <p align="center">
+          <a href="https://ecommerce-product-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ecommerce-product-page">Repo</a>
+        </p>
+      </div>
     </td>
   </tr>
 </table>
-
+ 
 <br />
 
 <table align="center">
@@ -154,7 +172,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
       </div> 
       <p align="center">
-        <a href="https://todo-app-main-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/todo-app-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW/hub">Try Out</a>
+        <a href="https://todo-app-main-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/todo-app-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW/hub">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -178,7 +196,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://ip-address-tracker-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ip-address-tracker">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">Try Out</a>
+        <a href="https://ip-address-tracker-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ip-address-tracker">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -202,7 +220,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
       </div> 
       <p align="center">
-        <a href="https://interactive-comments-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-comments-section">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9">Try Out</a>
+        <a href="https://interactive-comments-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-comments-section">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -226,7 +244,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://job-listings-with-filtering-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/job-listings-with-filtering">Repo</a> | <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt">Try Out</a>
+        <a href="https://job-listings-with-filtering-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/job-listings-with-filtering">Repo</a> | <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -250,7 +268,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://easybank-landing-page-master-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/easybank-landing-page-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN">Try Out</a>
+        <a href="https://easybank-landing-page-master-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/easybank-landing-page-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -278,7 +296,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://age-calculator-cs1.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/age-calculator">Repo</a> | <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">Try Out</a>
+        <a href="https://age-calculator-cs1.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/age-calculator">Repo</a> | <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -302,7 +320,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://time-tracking-dashboard-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/time-tracking-dashboard-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw">Try Out</a>
+        <a href="https://time-tracking-dashboard-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/time-tracking-dashboard-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -326,7 +344,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=react,vite" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://notifications-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/notifications-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC">Try Out</a>
+        <a href="https://notifications-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/notifications-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -350,7 +368,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=react,vite,styledcomponents,ts" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://interactive-card-details-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-card-details">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw">Try Out</a>
+        <a href="https://interactive-card-details-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-card-details">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -374,7 +392,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=react,vite" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://expenses-chart-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/expenses-chart">Repo</a> | <a href="https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt">Try Out</a>
+        <a href="https://expenses-chart-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/expenses-chart">Repo</a> | <a href="https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -439,7 +457,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://tip-calculator-app-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/tip-calculator-app">Repo</a> | <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX">Try Out</a>
+        <a href="https://tip-calculator-app-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/tip-calculator-app">Repo</a> | <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -463,7 +481,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://testimonials-grid-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/testimonials-grid-section-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Try Out</a>
+        <a href="https://testimonials-grid-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/testimonials-grid-section-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -491,7 +509,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://interactive-rating-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-rating-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Try Out</a>
+        <a href="https://interactive-rating-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-rating-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -515,7 +533,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://four-card-feature-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/four-card-feature-section-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Try Out</a>
+        <a href="https://four-card-feature-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/four-card-feature-section-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -539,7 +557,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=react,vite,styledcomponents,ts" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://faq-accordion-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/faq-accordion-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam">Try Out</a>
+        <a href="https://faq-accordion-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/faq-accordion-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -563,7 +581,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=react,vite,styledcomponents,ts" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://component-signup-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/component-singup">Repo</a> | <a href="https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1">Try Out</a>
+        <a href="https://component-signup-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/component-singup">Repo</a> | <a href="https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -587,7 +605,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=react,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://ping-coming-soon-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ping-coming-soon-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da">Try Out</a>
+        <a href="https://ping-coming-soon-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ping-coming-soon-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -611,7 +629,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=react,vite" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://product-preview-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/product-preview">Repo</a> | <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa">Try Out</a>
+        <a href="https://product-preview-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/product-preview">Repo</a> | <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -635,7 +653,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=react,vite" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://3-column-preview-card-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/3-column-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">Try Out</a>
+        <a href="https://3-column-preview-card-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/3-column-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -659,7 +677,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://article-preview-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/article-preview-component-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT">Try Out</a>
+        <a href="https://article-preview-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/article-preview-component-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -683,7 +701,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://huddle-landing-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/huddle-landing-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">Try Out</a>
+        <a href="https://huddle-landing-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/huddle-landing-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -707,7 +725,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://order-summary-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/order-summary-component">Repo</a> | <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">Try Out</a>
+        <a href="https://order-summary-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/order-summary-component">Repo</a> | <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -734,7 +752,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
           <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
         </div>
         <p>
-          <a href="https://nft-preview-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/nft-preview">Repo</a> | <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/">Try Out</a>
+          <a href="https://nft-preview-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/nft-preview">Repo</a> | <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/">Try Challenge</a>
         </p>
       </div>
       <br />
@@ -770,7 +788,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://stats-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/stats-preview-card-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">Try Out</a>
+        <a href="https://stats-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/stats-preview-card-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -794,7 +812,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=html,css" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://qr-code-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/qr-code-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Try Out</a>
+        <a href="https://qr-code-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/qr-code-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Try Challenge</a>
       </p>
       <br />
       <br />
@@ -818,7 +836,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://blog-card-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/blog-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS">Try Out</a>
+        <a href="https://blog-card-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/blog-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS">Try Challenge</a>
       </p>
       <br />
       <br />

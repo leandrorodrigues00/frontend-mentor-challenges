@@ -1,0 +1,110 @@
+<main>
+  <section>
+    <div class="product-images">
+      <div class="image-wrapper">
+        <button class="nav-button prev" (click)="onPreviousImage()">
+          <img src="assets/icons/icon-previous.svg" alt="Previous" />
+        </button>
+
+        <img [src]="imagePath" alt="main shoes" (click)="openDialog()" />
+
+        <button class="nav-button next" (click)="onNextImage()">
+          <img src="assets/icons/icon-next.svg" alt="Next" />
+        </button>
+      </div>
+
+      <ul>
+        <li
+          *ngFor="let image of images"
+          (click)="onChangeImage(image.id)"
+          [class.active]="selectedImage === image.id"
+        >
+          <img [src]="image.src" [alt]="image.alt" />
+        </li>
+      </ul>
+    </div>
+
+    <div class="infos-card">
+      <p>Sneaker company</p>
+      <h1>Fall limited edition Sneaker</h1>
+      <p>
+        These low-profile sneakers are your perfect casual wear companion.
+        Featuring a durable rubber outer sole, they'll withstand everything the
+        weather can offer.
+      </p>
+
+      <div class="price-card">
+        <div>
+          <span>$125.00</span>
+          <span>50%</span>
+        </div>
+        <del>$250.00</del>
+      </div>
+
+      <div class="cart-actions">
+        <div>
+          <button
+            [disabled]="productQtd < 1"
+            (click)="onRemove()"
+            aria-label="remove from cart"
+          >
+            <img src="assets/icons/icon-minus.svg" alt="" />
+          </button>
+          {{ productQtd }}
+          <button (click)="onAdd()" aria-label="Add to Cart">
+            <img src=" assets/icons/icon-plus.svg" alt="" />
+          </button>
+        </div>
+
+        <button appButton (click)="onAddCart()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            viewBox="0 0 256 256"
+          >
+            <rect width="256" height="256" fill="none"></rect>
+            <path
+              d="M184,184H69.8L41.9,30.6A8,8,0,0,0,34.1,24H16"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></path>
+            <circle
+              cx="80"
+              cy="204"
+              r="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></circle>
+            <circle
+              cx="184"
+              cy="204"
+              r="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></circle>
+            <path
+              d="M62.5,144H188.1a15.9,15.9,0,0,0,15.7-13.1L216,64H48"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="16"
+            ></path>
+          </svg>
+          add to cart
+        </button>
+      </div>
+    </div>
+  </section>
+</main>
