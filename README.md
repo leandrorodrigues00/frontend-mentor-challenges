@@ -15,6 +15,8 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 
 <br />
 
+<a id="advanced"></a>
+
 ### 🔴 Advanced (2)
 
 <br />
