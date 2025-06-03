@@ -1,0 +1,43 @@
+<div class="header-cart">
+  <h2 mat-dialog-title>Cart</h2>
+</div>
+<mat-dialog-content>
+  <ng-container *ngIf="qtdProduct; else emptyCart">
+    <div class="info-products">
+      <img src="assets/products/image-product-1-thumbnail.jpg" alt="" />
+
+      <p>
+        Fall Limited Edition Sneakers $125.00 x {{ qtdProduct }} =
+        <span>
+          {{ finalPriceProduct | currency }}
+        </span>
+      </p>
+
+      <svg
+        (click)="onDelete()"
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        fill="currentColor"
+        viewBox="0 0 256 256"
+        aria-label="remove product"
+      >
+        <path fill="none" d="M0 0h256v256H0z" />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="24"
+          d="M216 60H40m64 44v64m48-64v64m48-108v148a8 8 0 0 1-8 8H64a8 8 0 0 1-8-8V60m112 0V36a16 16 0 0 0-16-16h-48a16 16 0 0 0-16 16v24"
+        />
+      </svg>
+    </div>
+
+    <button appButton>Checkout</button>
+  </ng-container>
+
+  <ng-template #emptyCart>
+    <p>Your cart is empty</p>
+  </ng-template>
+</mat-dialog-content>

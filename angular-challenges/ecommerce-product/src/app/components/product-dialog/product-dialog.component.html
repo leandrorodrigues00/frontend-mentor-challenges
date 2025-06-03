@@ -1,0 +1,29 @@
+<div class="dialog-buttons">
+  <button mat-button mat-dialog-close aria-label="close">
+    <img src="assets/icons/icon-close.svg" alt="" />
+  </button>
+</div>
+
+<div class="dialog-container">
+  <div class="image-wrapper">
+    <button class="nav-button prev" (click)="onPreviousImage()">
+      <img src="assets/icons/icon-previous.svg" alt="Previous" />
+    </button>
+
+    <img [src]="imagePath" alt="main shoes" />
+
+    <button class="nav-button next" (click)="onNextImage()">
+      <img src="assets/icons/icon-next.svg" alt="Next" />
+    </button>
+  </div>
+
+  <ul>
+    <li
+      *ngFor="let image of images"
+      (click)="onChangeImage(image.id)"
+      [class.active]="selectedImage === image.id"
+    >
+      <img [src]="image.src" [alt]="image.alt" />
+    </li>
+  </ul>
+</div>

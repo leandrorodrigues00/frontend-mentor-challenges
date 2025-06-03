@@ -1,0 +1,51 @@
+.header-cart {
+  border: 1px solid #b6bcc8;
+  background: #ffffff;
+  border-radius: 6px 6px 0 0;
+}
+
+mat-dialog-content {
+  border: 1px solid #b6bcc8;
+  background: #ffffff;
+  border-radius: 0 0 6px 6px;
+}
+
+mat-dialog-content p {
+  font-size: 1.125rem;
+  font-weight: bolder;
+  color: #68707d;
+}
+
+.info-products {
+  display: flex;
+  gap: 15px;
+
+  > img:first-of-type {
+    max-width: 3.125rem;
+    border-radius: 8px;
+  }
+
+  > p:first-of-type {
+    color: #68707d;
+    line-height: 160%;
+    font-size: 15px;
+    font-weight: 400;
+
+    span {
+      color: #000;
+      font-weight: bolder;
+    }
+  }
+
+  > svg:first-of-type {
+    align-self: center;
+    &:hover {
+      color: red;
+      cursor: pointer;
+    }
+  }
+}
+
+mat-dialog-content > button:first-of-type {
+  margin-top: 25px;
+}

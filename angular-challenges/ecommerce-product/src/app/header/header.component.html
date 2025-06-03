@@ -1,0 +1,37 @@
+<header>
+  <div>
+    <nav class="nav-items">
+      <app-menu-mobile />
+
+      <a href="#" aria-label="home">
+        <img src="assets/logo.svg" alt="" />
+      </a>
+
+      <ul>
+        <li class="nav-item-link"><a href="#">Collections</a></li>
+        <li class="nav-item-link"><a href="#">Men</a></li>
+        <li class="nav-item-link"><a href="#">Women</a></li>
+        <li class="nav-item-link"><a href="#">About</a></li>
+        <li class="nav-item-link"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-buttons">
+      <button
+        #cartButton
+        (click)="openDialog(cartButton)"
+        aria-label="cart button"
+      >
+        <img src="/assets/icons/icon-cart.svg" alt="" srcset="" />
+
+        <span *ngIf="userProducts">
+          {{ userProducts }}
+        </span>
+      </button>
+
+      <a href="https://github.com/leandrorodrigues00">
+        <img src="assets/nyantocat.gif" alt="link to github" />
+      </a>
+    </div>
+  </div>
+</header>
