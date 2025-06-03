@@ -1,0 +1,21 @@
+<section>
+  <h1>Advice #{{ advice?.id }}</h1>
+
+  <p *ngIf="advice && isFetching === false; else elseBlock">
+    {{ advice.advice }}
+  </p>
+  <ng-template #elseBlock>
+    <div class="loader"></div>
+  </ng-template>
+
+  <span *ngIf="hasError" class="error-message">
+    Failed to load advice. Please try again.
+  </span>
+
+  <div class="advice-footer">
+    <img src="assets/pattern-divider-desktop.svg" alt="" />
+    <button (click)="fetchAdvice()" aria-label="Generate advice">
+      <img src="assets/icon-dice.svg" alt="" />
+    </button>
+  </div>
+</section>
