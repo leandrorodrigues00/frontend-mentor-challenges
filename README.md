@@ -119,25 +119,43 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <table align="center">
   <tr>
     <td>
+      <h2 align="center">E-commerce product</h2>
       <picture>
         <img alt="project preview" src="./react-next-challenges/ecommerce-product-page/design/desktop-preview.jpg" width="50%" align="right">
       </picture>
       <br />
-      <br />
-      <br />
-      <h2 align="center">E-commerce product page</h2>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=react,vite,styledcomponents,ts" alt="My Skills" />
+        <p align="center">
+          <strong>👑 Angular Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
+        <p>
+          <a href="https://ecommerce-product-page-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/ecommerce-product">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6">Try Challenge</a>
+        </p>
       </div>
-      <p align="center">
-        <a href="https://ecommerce-product-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ecommerce-product-page">Repo</a> | <a href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6">Try Out</a>
-      </p>
       <br />
-      <br />
+      <div align="center">
+        <p align="center">
+          <strong>Next.js Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=react" style="width: 40px; height: 40px" alt="react">
+          <img src="https://skillicons.dev/icons?i=vite" style="width: 40px; height: 40px" alt="vite">
+          <img src="https://skillicons.dev/icons?i=styledcomponents" style="width: 40px; height: 40px" alt="styledcomponents">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
+        <p align="center">
+          <a href="https://ecommerce-product-page-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/ecommerce-product-page">Repo</a>
+        </p>
+      </div>
     </td>
   </tr>
 </table>
-
+ 
 <br />
 
 <table align="center">
