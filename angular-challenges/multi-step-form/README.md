@@ -9,7 +9,7 @@
 
 ![Design preview in the desktop version](../../react-next-challenges/multi-step-form/public/images/desktop-preview.jpg)
 
-[click here, see closer](https://multi-step-form-cs.vercel.app/) 😉
+[click here, see closer](https://multi-step-form-ng.vercel.app/subscription) 😉
 
 ## 👩‍💻 The challenge
 
