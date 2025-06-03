@@ -28,7 +28,9 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
       </picture>
       <br />
       <div align="center">
-        <h3>👑 Angular Implementation</h3>
+        <p align="center">
+          <strong>👑 Angular Implementation</strong>
+        </p>
         <div>
           <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
           <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
@@ -38,8 +40,11 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
           <a href="https://multi-step-form-angular.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/multi-step-form">Repo</a> | <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Challenge</a>
         </p>
       </div>
+      <br />
       <div align="center">
-        <h3>Next.js Implementation</h3>
+        <p align="center">
+          <strong>Next.js Implementation</strong>
+        </p>
         <div>
           <img src="https://skillicons.dev/icons?i=nextjs" style="width: 40px; height: 40px" alt="Angular">
           <img src="https://skillicons.dev/icons?i=tailwind" style="width: 40px; height: 40px" alt="Sass">
