@@ -618,7 +618,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <img src="https://skillicons.dev/icons?i=react,vite" alt="My Skills" />
       </div>
       <p align="center">
-        <a href="https://3-column-preview-card-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/3-column-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2">Try Out</a>
+        <a href="https://3-column-preview-card-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/3-column-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">Try Out</a>
       </p>
       <br />
       <br />
