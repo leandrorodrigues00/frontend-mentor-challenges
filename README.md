@@ -39,7 +39,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
           <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
         </div>
         <p>
-          <a href="https://multi-step-form-angular.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/multi-step-form">Repo</a> | <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Challenge</a>
+          <a href="https://multi-step-form-ng.vercel.app/subscription">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/multi-step-form">Repo</a> | <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Challenge</a>
         </p>
       </div>
       <br />
