@@ -1,0 +1,35 @@
+<app-card
+  title="Personal info"
+  description="Please provide your name, email address, and phone number."
+  (nextStepClicked)="onNextStep()"
+>
+  <form [formGroup]="personalInfoForm" #form="ngForm">
+    <app-primary-input
+      formControlName="name"
+      inputName="name"
+      type="text"
+      label="Name"
+      placeholder="John Doe"
+      [errorMessage]="getError('name')"
+    />
+
+    <app-primary-input
+      formControlName="email"
+      inputName="email"
+      type="email"
+      label="Email"
+      placeholder="johndoe@gmail.com"
+      [errorMessage]="getError('email')"
+    />
+
+    <app-primary-input
+      formControlName="phone"
+      inputName="phone"
+      type="tel"
+      label="Phone Number"
+      placeholder="+55 11 1234-4567"
+      mask="(00) 0000-0000"
+      [errorMessage]="getError('phone')"
+    />
+  </form>
+</app-card>

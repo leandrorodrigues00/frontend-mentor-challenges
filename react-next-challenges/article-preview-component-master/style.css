@@ -1,0 +1,223 @@
+/* CSS COLORS  */
+
+:root {
+  --font-color: hsl(217, 19%, 35%);
+  --background-color: hsl(210, 46%, 95%);
+  --text-color: hsl(212, 23%, 69%);
+}
+
+/* GENERAL SETTINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleColor {
+  color: var(--font-color);
+}
+
+.bodyColor {
+  color: var(--text-color);
+}
+
+/* CONTAINER  */
+
+.container {
+  display: flex;
+  margin: 0 10px;
+}
+
+/* CONTENT */
+
+.content {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 0 10px 10px 0;
+}
+
+.content h1 {
+  font-size: 20px;
+  max-width: 340px;
+  margin: 10px;
+}
+
+.content p {
+  max-width: 370px;
+  margin: 10px;
+
+  font-size: 13px;
+}
+
+/* CARD IMAGE */
+.cardImg {
+  max-width: 350px;
+  border-radius: 10px 0 0 10px;
+}
+
+/*  USER IMAGE */
+
+.userImg {
+  border-radius: 50%;
+  max-width: 40px;
+  margin-left: 10px;
+}
+
+/* FOOTER CONTENT */
+
+.footerContent {
+  position: relative;
+  display: flex;
+  font-size: 13px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoData {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.shareImg {
+  background-color: var(--background-color);
+  padding: 8px;
+  border-radius: 50%;
+
+  max-height: 30px;
+  margin-left: auto;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.userInfo-container {
+  display: flex;
+}
+
+/* SOCIAL MENU */
+
+.social-menu {
+  position: absolute;
+  background-color: #48556A;
+  padding: 5px 30px;
+  border-radius: 10px;
+  left: 235px;
+  bottom: 62px;
+}
+
+.toogleRemove {
+  display: none;
+}
+
+.activeButton {
+  background-color: #48556A;
+}
+
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons p {
+  color: #9EAFC2;
+  letter-spacing: 5px;
+}
+
+.shareContainer {
+  margin-right: 25px;
+}
+
+.shareContainer:hover {
+  cursor: pointer;
+}
+
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #48556A;
+  position: absolute;
+  left: 100px;
+  bottom: -8px;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 911px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .cardImg {
+    border-radius: 10px 10px 0 0;
+    max-height: 200px;
+  }
+
+  .content {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .content p {
+    max-width: 238px;
+    font-size: 12px;
+    margin-left: 0;
+  }
+
+  .content h1 {
+    font-size: 15px;
+    max-width: 250px;
+    margin-left: 0;
+  }
+
+  .userImg {
+    margin-left: 0;
+  }
+
+  .social-menu {
+    padding: 10px 79px;
+    border-radius: 0 0 5px 5px;
+    left: -30px;
+    bottom: -19px;
+  }
+
+  .icons {
+    position: relative;
+    left: -52px;
+  }
+
+  .arrow-down {
+    display: none;
+  }
+
+  .activeButton {
+    background-color: #ECF2F8;
+  }
+
+  .shareContainer {
+    z-index: 999;
+  }
+
+  .shareImg {
+    position: relative;
+    bottom: -11px;
+  }
+}

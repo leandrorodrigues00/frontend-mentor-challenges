@@ -1,0 +1,98 @@
+@import "../../../../styles/medias";
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  max-width: 58.75rem;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+
+  aside {
+    background: url("/assets/images/bg-sidebar-desktop.svg") center/cover;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    height: 35.5rem;
+    width: 17.125rem;
+
+    .aside-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .aside-list-number {
+          padding: 0.5625rem 0.875rem;
+          border-radius: 100%;
+          aspect-ratio: 1;
+          border: 1px solid #e5e7eb;
+
+          &.active {
+            background: #bfe2fd;
+            color: black;
+          }
+        }
+
+        .aside-list-content {
+          span {
+            color: #adbeff;
+            font-size: 0.75rem;
+          }
+
+          p {
+            font-size: 0.875rem;
+          }
+
+          @include max-tablet {
+            display: none;
+          }
+        }
+      }
+
+      @include max-tablet {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+
+    @include max-tablet {
+      position: absolute;
+      height: 10.75rem;
+      width: 100%;
+      border-radius: 0;
+      left: 0;
+      top: 0;
+      z-index: 0;
+      right: 0;
+      background: url("/assets/images/bg-sidebar-mobile.svg") center/cover;
+    }
+  }
+
+  section {
+    padding: 1rem 0px;
+    justify-self: center;
+    max-width: 28.125rem;
+    width: 100%;
+
+    @include max-tablet {
+      background: white;
+      padding: 1.875rem 1.5625rem;
+      border-radius: 8px;
+      margin-top: -61px;
+      z-index: 100;
+    }
+  }
+
+  @include max-tablet {
+    grid-template-columns: 1fr;
+    background: none;
+    padding: 1rem 0;
+  }
+}

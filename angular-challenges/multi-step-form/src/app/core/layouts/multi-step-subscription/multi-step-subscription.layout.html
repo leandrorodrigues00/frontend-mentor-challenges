@@ -1,0 +1,22 @@
+<main>
+  <aside>
+    <ul class="aside-list">
+      <li *ngFor="let step of subscriptionSteps">
+        <div
+          class="aside-list-number"
+          [class.active]="isStepActive(step.route)"
+        >
+          {{step.number}}
+        </div>
+        <div class="aside-list-content">
+          <span>{{step.label}}</span>
+          <p>{{step.description}}</p>
+        </div>
+      </li>
+    </ul>
+  </aside>
+
+  <section>
+    <router-outlet></router-outlet>
+  </section>
+</main>

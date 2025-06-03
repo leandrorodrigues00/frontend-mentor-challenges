@@ -1,0 +1,20 @@
+<div class="card-header">
+  <h1>{{ title }}</h1>
+  <p>{{ description }}</p>
+</div>
+
+<ng-content />
+
+<div class="card-footer">
+  <a *ngIf="showGoBack" [routerLink]="'/' + redirectUrl">Go Back</a>
+
+  <button *ngIf="!showConfirmButton" (click)="onNextStepClick()">
+    Next Step
+  </button>
+  <a
+    *ngIf="showConfirmButton"
+    class="confirm-button"
+    routerLink="/subscription/thank-you"
+    >Confirm</a
+  >
+</div>

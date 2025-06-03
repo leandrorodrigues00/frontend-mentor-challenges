@@ -1,0 +1,31 @@
+<app-card
+  title="Finishing up"
+  description="Double-check everything looks OK before confirming."
+  [showGoBack]="true"
+  redirectUrl="subscription/add-ons"
+  [showConfirmButton]="true"
+>
+  <div class="summary-card">
+    <div class="summary-header">
+      <div>
+        <span>{{ selectedPlan.planName  }} ({{isYearly ? "yearly" : "monthly"}})</span>
+        <a routerLink="/subscription/select-plan">Change</a>
+      </div>
+      <span>{{ getPlanPrice() }}</span>
+    </div>
+
+    <div class="summary-content">
+      <div *ngFor="let addOn of addonsList">
+        <div *ngIf="isAddonSelected(addOn.id)">
+          <p>{{ addOn.name }}</p>
+          <span>{{ getAddonPrice(addOn) }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="summary-footer">
+    <p>Total (per {{ isYearly ? 'year' : 'month' }})</p>
+    <span>+${{ calculateTotal() }}/{{ isYearly ? 'yr' : 'mo' }}</span>
+  </div>
+</app-card>

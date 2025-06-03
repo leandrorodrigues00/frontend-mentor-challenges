@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.344rem 0;
+}
+
+.notifications {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.notifications span {
+  font-weight: bolder;
+  font-size: 1.438rem;
+}
+
+.notifications strong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.875rem;
+  height: 1.5625rem;
+
+  border-radius: 5px;
+  background-color: var(--blue-500);
+  color: var(--white);
+}
+
+.header p {
+  color: var(--grayish-blue-900);
+}
+
+.header p:hover:not([disabled]) {
+  color: var(--blue-500);
+  cursor: pointer;
+}
+
+@media (max-width: 430px) {
+  .notifications span {
+    font-size: 1rem;
+  }
+}

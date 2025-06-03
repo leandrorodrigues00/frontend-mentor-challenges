@@ -1,0 +1,158 @@
+/* General settings */
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: var(--pale-blue);
+  padding: 0 10px;
+}
+
+/* Main container */
+
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  flex: 1;
+  border-radius: 5px;
+  height: 100vh;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0 0 15px 15px;
+}
+
+.card h1 {
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin: 30px 0 20px;
+}
+
+.card p {
+  color: var(--desaturated-blue);
+  max-width: 300px;
+  font-size: 16px;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+/*  Image */
+
+.img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Info Holder */
+
+.infoHolder {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border-radius: 10px;
+  background-color: var(--very-pale-blue);
+  width: 350px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.infoHolder img {
+  grid-row: 1 / 3;
+}
+
+.infoPlan {
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.infoPrice {
+  color: var(--desaturated-blue);
+}
+
+.infoHolder a {
+  font-size: 14px;
+  grid-column: 3;
+  grid-row: 1/3;
+  justify-self: flex-end;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+/* Button */
+
+.paymentButton {
+  width: 350px;
+  font-weight: 500;
+  font-size: 16px;
+  background: var(--bright-blue);
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 0;
+  border: none;
+  margin-top: 10px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.paymentButton:hover,
+.infoHolder a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+/* Cancel button */
+
+.cancelLink {
+  color: var(--desaturated-blue);
+  font-weight: 700;
+  margin: 20px 0 40px 0;
+}
+
+.cancelLink:hover {
+  color: var(--dark-blue);
+}
+
+/*  responsiveness  */
+
+@media (max-width: 375px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+  }
+
+  .mainWrapper {
+    margin: 0 10px;
+  }
+
+  .infoHolder {
+    max-width: 300px;
+  }
+
+  .paymentButton {
+    max-width: 300px;
+  }
+}

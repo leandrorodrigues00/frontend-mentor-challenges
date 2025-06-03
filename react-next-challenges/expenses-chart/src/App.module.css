@@ -1,0 +1,86 @@
+.container {
+  margin: auto auto;
+  max-width: 33.75rem;
+  width: 100%;
+}
+
+.chartContainer {
+  background: var(--orange-100);
+  border-radius: 20px;
+  min-height: 31.25rem;
+  margin-top: 1.563rem;
+  padding: 1.875rem 2.5rem 1.875rem 2.5rem;
+}
+
+.chartTitle {
+  color: var(--brown-800);
+  font-size: 1.875rem;
+  font-weight: bolder;
+}
+
+.chart {
+  height: 12.5rem;
+  border-bottom: 2px solid var(--cream-500);
+  display: flex;
+  align-items: flex-end;
+
+  margin-top: 4.188rem;
+}
+
+.listWeekDays {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1.938rem;
+}
+
+.chartFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 1.875rem;
+}
+
+.chartFooter p {
+  color: var(--brown-500);
+}
+
+.chartFooter strong {
+  color: var(--brown-800);
+  font-size: 2.813rem;
+  font-weight: bolder;
+  display: inline-block;
+  margin-top: 0.188rem;
+}
+
+.chartFooter span {
+  color: var(--brown-800);
+  font-weight: bolder;
+}
+
+.totalAmountLast {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.totalAmountLast {
+  margin-bottom: 0.313rem;
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 0.938rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 642px) {
+  .container {
+    max-width: 26.6875rem;
+  }
+}
