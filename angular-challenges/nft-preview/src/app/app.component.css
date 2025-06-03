@@ -1,0 +1,133 @@
+main {
+  background-color: #0d1a2d;
+  min-height: 100vh;
+  padding-top: 150px;
+}
+
+.container {
+  max-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #14253d;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 20px 2px 18px rgb(0 0 0 / 8%),
+    0px 20px 2px 45px rgb(0 0 0 / 8%);
+}
+
+.container header {
+  display: block;
+}
+
+.container header img {
+  width: 260px;
+  height: 260px;
+  border-radius: 8px;
+}
+.container header div {
+  position: relative;
+  height: 260px;
+}
+
+.container header div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  border-radius: 8px;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00fff7 url("/assets/icon-view.svg") no-repeat center;
+}
+
+.container header div:hover::before {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.content {
+  margin-top: 20px;
+  max-width: 260px;
+}
+
+.content h1 {
+  color: #fff;
+}
+
+.content h1:hover {
+  color: #00fff7;
+  cursor: pointer;
+  transition: all 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content p {
+  font-size: 15px;
+  color: #8bacda;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.content-values {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #2f415b;
+}
+
+.content-values span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.content-values span:first-child {
+  color: #00fff7;
+}
+
+.content-values span:nth-of-type(2) {
+  color: #8bacda;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+footer div:first-child {
+  display: flex;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+}
+
+footer img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+footer p {
+  font-size: 14px;
+  color: #8bacda;
+}
+
+footer p span {
+  color: #ffffff;
+}
+
+footer p span:hover {
+  color: #00fff7;
+  cursor: pointer;
+  transition: all 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+}
