@@ -23,8 +23,8 @@ Your users should be able to:
 
 ## 🚀 Technologies
 
-- HTML5 & CCS3
-- JavaScript
+- Angular 15 & SCSS
+- Typescript
 
 ## 💻 Getting started
 
