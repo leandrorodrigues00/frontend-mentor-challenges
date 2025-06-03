@@ -703,21 +703,36 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <table align="center">
   <tr>
     <td>
+      <h2 align="center">NFT preview card component</h2>
       <picture>
         <img alt="project preview" src="./react-next-challenges/nft-preview-card-component-main/public/design/desktop-preview.jpg" width="50%" align="right">
       </picture>
       <br />
-      <br />
-      <br />
-      <h2 align="center">NFT preview card component</h2>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=html,css" alt="My Skills" />
+        <p align="center">
+          <strong>👑 Angular Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
+        </div>
+        <p>
+          <a href="https://nft-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/nft-preview">Repo</a> | <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/">Try Out</a>
+        </p>
       </div>
-      <p align="center">
-        <a href="https://nft-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/nft-preview-card-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/">Try Out</a>
-      </p>
       <br />
-      <br />
+      <div align="center">
+        <p align="center">
+          <strong>HTML & CSS Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=html" style="width: 40px; height: 40px" alt="html">
+          <img src="https://skillicons.dev/icons?i=css" style="width: 40px; height: 40px" alt="css">
+        </div>
+        <p align="center">
+          <a href="https://nft-preview-card-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/nft-preview-card-component-main">Repo</a>
+        </p>
+      </div>
     </td>
   </tr>
 </table>
