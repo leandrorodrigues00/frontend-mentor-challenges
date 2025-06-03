@@ -1,0 +1,57 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+
+  font-family: "Manrope", serif;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+ul,
+ul li,
+ul ul li {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
+html,
+body {
+  height: 100%;
+}

@@ -387,21 +387,38 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <table align="center">
   <tr>
     <td>
+      <h2 align="center">Advice Generator</h2>
       <picture>
         <img alt="project preview" src="./react-next-challenges/api-advice-generator-app-main/design/desktop-preview.jpg" width="50%" align="right">
       </picture>
       <br />
-      <br />
-      <br />
-      <h2 align="center">Advice generator app</h2>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
+        <p align="center">
+          <strong>👑 Angular Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
+        <p>
+          <a href="https://multi-step-form-ng.vercel.app/subscription">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/advice-generator">Repo</a> | <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Try Challenge</a>
+        </p>
       </div>
-      <p align="center">
-        <a href="https://api-advice-generator-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/api-advice-generator-app-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Try Out</a>
-      </p>
       <br />
-      <br />
+      <div align="center">
+        <p align="center">
+          <strong>Vanilla JS Implementation</strong>
+        </p> 
+        <div>
+          <img src="https://skillicons.dev/icons?i=javascript" style="width: 40px; height: 40px" alt="javascript">
+          <img src="https://skillicons.dev/icons?i=html" style="width: 40px; height: 40px" alt="html">
+          <img src="https://skillicons.dev/icons?i=css" style="width: 40px; height: 40px" alt="css">
+        </div>
+        <p align="center">
+        <a href="https://api-advice-generator-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/api-advice-generator-app-main">Repo</a>
+        </p>
+      </div>
     </td>
   </tr>
 </table>
