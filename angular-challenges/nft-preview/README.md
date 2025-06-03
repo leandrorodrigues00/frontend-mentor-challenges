@@ -1,27 +1,61 @@
-# NftPreview
+# Frontend Mentor - NFT preview card component
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+<p align="center">
+  <a href="#-the-challenge">About the challenge</a> •
+  <a href="#-technologies">Technologies</a> •
+  <a href="#-getting-started">Getting started</a> •
+  <a href="#-license">License</a>
+</p>
 
-## Development server
+![Design preview for the Calculator app coding challenge](../../react-next-challenges/nft-preview-card-component-main/public/design/desktop-preview.jpg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[click here, see closer](https://nft-preview-ng.vercel.app/) 😉
 
-## Code scaffolding
+## 👩‍💻 The challenge
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Your challenge is to build out this preview card component and get it looking as close to the design as possible.
 
-## Build
+Your users should be able to:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-## Running unit tests
+## 🚀 Technologies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular 15 & SCSS
 
-## Running end-to-end tests
+## 💻 Getting started
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Requirements
 
-## Further help
+- [Node.js](https://nodejs.org/en/)
+- [PNPM](https://pnpm.io/) or [NPM](https://www.npmjs.com/) _(examples are with PNPM)_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/nft-preview && cd nft-preview
+```
+
+**Follow the steps below**
+
+```bash
+# Install the dependencies
+$ pnpm
+
+# Start the app
+$ pnpm dev
+
+# Navigate to http://localhost:3000
+# The app will automatically reload if you change any of the source files.
+```
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+  Made with 💜&nbsp; by  Leandro Rodrigues
+</p>
