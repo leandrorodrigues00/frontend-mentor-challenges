@@ -1,0 +1,47 @@
+<app-card
+  title="Select your plan"
+  description="You have option of monthly or yearly billing."
+  [showGoBack]="true"
+  (nextStepClicked)="onNextStep()"
+  redirectUrl="/subscription"
+>
+  <form [formGroup]="planForm" #form="ngForm">
+    <div class="radio-group custom-radio-group" role="radiogroup">
+      <label
+        *ngFor="let plan of plans"
+        class="custom-radio-button"
+        [class.selected]="planForm.value.plan === plan.value"
+      >
+        <input
+          type="radio"
+          [value]="plan.value"
+          formControlName="plan"
+          hidden
+        />
+
+        <div class="radio-content">
+          <img [src]="plan.icon" [alt]="plan.name + ' icon'">
+
+          <div class="custom-radio-button-footer">
+            <span>{{ plan.name }}</span>
+            <span>{{ getPlanPrice(plan) }}</span>
+            <p *ngIf="planForm.value.isYearly">2 months free</p>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="billing-model-container">
+      <div class="billing-model-content">
+        <span [class.active]="!planForm.value.isYearly">Monthly</span>
+
+        <label class="switch" aria-label="Toggle billing cycle">
+          <input type="checkbox" formControlName="isYearly" />
+          <span class="slider"></span>
+        </label>
+
+        <span [class.active]="planForm.value.isYearly">Yearly</span>
+      </div>
+    </div>
+  </form>
+</app-card>

@@ -1,0 +1,53 @@
+:host.ng-invalid.ng-touched {
+  .input-content {
+    input {
+      border: 1px solid red;
+    }
+
+    &:focus-within {
+      border: 2px solid transparent;
+    }
+  }
+}
+
+.input-wrapper {
+  color: #000000;
+  font-size: 1rem;
+  text-align: start;
+
+  .error-message {
+    display: flex;
+    justify-content: space-between;
+
+    label {
+      display: block;
+      margin-bottom: 0.3125rem;
+      color: #02295a;
+    }
+
+    span {
+      color: red;
+      font-weight: 500;
+    }
+  }
+
+  .input-content {
+    width: 100%;
+    display: flex;
+    border-radius: 11px;
+    border: 2px solid transparent;
+
+    input {
+      border: 1px solid #d4d4d8;
+      outline: none;
+      border-radius: 8px;
+      background-color: #ffffff;
+      padding: 0.75rem 0 0.75rem 1.25rem;
+      width: 100%;
+    }
+
+    &:focus-within {
+      border: 2px solid #8b5cf6;
+    }
+  }
+}

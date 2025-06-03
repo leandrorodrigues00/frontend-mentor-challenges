@@ -1,0 +1,86 @@
+.addons-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+
+  .addons-form-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d6d9e6;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+    .custom-checkbox {
+      position: relative;
+      display: inline-block;
+
+      input[type="checkbox"] {
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1.5625rem;
+        height: 1.5625rem;
+        z-index: 1;
+        cursor: pointer;
+
+        &:checked + .checkbox-label {
+          background-color: #483eff;
+          border-color: #483eff;
+        }
+      }
+
+      .checkbox-label {
+        display: inline-block;
+        width: 1.5625rem;
+        height: 1.5625rem;
+        border: 1px solid #d6d9e6;
+        border-radius: 4px;
+        background-color: white;
+        position: relative;
+        transition: all 0.3s ease;
+
+        .checkmark {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          width: 0.75rem;
+          height: 0.75rem;
+        }
+      }
+    }
+
+    .addons-form-item-content {
+      flex: 1;
+
+      span {
+        font-weight: 500;
+        color: #02295a;
+        line-height: 1.625rem;
+      }
+
+      p {
+        color: #666666;
+        line-height: 1.25rem;
+      }
+    }
+
+    .addons-form-item-price {
+      color: #473dff;
+      font-weight: 500;
+    }
+
+    &:hover {
+      border-color: #473dff;
+    }
+
+    &.selected {
+      border-color: #483eff;
+      background-color: #eff2ff;
+    }
+  }
+}

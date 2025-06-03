@@ -1,0 +1,40 @@
+<app-card
+  title="Pick add-ons"
+  description="Add-ons help enhance your gaming experience."
+  [showGoBack]="true"
+  (nextStepClicked)="onNextStep()"
+  redirectUrl="subscription/select-plan"
+>
+  <form class="addons-form" [formGroup]="addOnsForm" #form="ngForm">
+    <div
+      class="addons-form-item"
+      *ngFor="let addon of addons; trackBy: trackByAddOnId"
+      (click)="toggleAddon(addon)"
+      [class.selected]="isSelected(addon.id)"
+    >
+      <div class="custom-checkbox">
+        <input
+          type="checkbox"
+          [checked]="isSelected(addon.id)"
+          id="{{'addon-' + addon.id}}"
+          formControlName="{{addon.id}}"
+          [attr.aria-label]="addon.name"
+        />
+        <label for="{{'addon-' + addon.id}}" class="checkbox-label">
+          <img
+            *ngIf="isSelected(addon.id)"
+            src="/assets/icons/icon-checkmark.svg"
+            alt="Selected"
+            class="checkmark"
+          />
+        </label>
+      </div>
+
+      <div class="addons-form-item-content">
+        <span>{{ addon.name }}</span>
+        <p>{{ addon.description }}</p>
+      </div>
+      <span class="addons-form-item-price">{{ getPrice(isYearly ? addon.yearlyPrice: addon.monthlyPrice) }}</span>
+    </div>
+  </form>
+</app-card>
