@@ -176,7 +176,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
           <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
         </div>
         <p>
-          <a href="https://todo-app-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/todo-app">Repo</a> | <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW/hub">Try Challenge</a>
+          <a href="https://todo-app-main-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/todo-app">Repo</a> | <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW/hub">Try Challenge</a>
         </p>
       </div>
       <br />
