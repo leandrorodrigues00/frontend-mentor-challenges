@@ -1,0 +1,17 @@
+<header>
+  <div class="header-container">
+    <div>
+      <h1>TODO</h1>
+      <app-theme-toggle />
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="header-form">
+      <div></div>
+      <input
+        type="text"
+        formControlName="title"
+        placeholder="Create a new todo..."
+      />
+    </form>
+  </div>
+</header>

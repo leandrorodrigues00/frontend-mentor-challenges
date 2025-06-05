@@ -1,0 +1,15 @@
+<div class="task-content">
+  <label class="custom-checkbox">
+    <input
+      type="checkbox"
+      [checked]="taskData.completed"
+      (change)="onCompleteTask(taskData.id)"
+    />
+    <span class="checkmark"></span>
+  </label>
+  <p [class.completed]="taskData.completed">{{ taskData.title }}</p>
+</div>
+
+<button aria-label="remove task" (click)="removeTask(taskData.id)">
+  <img src="assets/icons/icon-cross.svg" alt="" />
+</button>

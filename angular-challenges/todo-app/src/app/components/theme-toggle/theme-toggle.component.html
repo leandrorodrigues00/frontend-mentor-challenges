@@ -1,0 +1,12 @@
+<button mat-icon-button (click)="toggleTheme()">
+  <img
+    *ngIf="isDarkMode"
+    src="assets/icons/icon-sun.svg"
+    alt="Switch to light mode"
+  />
+  <img
+    *ngIf="!isDarkMode"
+    src="assets/icons/icon-moon.svg"
+    alt="Switch to dark mode"
+  />
+</button>
