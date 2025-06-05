@@ -1,0 +1,70 @@
+<main>
+  <div class="main-container">
+    <ul
+      class="draggable-list"
+      cdkDropList
+      (cdkDropListDropped)="drop($event)"
+      [cdkDropListDisabled]="selectedFilter !== 'all'"
+    >
+      <li
+        class="draggable-item"
+        *ngFor="let task of getUserTasks; trackBy: trackByTaskId"
+        task-item
+        [taskData]="task"
+        cdkDrag
+      ></li>
+    </ul>
+
+    <div class="tasks-footer" [class.rounded-footer]="getUserTasks.length > 0">
+      <p>
+        <span>{{ getUserTasks.length }}</span> items left
+      </p>
+
+      <div class="buttons-control desktop-control">
+        <button
+          [class.active]="selectedFilter === 'all'"
+          (click)="onChangeTasksFilter('all')"
+        >
+          All
+        </button>
+        <button
+          [class.active]="selectedFilter === 'active'"
+          (click)="onChangeTasksFilter('active')"
+        >
+          Active
+        </button>
+        <button
+          [class.active]="selectedFilter === 'completed'"
+          (click)="onChangeTasksFilter('completed')"
+        >
+          Completed
+        </button>
+      </div>
+
+      <button (click)="onClearTask()">Clear Completed</button>
+    </div>
+
+    <div class="buttons-control mobile-control">
+      <button
+        [class.active]="selectedFilter === 'all'"
+        (click)="onChangeTasksFilter('all')"
+      >
+        All
+      </button>
+      <button
+        [class.active]="selectedFilter === 'active'"
+        (click)="onChangeTasksFilter('active')"
+      >
+        Active
+      </button>
+      <button
+        [class.active]="selectedFilter === 'completed'"
+        (click)="onChangeTasksFilter('completed')"
+      >
+        Completed
+      </button>
+    </div>
+
+    <p *ngIf="selectedFilter === 'all'">Drag and drop to reorder list</p>
+  </div>
+</main>

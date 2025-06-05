@@ -161,21 +161,38 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <table align="center">
   <tr>
     <td>
+      <h2 align="center">Todo app with drag and drop</h2>
       <picture>
         <img alt="project preview" src="./react-next-challenges/todo-app-main/public/images/desktop-preview.jpg" width="50%" align="right">
       </picture>
       <br />
-      <br />
-      <br />
-      <h2 align="center">Todo app with drag and drop</h2>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts" alt="My Skills" />
-      </div> 
-      <p align="center">
-        <a href="https://todo-app-main-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/todo-app-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW/hub">Try Challenge</a>
-      </p>
+        <p align="center">
+          <strong>👑 Angular Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
+        <p>
+          <a href="https://todo-app-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/todo-app">Repo</a> | <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW/hub">Try Challenge</a>
+        </p>
+      </div>
       <br />
-      <br />
+      <div align="center">
+        <p align="center">
+          <strong>Next.js Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=nextjs" style="width: 40px; height: 40px" alt="Nextjs">
+          <img src="https://skillicons.dev/icons?i=tailwind" style="width: 40px; height: 40px" alt="Tailwind"> 
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
+        <p align="center">
+          <a href="https://todo-app-main-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/todo-app-main">Repo</a>
+        </p>
+      </div>
     </td>
   </tr>
 </table>

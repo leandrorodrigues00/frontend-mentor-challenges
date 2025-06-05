@@ -1,0 +1,81 @@
+:root {
+  --bg-color: #fafafa;
+  --primary-color: #ffffff;
+  --accent-color: #000000;
+  --second-accent-color: #4872c5;
+  --border-color: #e5e4e8;
+  --font-color: #000000;
+  --secondary-font-color: #6e6e77;
+  --bg-header-desktop: url("/assets/bg-desktop-light.jpg");
+  --bg-header-mobile: url("/assets/bg-mobile-light.jpg");
+}
+
+.dark-theme {
+  --bg-color: #161722;
+  --primary-color: #25273c;
+  --accent-color: #ffffff;
+  --second-accent-color: #5d8ff3;
+  --border-color: #393a4c;
+  --font-color: #ffffff;
+  --secondary-font-color: #9394a5;
+  --bg-header-desktop: url("/assets/bg-desktop-dark.jpg");
+  --bg-header-mobile: url("/assets/bg-mobile-dark.jpg");
+}
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+
+  font-family: "Josefin Sans", serif;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+ul,
+ul li,
+ul ul li {
+  text-indent: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--bg-color);
+}
