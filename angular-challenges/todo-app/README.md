@@ -9,7 +9,7 @@
 
 ![Design preview in the desktop version](../../react-next-challenges/todo-app-main/public/images/desktop-preview.jpg)
 
-[click here, see closer](https://todo-app-main-cs.netlify.app/) 😉
+[click here, see closer](https://todo-app-main-ng.vercel.app/) 😉
 
 ## 👩‍💻 The challenge
 
