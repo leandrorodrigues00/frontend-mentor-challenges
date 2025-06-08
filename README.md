@@ -515,21 +515,38 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <table align="center">
   <tr>
     <td>
+      <h2 align="center">Interactive Rating Component</h2>
       <picture>
         <img alt="project preview" src="./react-next-challenges/interactive-rating-component-main/design/desktop-preview.jpg" width="50%" align="right">
       </picture>
       <br />
-      <br />
-      <br />
-      <h2 align="center">Interactive rating component</h2>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=javascript,html,css" alt="My Skills" />
+        <p align="center">
+          <strong>👑 Angular Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
+          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
+        </div>
+        <p>
+          <a href="https://interactive-rating-component-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/interactive-rating">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Try Challenge</a>
+        </p>
       </div>
-      <p align="center">
-        <a href="https://interactive-rating-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-rating-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Try Challenge</a>
-      </p>
       <br />
-      <br />
+      <div align="center">
+        <p align="center">
+          <strong>Next.js Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=javascript" style="width: 40px; height: 40px" alt="javascript">
+          <img src="https://skillicons.dev/icons?i=html" style="width: 40px; height: 40px" alt="html">
+          <img src="https://skillicons.dev/icons?i=css" style="width: 40px; height: 40px" alt="css">
+        </div>
+        <p>
+          <a href="https://interactive-rating-component-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/interactive-rating-component-main">Repo</a>
+        </p>
+      </div>
     </td>
   </tr>
 </table>

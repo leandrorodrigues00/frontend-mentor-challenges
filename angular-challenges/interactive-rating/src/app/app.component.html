@@ -1,0 +1,4 @@
+<main>
+  <app-feedback-form *ngIf="!rating" (feedback)="onReview($event)" />
+  <app-thank-you-card *ngIf="rating !== null" [userRating]="rating" />
+</main>
