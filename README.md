@@ -849,7 +849,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
           <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
         </div>
         <p>
-          <a href="https://qr-code-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/qr-code">Repo</a> | <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Challenge</a>
+          <a href="https://qr-code-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/qr-code">Repo</a> | <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Try Challenge</a>
         </p>
       </div>
       <br />
@@ -862,7 +862,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
           <img src="https://skillicons.dev/icons?i=css" style="width: 40px; height: 40px" alt="css">
         </div>
         <p align="center">
-           <a href="https://qr-code-component-cs.netlify.app/">Live</a> |  <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/qr-code-component-main">Repo</a> | <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Try Challenge</a>
+           <a href="https://qr-code-component-cs.netlify.app/">Live</a> |  <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/qr-code-component-main">Repo</a>
         </p>
       </div>
     </td>
