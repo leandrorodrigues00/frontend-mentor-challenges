@@ -835,7 +835,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <table align="center">
   <tr>
     <td>
-      <h2 align="center">NFT preview card component</h2>
+      <h2 align="center">QR code component</h2>
       <picture>
         <img alt="project preview" src="./react-next-challenges/qr-code-component-main/design/desktop-preview.jpg" width="50%" align="right">
       </picture>
@@ -847,10 +847,9 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         <div>
           <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
           <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
-          <img src="https://skillicons.dev/icons?i=ts" style="width: 40px; height: 40px" alt="TypeScript">
         </div>
         <p>
-          <a href="https://multi-step-form-ng.vercel.app/subscription">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/multi-step-form">Repo</a> | <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Challenge</a>
+          <a href="https://qr-code-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/qr-code">Repo</a> | <a href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ">Try Challenge</a>
         </p>
       </div>
       <br />
