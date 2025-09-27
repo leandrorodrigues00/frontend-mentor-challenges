@@ -1,0 +1,38 @@
+@use '../styles/variables' as vars;
+
+main.qr-code-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 31.125rem;
+  margin: 0.625rem;
+  padding: 0.875rem;
+  border-radius: 20px;
+  background-color: vars.$color-surface;
+  box-shadow: vars.$shadow-card;
+
+  div.qr-code-img {
+    img {
+      max-width: 18rem;
+      border-radius: 10px;
+    }
+  }
+
+  div.text-content {
+    margin-top: 1.5rem;
+    max-width: 15.625rem;
+    text-align: center;
+
+    h1 {
+      color: vars.$color-primary;
+      font-size: 1.375rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: vars.$color-text-muted;
+      font-size: 0.938rem;
+      letter-spacing: 0.0125rem;
+    }
+  }
+}
