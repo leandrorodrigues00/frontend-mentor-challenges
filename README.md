@@ -570,7 +570,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
           <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
         </div>
         <p>
-          <a href="https://four-card-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/four-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Try Challenge</a>
+          <a href="https://four-card-ng.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/four-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Try Challenge</a>
         </p>
       </div>
       <br />
