@@ -1,0 +1,7 @@
+<ul class="list-container">
+  @for (feature of featureList; track $index) {
+  <li [class]="getFeatureClass(feature)">
+    <app-feature-card [featureData]="feature" />
+  </li>
+  }
+</ul>

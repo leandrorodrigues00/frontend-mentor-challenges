@@ -1,0 +1,7 @@
+<div class="card-container" [class]="'border-top-' + featureData().borderColor">
+  <h2>{{ featureData().title }}</h2>
+  <p>{{ featureData().description }}</p>
+  <div>
+    <img [src]="featureData().cardImage" alt="" />
+  </div>
+</div>
