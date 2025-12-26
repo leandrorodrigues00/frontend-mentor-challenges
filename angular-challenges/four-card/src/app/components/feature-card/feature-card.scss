@@ -1,0 +1,44 @@
+:host {
+  div.card-container {
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(9, 20, 35, 0.5);
+    border-top: 4px solid transparent;
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.35;
+      margin-bottom: 6px;
+      color: var(--color-text-primary);
+    }
+
+    p {
+      color: var(--color-text-secondary);
+      line-height: 1.6;
+      letter-spacing: 0.09px;
+      margin-bottom: 32px;
+      font-size: 13px;
+    }
+
+    div {
+      justify-self: flex-end;
+    }
+
+    &.border-top-red {
+      border-top-color: var(--color-primary);
+    }
+
+    &.border-top-cyan {
+      border-top-color: var(--color-secondary);
+    }
+
+    &.border-top-orange {
+      border-top-color: var(--color-accent);
+    }
+
+    &.border-top-blue {
+      border-top-color: var(--color-info);
+    }
+  }
+}

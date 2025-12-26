@@ -1,0 +1,33 @@
+:host {
+  header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    color: var(--color-text-primary);
+
+    div.titles-content {
+      font-size: 36px;
+      line-height: 1.4;
+      letter-spacing: 0.25px;
+
+      h1 {
+        font-weight: 275;
+      }
+    }
+
+    p.description {
+      font-size: 15px;
+      line-height: 1.4;
+      letter-spacing: 0.1px;
+      max-width: 550px;
+    }
+
+    @media (max-width: 960px) {
+      div.titles-content {
+        font-size: 24px;
+      }
+    }
+  }
+}

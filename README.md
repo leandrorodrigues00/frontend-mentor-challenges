@@ -556,21 +556,36 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
 <table align="center">
   <tr>
     <td>
+      <h2 align="center">Four card feature section</h2>
       <picture>
         <img alt="project preview" src="./react-next-challenges/four-card-feature-section-master/design/desktop-preview.jpg" width="50%" align="right">
       </picture>
       <br />
-      <br />
-      <br />
-      <h2 align="center">Four card feature section</h2>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=html,css" alt="My Skills" />
+        <p align="center">
+          <strong>👑 Angular Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=angular" style="width: 40px; height: 40px" alt="Angular">
+          <img src="https://skillicons.dev/icons?i=sass" style="width: 40px; height: 40px" alt="Sass">
+        </div>
+        <p>
+          <a href="https://four-card-ng.vercel.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/angular-challenges/four-card">Repo</a> | <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Try Challenge</a>
+        </p>
       </div>
-      <p align="center">
-        <a href="https://four-card-feature-section-cs.netlify.app/">Live</a> | <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/four-card-feature-section-master">Repo</a> | <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK">Try Challenge</a>
-      </p>
       <br />
-      <br />
+      <div align="center">
+        <p align="center">
+          <strong>HTML & CSS Implementation</strong>
+        </p>
+        <div>
+          <img src="https://skillicons.dev/icons?i=html" style="width: 40px; height: 40px" alt="html">
+          <img src="https://skillicons.dev/icons?i=css" style="width: 40px; height: 40px" alt="css">
+        </div>
+        <p align="center">
+           <a href="https://four-card-feature-section-cs.netlify.app/">Live</a> |  <a href="https://github.com/leandrorodrigues00/frontend-mentor-challenges/tree/main/react-next-challenges/four-card-feature-section-master">Repo</a>
+        </p>
+      </div>
     </td>
   </tr>
 </table>
@@ -853,7 +868,7 @@ This is a collection of all the solutions to the challenges of the Frontend Ment
         </p>
       </div>
       <br />
-         <div align="center">
+      <div align="center">
         <p align="center">
           <strong>HTML & CSS Implementation</strong>
         </p>
